@@ -1,0 +1,63 @@
+sku_id,brand_id,sku_name,size,tier,list_price,std_cost,is_innovation,brand_name,segment,business_unit,upc,margin_pct,is_core_item,velocity_index
+SK001,B01,Heinz Tomato Ketchup,32oz,Core,4.99,1.82,False,Heinz Ketchup,Taste Elevation,Condiments & Sauces,605645347792,63.5,True,0.96
+SK002,B01,Heinz Tomato Ketchup,20oz,Core,3.29,1.1,False,Heinz Ketchup,Taste Elevation,Condiments & Sauces,235447068293,66.6,True,0.97
+SK003,B01,Heinz Tomato Ketchup,14oz,Core,2.49,0.85,False,Heinz Ketchup,Taste Elevation,Condiments & Sauces,187525138707,65.9,True,1.27
+SK004,B01,Heinz Simply Heinz Ketchup,32oz,Premium,5.49,2.1,False,Heinz Ketchup,Taste Elevation,Condiments & Sauces,424493543665,61.7,False,1.23
+SK005,B01,Heinz No Sugar Added Ketchup,32oz,Premium,5.79,2.25,True,Heinz Ketchup,Taste Elevation,Condiments & Sauces,790757033266,61.1,False,0.86
+SK006,B02,Heinz Yellow Mustard,14oz,Core,2.19,0.72,False,Heinz Mustard,Taste Elevation,Condiments & Sauces,498837994177,67.1,True,1.0
+SK007,B02,Heinz Yellow Mustard,20oz,Core,2.79,0.95,False,Heinz Mustard,Taste Elevation,Condiments & Sauces,312933106111,65.9,True,0.81
+SK008,B03,Heinz Real Mayonnaise,30oz,Core,5.99,2.05,False,Heinz Mayonnaise,Taste Elevation,Condiments & Sauces,176040557040,65.8,True,1.25
+SK009,B03,Heinz Real Mayonnaise,20oz,Core,4.49,1.55,False,Heinz Mayonnaise,Taste Elevation,Condiments & Sauces,826046287257,65.5,True,1.22
+SK010,B04,A.1. Original Steak Sauce,10oz,Core,3.99,1.35,False,A.1. Steak Sauce,Taste Elevation,Condiments & Sauces,947087372942,66.2,True,0.88
+SK011,B04,A.1. Bold & Spicy,10oz,Premium,4.29,1.45,True,A.1. Steak Sauce,Taste Elevation,Condiments & Sauces,517045625552,66.2,False,1.08
+SK012,B05,Grey Poupon Dijon,10oz,Premium,3.49,1.15,False,Grey Poupon,Taste Elevation,Condiments & Sauces,599410093881,67.0,False,1.07
+SK013,B05,Grey Poupon Country Dijon,10oz,Premium,3.49,1.18,False,Grey Poupon,Taste Elevation,Condiments & Sauces,277660601409,66.2,False,0.79
+SK014,B06,Classico Tomato & Basil,24oz,Core,3.79,1.28,False,Classico,Taste Elevation,Pasta Sauces,488136971784,66.2,True,1.16
+SK015,B06,Classico Four Cheese,24oz,Core,3.79,1.3,False,Classico,Taste Elevation,Pasta Sauces,835339233454,65.7,True,1.02
+SK016,B06,Classico Spicy Tomato,24oz,Core,3.79,1.28,False,Classico,Taste Elevation,Pasta Sauces,869945806981,66.2,True,1.17
+SK017,B07,Philadelphia Original Cream Cheese,8oz,Core,3.79,1.35,False,Philadelphia,Taste Elevation,Cheese & Dairy,851347210313,64.4,True,1.02
+SK018,B07,Philadelphia Original Cream Cheese,16oz,Core,6.29,2.2,False,Philadelphia,Taste Elevation,Cheese & Dairy,180092702123,65.0,True,0.7
+SK019,B07,Philadelphia 1/3 Less Fat,8oz,Premium,3.99,1.42,False,Philadelphia,Taste Elevation,Cheese & Dairy,798400899699,64.4,False,0.89
+SK020,B07,Philadelphia Strawberry,8oz,Premium,3.99,1.4,True,Philadelphia,Taste Elevation,Cheese & Dairy,684850587137,64.9,False,0.71
+SK021,B08,Kraft Singles American,16ct,Core,4.49,1.62,False,Kraft Singles,North America Grocery,Cheese & Dairy,369419548116,63.9,True,1.26
+SK022,B08,Kraft Singles 2% Milk,16ct,Core,4.49,1.65,False,Kraft Singles,North America Grocery,Cheese & Dairy,607507949295,63.3,True,1.23
+SK023,B08,Kraft Singles Sharp Cheddar,16ct,Premium,4.79,1.72,True,Kraft Singles,North America Grocery,Cheese & Dairy,397982492151,64.1,False,1.2
+SK024,B09,Velveeta Original,32oz,Core,6.49,2.35,False,Velveeta,North America Grocery,Cheese & Dairy,858663022120,63.8,True,0.88
+SK025,B09,Velveeta Shells & Cheese,12oz,Core,2.99,0.92,False,Velveeta,North America Grocery,Cheese & Dairy,342910249529,69.2,True,0.73
+SK026,B09,Velveeta Shells & Cheese Bacon,12oz,Premium,3.29,1.05,True,Velveeta,North America Grocery,Cheese & Dairy,459422681391,68.1,False,1.23
+SK027,B10,Kraft Original Mac & Cheese,7.25oz,Core,1.49,0.45,False,Kraft Mac & Cheese,North America Grocery,Meals,945433611429,69.8,True,1.27
+SK028,B10,Kraft Original Mac & Cheese,4-pack,Value,5.49,1.62,False,Kraft Mac & Cheese,North America Grocery,Meals,163462436409,70.5,False,0.75
+SK029,B10,Kraft Deluxe Mac & Cheese,14oz,Premium,3.29,1.05,False,Kraft Mac & Cheese,North America Grocery,Meals,984901132451,68.1,False,0.99
+SK030,B10,Kraft White Cheddar Mac & Cheese,5.5oz,Premium,1.79,0.58,True,Kraft Mac & Cheese,North America Grocery,Meals,539441524732,67.6,False,0.74
+SK031,B11,Lunchables Turkey & American,3.2oz,Core,2.79,1.08,False,Lunchables,North America Grocery,Meals,169869415070,61.3,True,1.16
+SK032,B11,Lunchables Ham & American,3.2oz,Core,2.79,1.05,False,Lunchables,North America Grocery,Meals,726820024292,62.4,True,1.16
+SK033,B11,Lunchables Pepperoni Pizza,4.3oz,Core,2.99,1.12,False,Lunchables,North America Grocery,Meals,889742985454,62.5,True,0.78
+SK034,B11,Lunchables Nachos Cheese Dip,4.4oz,Core,2.99,1.1,False,Lunchables,North America Grocery,Meals,333279765207,63.2,True,0.99
+SK035,B11,Lunchables Extra Cheesy Pizza,4.2oz,Premium,3.49,1.3,True,Lunchables,North America Grocery,Meals,648275934229,62.8,False,1.03
+SK036,B12,Oscar Mayer Classic Hot Dogs,10ct,Core,4.49,1.72,False,Oscar Mayer,North America Grocery,Meats,808302588517,61.7,True,0.86
+SK037,B12,Oscar Mayer Beef Franks,10ct,Premium,5.29,2.05,False,Oscar Mayer,North America Grocery,Meats,256589576361,61.2,False,1.22
+SK038,B12,Oscar Mayer Turkey Bacon,12oz,Premium,5.49,2.12,False,Oscar Mayer,North America Grocery,Meats,251461507038,61.4,False,0.95
+SK039,B12,Oscar Mayer Original Bacon,16oz,Core,7.99,3.05,False,Oscar Mayer,North America Grocery,Meats,917103043320,61.8,True,0.83
+SK040,B12,Oscar Mayer Bologna,16oz,Core,4.29,1.55,False,Oscar Mayer,North America Grocery,Meats,690821577339,63.9,True,1.02
+SK041,B12,Oscar Mayer Deli Fresh Turkey,9oz,Premium,5.79,2.2,False,Oscar Mayer,North America Grocery,Meats,921467220156,62.0,False,1.14
+SK042,B13,Capri Sun Strawberry Kiwi,10pk,Core,3.49,1.18,False,Capri Sun,North America Grocery,Beverages,570662212985,66.2,True,0.82
+SK043,B13,Capri Sun Fruit Punch,10pk,Core,3.49,1.15,False,Capri Sun,North America Grocery,Beverages,743806247029,67.0,True,0.89
+SK044,B13,Capri Sun Pacific Cooler,10pk,Core,3.49,1.18,False,Capri Sun,North America Grocery,Beverages,496852403351,66.2,True,1.3
+SK045,B13,Capri Sun 100% Juice,10pk,Premium,3.99,1.4,True,Capri Sun,North America Grocery,Beverages,254608246768,64.9,False,1.09
+SK046,B14,Maxwell House Original Medium Roast,30.6oz,Core,9.99,3.65,False,Maxwell House,North America Grocery,Coffee,643354278056,63.5,True,0.96
+SK047,B14,Maxwell House Master Blend,11.5oz,Core,5.49,1.98,False,Maxwell House,North America Grocery,Coffee,929319141080,63.9,True,1.01
+SK048,B14,Maxwell House Decaf,11.5oz,Premium,5.99,2.15,False,Maxwell House,North America Grocery,Coffee,267974663989,64.1,False,0.77
+SK049,B15,Ore-Ida Tater Tots,32oz,Core,5.49,1.95,False,Ore-Ida,North America Grocery,Frozen Foods,274493552068,64.5,True,0.83
+SK050,B15,Ore-Ida Golden Fries,32oz,Core,4.99,1.78,False,Ore-Ida,North America Grocery,Frozen Foods,850726264460,64.3,True,0.9
+SK051,B15,Ore-Ida Steak Fries,28oz,Core,4.49,1.62,False,Ore-Ida,North America Grocery,Frozen Foods,754648192232,63.9,True,1.05
+SK052,B15,Ore-Ida Extra Crispy Fast Food Fries,28oz,Premium,5.29,1.95,True,Ore-Ida,North America Grocery,Frozen Foods,521179644432,63.1,False,0.84
+SK053,B16,Jell-O Strawberry,3oz,Core,1.19,0.32,False,Jell-O,North America Grocery,Desserts,754474071330,73.1,True,0.83
+SK054,B16,Jell-O Cherry,3oz,Core,1.19,0.32,False,Jell-O,North America Grocery,Desserts,615379416985,73.1,True,0.74
+SK055,B16,Jell-O Instant Pudding Chocolate,3.9oz,Core,1.49,0.42,False,Jell-O,North America Grocery,Desserts,377150435753,71.8,True,1.08
+SK056,B16,Jell-O Instant Pudding Vanilla,3.4oz,Core,1.49,0.4,False,Jell-O,North America Grocery,Desserts,709761138617,73.2,True,0.84
+SK057,B17,Cool Whip Original,8oz,Core,2.99,0.98,False,Cool Whip,North America Grocery,Desserts,847373620112,67.2,True,1.24
+SK058,B17,Cool Whip Lite,8oz,Premium,3.19,1.05,False,Cool Whip,North America Grocery,Desserts,227649528249,67.1,False,1.22
+SK059,B17,Cool Whip Extra Creamy,8oz,Premium,3.29,1.1,True,Cool Whip,North America Grocery,Desserts,926939990836,66.6,False,0.74
+SK060,B18,Kool-Aid Tropical Punch Powder,0.14oz,Value,0.25,0.06,False,Kool-Aid,North America Grocery,Beverages,942959595464,76.0,False,0.84
+SK061,B18,Kool-Aid Cherry Powder,0.14oz,Value,0.25,0.06,False,Kool-Aid,North America Grocery,Beverages,476415064723,76.0,False,1.1
+SK062,B18,Kool-Aid Jammers Tropical Punch,10pk,Core,3.29,1.08,False,Kool-Aid,North America Grocery,Beverages,422601660137,67.2,True,0.83

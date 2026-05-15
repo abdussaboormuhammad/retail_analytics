@@ -1,0 +1,19 @@
+brand_id,brand_name,segment,business_unit,category_market_share_pct,base_acv_pct,has_seasonality,yoy_trend,revenue_tier,is_category_captain,innovation_pipeline
+B01,Heinz Ketchup,Taste Elevation,Condiments & Sauces,28.5,96.0,True,1.02,>$1B,True,1
+B02,Heinz Mustard,Taste Elevation,Condiments & Sauces,18.2,88.0,True,0.98,>$1B,True,2
+B03,Heinz Mayonnaise,Taste Elevation,Condiments & Sauces,11.4,82.0,True,1.01,$500M-$1B,True,1
+B04,A.1. Steak Sauce,Taste Elevation,Condiments & Sauces,42.0,76.0,False,0.95,>$1B,True,5
+B05,Grey Poupon,Taste Elevation,Condiments & Sauces,22.1,68.0,False,1.04,<$500M,True,4
+B06,Classico,Taste Elevation,Pasta Sauces,10.2,71.0,False,0.93,<$500M,False,1
+B07,Philadelphia,Taste Elevation,Cheese & Dairy,34.8,91.0,True,1.06,$500M-$1B,True,5
+B08,Kraft Singles,North America Grocery,Cheese & Dairy,31.5,89.0,False,0.97,>$1B,True,5
+B09,Velveeta,North America Grocery,Cheese & Dairy,55.0,84.0,False,0.96,<$500M,True,5
+B10,Kraft Mac & Cheese,North America Grocery,Meals,29.0,93.0,False,1.01,$500M-$1B,False,4
+B11,Lunchables,North America Grocery,Meals,62.0,88.0,True,1.08,>$1B,False,1
+B12,Oscar Mayer,North America Grocery,Meats,21.3,87.0,True,0.99,>$1B,True,2
+B13,Capri Sun,North America Grocery,Beverages,18.5,85.0,True,1.05,>$1B,False,3
+B14,Maxwell House,North America Grocery,Coffee,12.8,79.0,False,0.91,$500M-$1B,False,2
+B15,Ore-Ida,North America Grocery,Frozen Foods,38.0,86.0,True,1.03,>$1B,False,3
+B16,Jell-O,North America Grocery,Desserts,44.0,83.0,True,0.94,<$500M,False,4
+B17,Cool Whip,North America Grocery,Desserts,59.0,81.0,True,1.02,<$500M,False,3
+B18,Kool-Aid,North America Grocery,Beverages,24.0,77.0,False,0.96,>$1B,False,1

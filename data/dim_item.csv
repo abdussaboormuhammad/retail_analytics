@@ -1,0 +1,1001 @@
+item_id,item_name,category_id,category_name,subcategory,brand,vendor_id,upc,unit_cost,unit_retail,unit_weight_lbs,unit_volume_cf,is_perishable,is_private_label,is_seasonal,avg_shelf_days,min_shelf_qty,max_shelf_qty,reorder_point,lead_time_days,item_status
+1,Great Value Dairy Item 0001,1,Grocery,Dairy,Great Value,V1571,214832269481,148.44,192.67,33.87,4.462,True,True,True,223,1,13,5,7,Active
+2,Store Brand Dairy Item 0002,1,Grocery,Dairy,Store Brand,V3872,561902006518,112.47,167.18,11.1,2.95,True,False,False,10,2,56,16,11,Active
+3,Sam's Choice Frozen Item 0003,1,Grocery,Frozen,Sam's Choice,V2470,481597082643,20.89,28.24,30.23,4.038,True,True,False,281,1,71,15,3,Active
+4,Store Brand Frozen Item 0004,1,Grocery,Frozen,Store Brand,V1187,351948207513,115.68,171.42,38.68,4.926,True,False,False,58,4,29,17,21,Active
+5,Sam's Choice Frozen Item 0005,1,Grocery,Frozen,Sam's Choice,V3874,851347210313,71.38,104.79,32.44,3.05,True,True,False,132,2,41,15,9,Seasonal
+6,Store Brand Bakery Item 0006,1,Grocery,Bakery,Store Brand,V4178,349348354829,137.08,210.71,41.11,4.027,True,False,False,40,2,70,21,11,Active
+7,Equate Food Snacks Item 0007,1,Grocery,Snacks,Equate Food,V1585,251461507038,176.99,257.9,12.41,2.811,True,False,False,306,4,69,21,13,Active
+8,Sam's Choice Beverages Item 0008,1,Grocery,Beverages,Sam's Choice,V4527,267974663989,98.96,148.67,31.41,3.962,True,True,False,39,4,36,22,15,Active
+9,Store Brand Dairy Item 0009,1,Grocery,Dairy,Store Brand,V4624,926939990836,136.22,169.71,13.41,3.208,True,False,True,229,2,41,3,9,Seasonal
+10,Sam's Choice Beverages Item 0010,1,Grocery,Beverages,Sam's Choice,V2222,803694611575,182.57,282.66,25.43,1.003,True,True,False,89,5,61,19,1,Active
+11,Equate Food Dairy Item 0011,1,Grocery,Dairy,Equate Food,V4406,438472520493,22.82,30.7,12.05,1.212,True,False,False,47,1,58,18,3,Seasonal
+12,Store Brand Bakery Item 0012,1,Grocery,Bakery,Store Brand,V3251,388472023723,26.11,36.3,26.43,3.037,True,False,False,283,6,56,9,10,Active
+13,Marketside Snacks Item 0013,1,Grocery,Snacks,Marketside,V2015,169684544463,179.97,248.47,16.97,2.946,True,True,False,119,1,16,23,2,Active
+14,Great Value Frozen Item 0014,1,Grocery,Frozen,Great Value,V3740,334013073383,14.64,18.96,27.01,3.62,True,True,False,302,4,27,18,14,Active
+15,Great Value Snacks Item 0015,1,Grocery,Snacks,Great Value,V4538,158965931802,71.18,97.12,33.7,4.921,True,True,True,213,6,33,6,8,Active
+16,Store Brand Snacks Item 0016,1,Grocery,Snacks,Store Brand,V2894,185569774204,28.47,36.25,22.21,4.308,True,False,False,32,6,46,3,3,Discontinued
+17,Sam's Choice Bakery Item 0017,1,Grocery,Bakery,Sam's Choice,V4541,280640463568,81.58,113.6,19.01,4.927,True,True,False,239,3,39,20,16,Active
+18,Marketside Bakery Item 0018,1,Grocery,Bakery,Marketside,V3220,920600564299,193.76,277.4,15.75,0.26,True,True,False,278,2,15,19,3,Active
+19,Great Value Beverages Item 0019,1,Grocery,Beverages,Great Value,V2653,726594012825,14.06,21.72,12.39,2.977,True,True,False,221,6,49,21,17,Active
+20,Marketside Bakery Item 0020,1,Grocery,Bakery,Marketside,V2087,243433808038,134.11,177.79,33.62,1.507,True,True,False,44,1,41,22,19,Seasonal
+21,Great Value Beverages Item 0021,1,Grocery,Beverages,Great Value,V4822,504776119396,43.02,56.19,14.32,2.197,True,True,False,161,5,63,23,17,Active
+22,Store Brand Frozen Item 0022,1,Grocery,Frozen,Store Brand,V4596,388339584783,186.39,231.39,5.86,0.544,True,False,False,146,3,50,9,11,Active
+23,Marketside Beverages Item 0023,1,Grocery,Beverages,Marketside,V4465,199002427407,97.96,153.03,31.75,4.148,True,True,True,177,2,52,11,6,Active
+24,Store Brand Snacks Item 0024,1,Grocery,Snacks,Store Brand,V4870,859707157168,112.4,139.91,45.21,2.732,True,False,False,305,5,21,16,5,Active
+25,Marketside Dairy Item 0025,1,Grocery,Dairy,Marketside,V2022,214533606906,179.84,230.92,17.75,2.804,True,True,False,324,6,21,10,6,Seasonal
+26,Sam's Choice Snacks Item 0026,1,Grocery,Snacks,Sam's Choice,V2360,982236590250,5.44,8.13,33.53,3.678,True,True,False,88,6,18,15,2,Active
+27,Sam's Choice Bakery Item 0027,1,Grocery,Bakery,Sam's Choice,V2250,975402538007,163.41,226.18,43.58,1.122,True,True,False,211,3,29,5,9,Active
+28,Store Brand Snacks Item 0028,1,Grocery,Snacks,Store Brand,V2356,134098763897,136.06,209.19,5.86,4.852,True,False,False,142,1,18,22,14,Active
+29,Marketside Snacks Item 0029,1,Grocery,Snacks,Marketside,V2577,735223535913,121.44,170.57,9.58,0.231,True,True,False,273,5,55,24,7,Active
+30,Great Value Frozen Item 0030,1,Grocery,Frozen,Great Value,V1510,655340655504,124.82,182.91,15.53,2.048,True,True,False,158,5,20,9,14,Active
+31,Equate Food Bakery Item 0031,1,Grocery,Bakery,Equate Food,V3244,103580822352,123.3,162.8,15.26,1.059,True,False,False,317,6,32,17,15,Active
+32,Sam's Choice Beverages Item 0032,1,Grocery,Beverages,Sam's Choice,V4260,287844524081,94.9,148.09,32.98,1.426,True,True,False,324,3,17,10,10,Active
+33,Sam's Choice Bakery Item 0033,1,Grocery,Bakery,Sam's Choice,V2946,180610047913,5.37,6.97,22.83,4.432,True,True,False,363,4,43,15,8,Active
+34,Great Value Dairy Item 0034,1,Grocery,Dairy,Great Value,V4293,868618611504,155.79,200.59,25.95,0.261,True,True,False,69,4,20,17,17,Seasonal
+35,Store Brand Frozen Item 0035,1,Grocery,Frozen,Store Brand,V3509,893774408754,190.03,295.8,44.61,2.139,True,False,False,235,2,59,18,15,Active
+36,Sam's Choice Frozen Item 0036,1,Grocery,Frozen,Sam's Choice,V3567,401675263897,153.28,215.9,22.05,3.571,True,True,False,178,3,69,20,3,Active
+37,Sam's Choice Snacks Item 0037,1,Grocery,Snacks,Sam's Choice,V1263,548458442836,138.94,205.99,16.61,2.335,True,True,True,222,4,69,21,1,Active
+38,Store Brand Snacks Item 0038,1,Grocery,Snacks,Store Brand,V2223,528437913341,95.66,150.87,42.69,4.768,True,False,False,286,5,69,10,16,Active
+39,Equate Food Snacks Item 0039,1,Grocery,Snacks,Equate Food,V3781,545809626678,6.29,8.39,36.24,4.204,True,False,False,325,5,13,15,19,Active
+40,Great Value Dairy Item 0040,1,Grocery,Dairy,Great Value,V2891,152320127777,128.73,161.46,13.08,1.643,True,True,False,179,4,29,16,9,Active
+41,Equate Food Dairy Item 0041,1,Grocery,Dairy,Equate Food,V4899,346316204099,149.93,183.04,32.54,3.908,True,False,False,22,2,24,3,20,Active
+42,Sam's Choice Snacks Item 0042,1,Grocery,Snacks,Sam's Choice,V1892,870796451736,134.06,191.11,12.89,1.851,True,True,False,65,2,31,6,19,Active
+43,Marketside Beverages Item 0043,1,Grocery,Beverages,Marketside,V2624,890022600581,135.63,214.74,10.0,2.965,True,True,False,131,1,56,12,20,Active
+44,Store Brand Dairy Item 0044,1,Grocery,Dairy,Store Brand,V2517,654346948105,69.77,95.68,32.41,0.073,True,False,False,257,1,39,14,21,Active
+45,Equate Food Bakery Item 0045,1,Grocery,Bakery,Equate Food,V4954,399146436761,87.38,130.5,30.83,4.599,True,False,False,245,4,64,21,9,Active
+46,Sam's Choice Dairy Item 0046,1,Grocery,Dairy,Sam's Choice,V4073,724766165589,56.15,77.51,30.56,1.901,True,True,True,173,2,43,9,12,Active
+47,Marketside Frozen Item 0047,1,Grocery,Frozen,Marketside,V2131,110977038883,176.12,260.74,25.88,0.963,True,True,False,215,4,47,10,16,Active
+48,Equate Food Snacks Item 0048,1,Grocery,Snacks,Equate Food,V1907,861946100998,158.69,196.33,12.24,3.323,True,False,False,290,5,34,16,18,Active
+49,Equate Food Frozen Item 0049,1,Grocery,Frozen,Equate Food,V3954,444424526913,61.67,79.69,6.07,2.684,True,False,False,101,2,25,18,9,Active
+50,Store Brand Beverages Item 0050,1,Grocery,Beverages,Store Brand,V1795,350380472038,56.96,70.64,18.11,1.518,True,False,False,71,3,14,4,18,Active
+51,Sam's Choice Snacks Item 0051,1,Grocery,Snacks,Sam's Choice,V2164,626002054624,20.97,25.27,22.08,0.93,True,True,True,251,1,64,5,13,Active
+52,Store Brand Dairy Item 0052,1,Grocery,Dairy,Store Brand,V4887,191499276830,30.77,46.91,49.7,0.601,True,False,False,317,5,62,22,8,Active
+53,Equate Food Snacks Item 0053,1,Grocery,Snacks,Equate Food,V3410,572403587152,181.75,239.72,15.34,3.109,True,False,False,57,2,52,9,9,Active
+54,Sam's Choice Bakery Item 0054,1,Grocery,Bakery,Sam's Choice,V1010,595675808653,35.18,43.27,34.5,2.355,True,True,True,154,6,30,17,3,Active
+55,Marketside Beverages Item 0055,1,Grocery,Beverages,Marketside,V2741,697493414595,132.41,208.34,11.32,0.753,True,True,False,79,1,15,8,10,Active
+56,Store Brand Frozen Item 0056,1,Grocery,Frozen,Store Brand,V2245,545386964769,88.11,122.25,47.14,2.507,True,False,False,48,5,14,16,11,Active
+57,Great Value Dairy Item 0057,1,Grocery,Dairy,Great Value,V4524,746715555757,46.17,67.86,47.54,4.998,True,True,False,144,5,14,8,16,Active
+58,Equate Food Frozen Item 0058,1,Grocery,Frozen,Equate Food,V3600,640368067420,36.71,52.65,48.46,2.355,True,False,False,171,6,18,8,11,Active
+59,Equate Food Frozen Item 0059,1,Grocery,Frozen,Equate Food,V4115,141017352624,132.69,180.48,22.8,1.579,True,False,False,213,5,64,3,18,Active
+60,Great Value Bakery Item 0060,1,Grocery,Bakery,Great Value,V3041,588017414546,103.93,150.6,38.02,1.026,True,True,False,154,4,68,18,4,Active
+61,Store Brand Bakery Item 0061,1,Grocery,Bakery,Store Brand,V1056,549048500534,142.1,188.18,4.75,4.961,True,False,False,243,1,53,7,16,Discontinued
+62,Marketside Beverages Item 0062,1,Grocery,Beverages,Marketside,V2976,619606194160,141.23,192.95,12.26,2.761,True,True,False,313,5,59,7,3,Active
+63,Equate Food Frozen Item 0063,1,Grocery,Frozen,Equate Food,V4360,409248663017,186.88,262.21,36.33,4.189,True,False,False,344,4,67,7,15,Active
+64,Marketside Frozen Item 0064,1,Grocery,Frozen,Marketside,V2865,456193888210,110.61,156.78,43.49,4.904,True,True,False,203,2,66,16,2,Active
+65,Equate Food Snacks Item 0065,1,Grocery,Snacks,Equate Food,V4361,641819166671,77.52,113.6,48.24,0.64,True,False,False,176,1,67,17,4,Active
+66,Equate Food Dairy Item 0066,1,Grocery,Dairy,Equate Food,V3681,271669657267,144.63,197.27,3.83,3.91,True,False,False,326,6,37,23,3,Active
+67,Store Brand Snacks Item 0067,1,Grocery,Snacks,Store Brand,V4634,635837550654,190.85,276.87,43.63,0.189,True,False,True,330,6,70,12,8,Active
+68,Equate Food Dairy Item 0068,1,Grocery,Dairy,Equate Food,V1411,282294211298,152.19,225.48,34.73,4.518,True,False,True,35,3,34,14,14,Active
+69,Store Brand Snacks Item 0069,1,Grocery,Snacks,Store Brand,V1696,186651263082,113.4,172.03,30.51,1.919,True,False,False,261,5,21,10,15,Active
+70,Equate Food Frozen Item 0070,1,Grocery,Frozen,Equate Food,V2905,417403277612,133.53,208.25,33.91,0.798,True,False,False,183,5,31,23,14,Active
+71,Equate Food Frozen Item 0071,1,Grocery,Frozen,Equate Food,V2979,358156110078,40.24,54.48,19.13,1.801,True,False,False,365,3,13,24,13,Active
+72,Store Brand Dairy Item 0072,1,Grocery,Dairy,Store Brand,V4411,951632719131,182.17,272.9,39.96,3.039,True,False,False,332,2,51,11,5,Active
+73,Great Value Frozen Item 0073,1,Grocery,Frozen,Great Value,V2494,244879382019,157.83,191.5,4.6,1.483,True,True,False,96,2,20,20,12,Active
+74,Marketside Bakery Item 0074,1,Grocery,Bakery,Marketside,V2973,988918145940,51.77,79.2,14.83,4.353,True,True,False,246,1,21,10,13,Seasonal
+75,Store Brand Frozen Item 0075,1,Grocery,Frozen,Store Brand,V2083,235448546713,18.52,25.15,22.79,3.367,True,False,False,306,4,64,23,12,Active
+76,Sam's Choice Snacks Item 0076,1,Grocery,Snacks,Sam's Choice,V3299,343138451678,5.49,8.53,32.42,3.181,True,True,False,365,3,53,16,4,Active
+77,Great Value Frozen Item 0077,1,Grocery,Frozen,Great Value,V1961,692221269274,199.19,248.28,6.87,2.274,True,True,False,363,5,38,21,5,Active
+78,Great Value Snacks Item 0078,1,Grocery,Snacks,Great Value,V2145,856054759475,123.32,194.31,18.59,2.222,True,True,False,192,1,55,14,18,Discontinued
+79,Marketside Dairy Item 0079,1,Grocery,Dairy,Marketside,V1500,601756080094,79.93,101.98,4.67,1.068,True,True,False,17,1,62,13,8,Seasonal
+80,Store Brand Bakery Item 0080,1,Grocery,Bakery,Store Brand,V1848,338741697466,14.19,21.37,40.67,1.173,True,False,False,312,1,29,7,5,Active
+81,Sam's Choice Dairy Item 0081,1,Grocery,Dairy,Sam's Choice,V1060,969122032652,132.38,160.22,39.44,2.948,True,True,True,142,1,20,16,17,Active
+82,Great Value Snacks Item 0082,1,Grocery,Snacks,Great Value,V3431,594389622444,89.93,120.94,25.24,4.728,True,True,True,344,5,31,17,21,Seasonal
+83,Great Value Snacks Item 0083,1,Grocery,Snacks,Great Value,V1442,883789736548,169.54,232.36,45.49,0.377,True,True,True,318,2,16,7,9,Active
+84,Store Brand Beverages Item 0084,1,Grocery,Beverages,Store Brand,V3446,424401271462,142.57,192.81,22.74,3.031,True,False,True,65,6,53,20,7,Active
+85,Sam's Choice Snacks Item 0085,1,Grocery,Snacks,Sam's Choice,V2703,206212876985,68.12,94.1,15.7,1.569,True,True,False,85,6,71,18,3,Active
+86,Great Value Dairy Item 0086,1,Grocery,Dairy,Great Value,V2526,245220443325,86.66,129.8,27.86,2.936,True,True,False,175,6,19,16,12,Active
+87,Equate Food Dairy Item 0087,1,Grocery,Dairy,Equate Food,V2440,731805153549,193.7,278.96,25.42,0.782,True,False,False,62,3,66,20,12,Active
+88,Marketside Beverages Item 0088,1,Grocery,Beverages,Marketside,V3297,945999235805,45.62,62.57,40.94,3.072,True,True,False,20,5,71,24,9,Active
+89,Marketside Frozen Item 0089,1,Grocery,Frozen,Marketside,V1743,258354854541,184.35,247.1,28.36,2.01,True,True,True,331,1,17,19,7,Active
+90,Equate Food Frozen Item 0090,1,Grocery,Frozen,Equate Food,V2328,755272824750,31.9,42.26,4.34,0.273,True,False,False,323,1,55,5,9,Active
+91,Equate Food Snacks Item 0091,1,Grocery,Snacks,Equate Food,V1882,665883171878,121.61,166.08,5.78,2.155,True,False,False,354,5,43,19,10,Active
+92,Equate Food Beverages Item 0092,1,Grocery,Beverages,Equate Food,V4872,942720833045,11.43,14.65,6.95,1.285,True,False,False,10,4,59,16,6,Active
+93,Store Brand Bakery Item 0093,1,Grocery,Bakery,Store Brand,V4302,178830547759,100.3,153.79,19.91,3.713,True,False,False,242,1,67,13,19,Active
+94,Equate Food Snacks Item 0094,1,Grocery,Snacks,Equate Food,V4957,286078462460,58.26,79.35,40.09,3.094,True,False,False,192,1,39,6,8,Active
+95,Equate Food Beverages Item 0095,1,Grocery,Beverages,Equate Food,V4054,341976367027,16.19,25.07,16.72,0.849,True,False,False,65,5,44,9,12,Active
+96,Sam's Choice Bakery Item 0096,1,Grocery,Bakery,Sam's Choice,V1710,270091008492,21.01,27.36,38.03,3.281,True,True,False,328,4,41,21,19,Active
+97,Store Brand Beverages Item 0097,1,Grocery,Beverages,Store Brand,V2294,581684694243,64.98,103.21,3.51,2.217,True,False,False,147,5,15,14,17,Active
+98,Equate Food Snacks Item 0098,1,Grocery,Snacks,Equate Food,V2175,808999160978,8.0,10.78,43.23,4.278,True,False,False,266,4,41,21,18,Seasonal
+99,Great Value Snacks Item 0099,1,Grocery,Snacks,Great Value,V1771,762805910527,181.86,259.82,23.83,0.763,True,True,True,59,3,57,5,17,Active
+100,Great Value Bakery Item 0100,1,Grocery,Bakery,Great Value,V3146,772260083878,141.67,226.16,8.02,1.871,True,True,False,216,3,55,22,2,Active
+101,LG TVs Item 0101,2,Electronics,TVs,LG,V2583,376098308926,66.27,94.31,36.21,3.286,False,False,False,83,3,17,21,5,Discontinued
+102,LG Audio Item 0102,2,Electronics,Audio,LG,V1347,715509967407,26.23,38.91,18.9,3.96,False,False,False,350,6,65,24,17,Active
+103,Sony Cameras Item 0103,2,Electronics,Cameras,Sony,V1738,336013475085,72.68,97.76,17.15,3.833,False,False,False,77,2,16,12,4,Active
+104,onn. Cameras Item 0104,2,Electronics,Cameras,onn.,V4138,244388345722,8.03,10.72,29.9,0.78,False,True,False,361,5,63,8,15,Active
+105,LG Phones Item 0105,2,Electronics,Phones,LG,V4081,962208399042,193.93,280.08,22.5,2.675,False,False,False,247,2,35,24,19,Seasonal
+106,Sony Computers Item 0106,2,Electronics,Computers,Sony,V2714,280243749279,155.74,218.22,40.86,4.008,False,False,True,135,1,53,18,12,Active
+107,Samsung Cameras Item 0107,2,Electronics,Cameras,Samsung,V4125,397041279675,170.31,223.79,22.52,2.572,False,False,False,53,2,64,17,12,Discontinued
+108,Sony TVs Item 0108,2,Electronics,TVs,Sony,V2581,190170799779,79.59,107.41,18.81,0.151,False,False,False,339,3,62,7,5,Active
+109,Sony Phones Item 0109,2,Electronics,Phones,Sony,V3520,117520141303,151.89,210.77,12.87,4.176,False,False,False,318,5,39,6,10,Active
+110,Samsung TVs Item 0110,2,Electronics,TVs,Samsung,V3551,170682764789,48.07,69.97,5.63,4.527,False,False,False,15,6,44,21,8,Active
+111,LG Audio Item 0111,2,Electronics,Audio,LG,V3337,303652607135,0.81,1.09,33.25,0.437,False,False,False,41,5,46,19,17,Active
+112,Sony Audio Item 0112,2,Electronics,Audio,Sony,V2529,921428173109,9.19,12.45,0.91,3.945,False,False,False,343,6,18,21,11,Active
+113,LG Cameras Item 0113,2,Electronics,Cameras,LG,V4401,854965668757,68.04,99.14,23.28,3.48,False,False,False,76,1,57,17,2,Active
+114,Samsung Phones Item 0114,2,Electronics,Phones,Samsung,V2270,536005252551,177.22,235.04,49.46,2.72,False,False,False,338,2,30,14,2,Active
+115,LG Computers Item 0115,2,Electronics,Computers,LG,V4643,917761866683,25.33,34.12,22.04,4.783,False,False,False,102,4,56,18,12,Discontinued
+116,onn. Computers Item 0116,2,Electronics,Computers,onn.,V1323,763274407218,160.33,239.03,49.76,0.91,False,True,False,59,1,32,24,10,Active
+117,onn. Audio Item 0117,2,Electronics,Audio,onn.,V2831,899045831074,33.75,46.49,43.51,1.769,False,True,False,147,6,62,4,3,Active
+118,Sony Computers Item 0118,2,Electronics,Computers,Sony,V1655,134156970372,102.86,154.29,7.22,3.042,False,False,False,24,2,16,10,21,Active
+119,Sony Cameras Item 0119,2,Electronics,Cameras,Sony,V2842,507802091871,6.96,8.78,18.66,3.818,False,False,False,278,3,37,13,21,Active
+120,Samsung TVs Item 0120,2,Electronics,TVs,Samsung,V2585,718103958517,147.27,206.12,5.98,3.877,False,False,False,116,5,30,18,7,Active
+121,Samsung Audio Item 0121,2,Electronics,Audio,Samsung,V1359,850805437251,34.94,51.9,48.38,4.933,False,False,False,40,5,46,12,10,Active
+122,Apple Computers Item 0122,2,Electronics,Computers,Apple,V1823,253725751531,102.0,127.35,11.91,2.475,False,False,False,300,3,41,20,5,Active
+123,Samsung TVs Item 0123,2,Electronics,TVs,Samsung,V3944,677581468651,62.2,99.51,20.6,2.053,False,False,False,71,3,53,5,15,Active
+124,onn. Computers Item 0124,2,Electronics,Computers,onn.,V3258,746992988388,26.1,39.98,9.18,4.832,False,True,False,35,1,45,7,10,Active
+125,LG Phones Item 0125,2,Electronics,Phones,LG,V4665,375216607657,69.53,109.6,9.9,4.782,False,False,False,327,3,51,20,3,Active
+126,Apple Cameras Item 0126,2,Electronics,Cameras,Apple,V3698,892956100142,188.35,237.64,45.11,1.695,False,False,False,28,1,17,4,21,Active
+127,LG Phones Item 0127,2,Electronics,Phones,LG,V3617,645590923542,153.51,209.79,44.46,2.732,False,False,False,161,4,27,24,13,Active
+128,Samsung TVs Item 0128,2,Electronics,TVs,Samsung,V2902,474538426922,32.04,43.77,30.37,1.57,False,False,False,183,4,20,14,17,Active
+129,LG Phones Item 0129,2,Electronics,Phones,LG,V2015,203684279962,93.56,122.28,2.63,4.727,False,False,False,221,2,67,8,11,Discontinued
+130,LG Phones Item 0130,2,Electronics,Phones,LG,V3108,647465802270,152.74,213.73,43.97,2.492,False,False,True,208,5,41,10,7,Active
+131,Samsung TVs Item 0131,2,Electronics,TVs,Samsung,V4452,841544400369,56.63,81.49,23.58,2.688,False,False,False,227,2,68,11,12,Active
+132,LG TVs Item 0132,2,Electronics,TVs,LG,V1797,707147416489,80.42,114.85,14.5,1.938,False,False,False,288,3,64,22,20,Active
+133,Samsung Audio Item 0133,2,Electronics,Audio,Samsung,V3284,503464711934,74.95,119.52,37.77,1.003,False,False,False,263,1,14,4,5,Active
+134,Sony Cameras Item 0134,2,Electronics,Cameras,Sony,V3111,457082640347,91.67,132.23,46.58,1.599,False,False,False,322,6,65,12,19,Active
+135,onn. Cameras Item 0135,2,Electronics,Cameras,onn.,V2945,120683483751,98.22,139.98,18.48,3.372,False,True,False,305,3,62,23,1,Active
+136,LG Cameras Item 0136,2,Electronics,Cameras,LG,V3390,286747105556,115.74,172.29,26.26,3.609,False,False,False,201,2,64,24,8,Active
+137,Samsung Phones Item 0137,2,Electronics,Phones,Samsung,V1620,857687894266,4.28,5.67,10.27,2.514,False,False,False,248,6,58,4,5,Active
+138,onn. Computers Item 0138,2,Electronics,Computers,onn.,V2543,603254986487,199.63,277.75,45.61,1.718,False,True,False,355,6,63,11,20,Active
+139,Apple Computers Item 0139,2,Electronics,Computers,Apple,V4985,430636290339,111.84,144.27,38.58,3.527,False,False,False,257,3,42,14,18,Discontinued
+140,LG Computers Item 0140,2,Electronics,Computers,LG,V2555,999342668835,24.81,36.49,17.32,3.868,False,False,True,28,3,57,5,12,Discontinued
+141,LG Audio Item 0141,2,Electronics,Audio,LG,V2110,718187630594,43.19,66.13,34.84,0.695,False,False,False,307,2,27,4,17,Active
+142,Apple TVs Item 0142,2,Electronics,TVs,Apple,V2934,847756146579,20.49,27.3,38.56,0.036,False,False,False,87,4,53,18,16,Active
+143,LG Computers Item 0143,2,Electronics,Computers,LG,V4148,813348801984,57.44,70.29,28.75,2.68,False,False,False,26,2,38,8,2,Seasonal
+144,Sony Audio Item 0144,2,Electronics,Audio,Sony,V4572,421804890116,37.67,56.49,43.85,0.056,False,False,False,61,3,30,17,21,Active
+145,Sony Phones Item 0145,2,Electronics,Phones,Sony,V1789,223732913451,170.29,236.23,16.6,3.658,False,False,False,102,1,59,13,10,Active
+146,Apple Phones Item 0146,2,Electronics,Phones,Apple,V2660,571703329527,122.39,178.14,25.81,0.443,False,False,False,101,2,42,13,8,Active
+147,Sony Phones Item 0147,2,Electronics,Phones,Sony,V2350,741246974592,89.62,117.12,36.17,0.067,False,False,False,361,2,15,24,4,Active
+148,Apple Audio Item 0148,2,Electronics,Audio,Apple,V4636,949130311759,137.37,215.57,15.62,0.596,False,False,False,158,3,51,10,8,Seasonal
+149,Sony Phones Item 0149,2,Electronics,Phones,Sony,V2530,870585189303,91.27,145.62,27.51,2.359,False,False,False,347,2,60,10,20,Active
+150,Samsung Cameras Item 0150,2,Electronics,Cameras,Samsung,V1319,722414826633,89.63,132.79,5.7,4.146,False,False,False,110,5,46,7,6,Active
+151,onn. Audio Item 0151,2,Electronics,Audio,onn.,V3388,200883747961,23.69,30.37,44.95,2.233,False,True,True,74,5,38,17,19,Active
+152,Sony Computers Item 0152,2,Electronics,Computers,Sony,V4344,916056737584,144.79,196.68,10.97,0.374,False,False,False,365,1,46,4,3,Seasonal
+153,Sony TVs Item 0153,2,Electronics,TVs,Sony,V1554,807663841396,57.77,73.48,48.92,3.233,False,False,False,202,4,67,15,13,Active
+154,onn. Phones Item 0154,2,Electronics,Phones,onn.,V1731,692674763992,130.88,175.26,19.71,0.645,False,True,False,8,1,31,17,18,Active
+155,Sony Phones Item 0155,2,Electronics,Phones,Sony,V2129,898327940253,49.88,66.76,38.3,0.171,False,False,False,321,1,27,9,3,Active
+156,Samsung Audio Item 0156,2,Electronics,Audio,Samsung,V1199,912799944114,119.76,177.4,2.31,2.2,False,False,False,35,2,44,12,8,Active
+157,onn. Computers Item 0157,2,Electronics,Computers,onn.,V4352,359075283955,115.71,174.61,15.16,0.725,False,True,False,120,4,31,11,2,Active
+158,onn. Phones Item 0158,2,Electronics,Phones,onn.,V3030,837202429065,125.39,171.89,19.12,2.627,False,True,False,216,2,31,15,6,Active
+159,Sony Phones Item 0159,2,Electronics,Phones,Sony,V3898,985383248994,169.94,224.37,23.2,0.298,False,False,False,220,5,45,7,13,Active
+160,Apple Computers Item 0160,2,Electronics,Computers,Apple,V4469,200378013519,129.52,203.2,26.83,4.149,False,False,True,200,6,50,22,2,Active
+161,Apple Cameras Item 0161,2,Electronics,Cameras,Apple,V2963,468967896485,145.0,206.41,15.23,4.546,False,False,False,104,6,19,18,8,Active
+162,Apple Audio Item 0162,2,Electronics,Audio,Apple,V4176,517827557715,183.07,260.11,23.37,3.247,False,False,False,191,5,68,18,15,Active
+163,Sony Computers Item 0163,2,Electronics,Computers,Sony,V2695,718671636967,182.91,246.61,43.22,3.709,False,False,True,290,5,49,16,10,Active
+164,LG Phones Item 0164,2,Electronics,Phones,LG,V3045,819624530104,76.28,116.96,47.18,1.694,False,False,False,257,6,53,18,15,Active
+165,LG Phones Item 0165,2,Electronics,Phones,LG,V1753,675777869916,28.42,40.32,1.79,4.235,False,False,False,349,1,60,3,14,Active
+166,Apple TVs Item 0166,2,Electronics,TVs,Apple,V3071,509980439699,141.58,170.41,3.12,3.192,False,False,False,254,6,43,3,1,Active
+167,Sony TVs Item 0167,2,Electronics,TVs,Sony,V3194,417730854440,3.84,5.72,0.96,4.068,False,False,False,98,1,70,6,17,Active
+168,Apple Cameras Item 0168,2,Electronics,Cameras,Apple,V2094,537205922440,105.53,161.05,4.04,4.797,False,False,False,131,6,26,12,3,Active
+169,Samsung TVs Item 0169,2,Electronics,TVs,Samsung,V2949,800320681066,81.35,109.89,0.57,0.865,False,False,False,229,6,62,13,19,Seasonal
+170,Samsung Cameras Item 0170,2,Electronics,Cameras,Samsung,V4691,863937745035,183.87,237.54,44.39,2.383,False,False,True,45,6,71,11,18,Active
+171,Samsung Phones Item 0171,2,Electronics,Phones,Samsung,V4938,745134831738,185.79,246.32,7.3,4.105,False,False,False,46,3,22,21,8,Active
+172,Sony Cameras Item 0172,2,Electronics,Cameras,Sony,V1573,897529515996,66.68,100.17,4.01,3.73,False,False,False,57,4,26,5,11,Active
+173,onn. Cameras Item 0173,2,Electronics,Cameras,onn.,V1121,399076280763,79.64,120.21,39.2,2.258,False,True,False,290,4,39,8,19,Active
+174,Samsung Cameras Item 0174,2,Electronics,Cameras,Samsung,V1301,392410126704,59.43,77.17,7.8,3.561,False,False,False,206,3,35,6,3,Active
+175,LG Audio Item 0175,2,Electronics,Audio,LG,V1542,302238401673,72.3,94.56,21.61,2.789,False,False,False,59,1,17,14,18,Active
+176,onn. Computers Item 0176,2,Electronics,Computers,onn.,V2694,956364078319,172.81,208.23,4.33,4.507,False,True,False,131,5,45,8,13,Active
+177,LG Computers Item 0177,2,Electronics,Computers,LG,V1684,402514631089,54.05,68.02,21.11,2.426,False,False,True,135,2,58,23,16,Active
+178,Apple Audio Item 0178,2,Electronics,Audio,Apple,V4886,466771704281,21.84,28.87,42.1,1.906,False,False,False,232,3,39,23,20,Active
+179,LG Cameras Item 0179,2,Electronics,Cameras,LG,V2286,419198265730,189.48,242.6,36.77,3.168,False,False,False,131,3,36,11,13,Active
+180,onn. Phones Item 0180,2,Electronics,Phones,onn.,V3792,704592315249,118.65,168.28,1.44,3.639,False,True,False,114,4,63,12,3,Active
+181,Sony Audio Item 0181,2,Electronics,Audio,Sony,V2034,270332660466,28.27,37.35,35.79,3.947,False,False,True,313,4,49,15,18,Active
+182,Sony Cameras Item 0182,2,Electronics,Cameras,Sony,V3873,992904379972,7.83,12.43,26.89,3.195,False,False,True,134,6,54,14,6,Active
+183,Samsung Cameras Item 0183,2,Electronics,Cameras,Samsung,V2636,928786143023,196.73,289.39,16.65,3.983,False,False,True,57,3,26,19,17,Active
+184,onn. Phones Item 0184,2,Electronics,Phones,onn.,V4163,747163762980,89.43,121.31,34.55,0.762,False,True,False,254,1,30,16,3,Active
+185,Apple Computers Item 0185,2,Electronics,Computers,Apple,V1847,630519148549,62.72,86.69,17.48,0.497,False,False,False,238,3,16,12,2,Active
+186,Samsung TVs Item 0186,2,Electronics,TVs,Samsung,V3773,283824815553,169.91,247.93,46.5,3.705,False,False,False,289,2,33,20,14,Seasonal
+187,Apple Audio Item 0187,2,Electronics,Audio,Apple,V3692,535647700243,126.14,160.77,1.56,3.074,False,False,False,310,4,36,3,7,Active
+188,Samsung Cameras Item 0188,2,Electronics,Cameras,Samsung,V1765,458053354681,20.8,32.21,9.93,0.579,False,False,False,257,5,52,13,20,Active
+189,Sony Cameras Item 0189,2,Electronics,Cameras,Sony,V2875,291630113537,23.29,31.23,40.71,3.533,False,False,False,321,5,17,24,5,Active
+190,Apple Computers Item 0190,2,Electronics,Computers,Apple,V1579,527395738401,23.83,32.15,20.97,0.698,False,False,False,102,4,52,20,21,Discontinued
+191,Apple Cameras Item 0191,2,Electronics,Cameras,Apple,V1766,780541867199,33.79,44.45,2.78,1.802,False,False,True,76,2,64,15,18,Active
+192,Sony Audio Item 0192,2,Electronics,Audio,Sony,V4440,638777240733,137.1,187.31,8.45,2.831,False,False,False,119,3,14,11,8,Active
+193,Apple Audio Item 0193,2,Electronics,Audio,Apple,V3028,660706804453,113.35,171.05,5.75,0.58,False,False,False,194,5,64,4,15,Active
+194,Sony TVs Item 0194,2,Electronics,TVs,Sony,V2013,138651753617,147.33,215.32,22.54,1.749,False,False,False,231,1,61,10,7,Active
+195,onn. Computers Item 0195,2,Electronics,Computers,onn.,V2753,775022751100,172.28,248.79,7.05,1.041,False,True,False,37,5,34,20,9,Active
+196,Apple Computers Item 0196,2,Electronics,Computers,Apple,V3345,666325870072,195.81,257.89,49.28,3.4,False,False,True,217,1,29,23,5,Active
+197,Apple Phones Item 0197,2,Electronics,Phones,Apple,V2013,532401134903,29.68,39.44,24.52,2.891,False,False,False,219,4,40,5,21,Active
+198,Samsung Audio Item 0198,2,Electronics,Audio,Samsung,V4835,507494975195,103.36,135.53,22.79,2.445,False,False,False,54,6,41,23,12,Active
+199,onn. Audio Item 0199,2,Electronics,Audio,onn.,V1867,394182560647,43.96,60.31,16.21,1.425,False,True,False,73,5,66,18,11,Active
+200,Samsung TVs Item 0200,2,Electronics,TVs,Samsung,V2882,233213914058,20.37,30.83,46.48,0.798,False,False,False,226,2,56,7,21,Active
+201,Athletic Works Men's Item 0201,3,Apparel,Men's,Athletic Works,V2523,283175678870,131.09,170.44,2.68,3.132,False,False,False,126,4,53,5,4,Active
+202,Free Assembly Men's Item 0202,3,Apparel,Men's,Free Assembly,V3785,110501482282,26.97,34.8,0.5,1.724,False,False,True,223,6,20,18,3,Active
+203,George Men's Item 0203,3,Apparel,Men's,George,V2225,517200793543,21.09,28.41,38.7,3.768,False,True,True,353,2,16,19,19,Active
+204,Time and Tru Shoes Item 0204,3,Apparel,Shoes,Time and Tru,V4064,776078146001,70.56,90.69,34.36,4.301,False,False,True,58,2,60,6,19,Active
+205,Athletic Works Shoes Item 0205,3,Apparel,Shoes,Athletic Works,V2134,192962937500,63.24,79.43,12.48,3.009,False,False,False,152,6,13,24,10,Active
+206,Wonder Nation Accessories Item 0206,3,Apparel,Accessories,Wonder Nation,V3646,959227831826,38.13,51.73,44.91,4.774,False,False,False,64,2,43,23,20,Active
+207,George Kids' Item 0207,3,Apparel,Kids',George,V4525,726373620828,186.82,234.05,21.1,2.736,False,True,False,248,1,13,21,3,Active
+208,Time and Tru Men's Item 0208,3,Apparel,Men's,Time and Tru,V2630,415708488576,184.55,291.49,31.47,2.51,False,False,False,212,1,52,20,18,Active
+209,Athletic Works Men's Item 0209,3,Apparel,Men's,Athletic Works,V1832,988947907082,62.33,87.54,7.85,1.64,False,False,False,339,6,53,5,10,Active
+210,Time and Tru Men's Item 0210,3,Apparel,Men's,Time and Tru,V1475,771962115421,49.27,77.35,30.48,1.553,False,False,False,96,1,12,7,1,Active
+211,Athletic Works Accessories Item 0211,3,Apparel,Accessories,Athletic Works,V2061,508738993541,103.69,158.54,6.43,3.908,False,False,False,67,1,33,16,9,Active
+212,Athletic Works Accessories Item 0212,3,Apparel,Accessories,Athletic Works,V3092,161676262500,125.69,175.77,25.03,2.839,False,False,False,137,1,69,21,4,Active
+213,Wonder Nation Men's Item 0213,3,Apparel,Men's,Wonder Nation,V2001,615593564679,9.29,14.35,18.26,4.602,False,False,False,25,5,63,23,14,Active
+214,Time and Tru Shoes Item 0214,3,Apparel,Shoes,Time and Tru,V4383,727399747618,183.21,243.3,18.7,2.515,False,False,False,98,2,63,19,2,Seasonal
+215,George Shoes Item 0215,3,Apparel,Shoes,George,V2272,195895027289,173.27,261.54,27.7,0.05,False,True,False,295,3,59,22,8,Active
+216,Wonder Nation Shoes Item 0216,3,Apparel,Shoes,Wonder Nation,V4000,700867828643,199.56,301.41,38.05,1.233,False,False,True,216,1,26,20,12,Active
+217,George Kids' Item 0217,3,Apparel,Kids',George,V4477,902033957947,0.79,1.16,15.44,1.034,False,True,False,221,4,15,7,9,Active
+218,Time and Tru Accessories Item 0218,3,Apparel,Accessories,Time and Tru,V2877,924524434492,82.9,129.18,4.34,0.487,False,False,True,208,1,49,21,2,Active
+219,Time and Tru Women's Item 0219,3,Apparel,Women's,Time and Tru,V4793,532936211675,58.69,90.4,35.07,3.679,False,False,False,146,2,16,9,5,Active
+220,Wonder Nation Men's Item 0220,3,Apparel,Men's,Wonder Nation,V2908,548025361497,31.5,39.87,6.12,1.798,False,False,False,238,3,41,11,4,Active
+221,Athletic Works Accessories Item 0221,3,Apparel,Accessories,Athletic Works,V2342,199421293684,8.55,13.12,35.59,4.842,False,False,False,32,6,31,11,6,Active
+222,Free Assembly Shoes Item 0222,3,Apparel,Shoes,Free Assembly,V1387,213653610350,111.41,158.21,40.21,0.708,False,False,True,120,2,24,15,12,Active
+223,George Accessories Item 0223,3,Apparel,Accessories,George,V1307,315025270085,117.43,184.01,45.13,2.223,False,True,True,176,1,14,17,2,Active
+224,Wonder Nation Shoes Item 0224,3,Apparel,Shoes,Wonder Nation,V1120,848968119930,164.43,223.3,21.39,1.776,False,False,False,147,3,40,7,2,Active
+225,Wonder Nation Women's Item 0225,3,Apparel,Women's,Wonder Nation,V4615,626351199913,129.63,181.42,3.14,1.406,False,False,True,109,6,68,19,8,Active
+226,Wonder Nation Men's Item 0226,3,Apparel,Men's,Wonder Nation,V2470,699060683120,197.89,299.36,39.09,1.727,False,False,False,171,4,29,8,1,Active
+227,Time and Tru Men's Item 0227,3,Apparel,Men's,Time and Tru,V1239,681846453976,179.21,270.86,17.94,2.924,False,False,False,88,1,27,24,8,Active
+228,George Women's Item 0228,3,Apparel,Women's,George,V2590,292608757154,115.35,183.76,8.89,2.967,False,True,False,364,3,70,21,1,Active
+229,Athletic Works Accessories Item 0229,3,Apparel,Accessories,Athletic Works,V1771,645333662778,112.94,160.97,27.15,0.886,False,False,True,35,2,50,10,1,Active
+230,George Kids' Item 0230,3,Apparel,Kids',George,V1534,887442564119,183.62,235.14,8.96,4.014,False,True,False,37,1,21,21,5,Active
+231,Wonder Nation Kids' Item 0231,3,Apparel,Kids',Wonder Nation,V4858,536635564628,192.13,259.27,29.34,1.689,False,False,False,87,6,72,16,21,Seasonal
+232,Athletic Works Women's Item 0232,3,Apparel,Women's,Athletic Works,V4643,778299225256,141.58,201.72,39.37,1.124,False,False,False,96,4,31,12,5,Active
+233,George Accessories Item 0233,3,Apparel,Accessories,George,V4953,136797058268,78.62,125.61,9.19,1.598,False,True,False,320,2,52,21,4,Discontinued
+234,Time and Tru Kids' Item 0234,3,Apparel,Kids',Time and Tru,V2308,796505772923,149.2,193.24,44.28,0.453,False,False,False,334,6,68,13,15,Active
+235,Time and Tru Women's Item 0235,3,Apparel,Women's,Time and Tru,V4223,890737987526,138.79,186.01,0.16,1.936,False,False,False,92,4,43,15,12,Active
+236,George Shoes Item 0236,3,Apparel,Shoes,George,V4105,347764467344,157.85,225.92,8.22,0.378,False,True,False,157,1,32,11,4,Active
+237,Time and Tru Shoes Item 0237,3,Apparel,Shoes,Time and Tru,V4857,469767069027,32.6,40.1,29.74,3.072,False,False,False,22,4,72,23,6,Active
+238,Free Assembly Women's Item 0238,3,Apparel,Women's,Free Assembly,V4991,547492574952,11.18,14.9,34.89,3.613,False,False,False,142,6,30,12,8,Active
+239,Free Assembly Accessories Item 0239,3,Apparel,Accessories,Free Assembly,V1223,101549748436,110.16,153.83,21.44,1.48,False,False,False,314,4,24,6,1,Active
+240,Athletic Works Men's Item 0240,3,Apparel,Men's,Athletic Works,V4214,617103184787,94.98,118.36,24.51,3.309,False,False,True,285,4,23,14,13,Active
+241,Free Assembly Men's Item 0241,3,Apparel,Men's,Free Assembly,V1926,395653002015,53.03,73.5,28.26,0.764,False,False,False,56,1,54,14,18,Active
+242,Wonder Nation Women's Item 0242,3,Apparel,Women's,Wonder Nation,V4352,561805974462,110.94,170.44,48.28,3.438,False,False,False,300,2,42,12,3,Active
+243,George Accessories Item 0243,3,Apparel,Accessories,George,V3340,261577842715,114.46,161.01,6.1,3.788,False,True,False,92,2,63,9,5,Active
+244,George Shoes Item 0244,3,Apparel,Shoes,George,V1605,756417496092,40.78,62.35,12.97,4.555,False,True,False,41,1,36,20,13,Active
+245,Athletic Works Accessories Item 0245,3,Apparel,Accessories,Athletic Works,V4221,785908047210,91.9,142.39,29.42,3.911,False,False,True,83,2,48,21,19,Active
+246,George Men's Item 0246,3,Apparel,Men's,George,V2171,692136297457,112.76,139.87,44.02,4.391,False,True,False,342,4,48,22,16,Active
+247,Athletic Works Shoes Item 0247,3,Apparel,Shoes,Athletic Works,V3841,140380079511,29.2,42.15,19.85,4.396,False,False,False,32,6,42,11,12,Active
+248,Athletic Works Kids' Item 0248,3,Apparel,Kids',Athletic Works,V3851,210315599462,56.43,78.81,48.63,1.148,False,False,False,233,3,29,16,20,Active
+249,Time and Tru Shoes Item 0249,3,Apparel,Shoes,Time and Tru,V4034,935304396697,42.67,65.27,25.87,1.876,False,False,True,88,1,31,19,13,Active
+250,Wonder Nation Accessories Item 0250,3,Apparel,Accessories,Wonder Nation,V4411,370830447947,6.28,8.02,1.75,0.262,False,False,False,108,3,35,17,17,Active
+251,George Men's Item 0251,3,Apparel,Men's,George,V2827,623429729263,48.77,68.06,29.39,1.755,False,True,False,139,6,65,5,10,Active
+252,George Women's Item 0252,3,Apparel,Women's,George,V1877,344199433115,170.84,258.3,32.4,3.392,False,True,False,216,5,13,24,1,Active
+253,Time and Tru Women's Item 0253,3,Apparel,Women's,Time and Tru,V2033,987376080060,120.43,144.92,47.16,3.567,False,False,False,147,4,69,15,12,Active
+254,Time and Tru Shoes Item 0254,3,Apparel,Shoes,Time and Tru,V3554,741655884287,60.78,85.59,5.21,2.562,False,False,False,198,5,53,22,20,Active
+255,George Shoes Item 0255,3,Apparel,Shoes,George,V3623,384657053248,13.24,21.12,32.84,4.761,False,True,False,103,2,45,10,2,Active
+256,Wonder Nation Shoes Item 0256,3,Apparel,Shoes,Wonder Nation,V3954,817368867974,132.28,194.76,24.92,1.485,False,False,False,214,4,59,4,19,Active
+257,Wonder Nation Women's Item 0257,3,Apparel,Women's,Wonder Nation,V3811,802375909504,68.96,102.43,39.27,4.534,False,False,False,266,3,66,8,18,Active
+258,George Shoes Item 0258,3,Apparel,Shoes,George,V4310,939919645388,26.02,33.92,45.64,4.735,False,True,False,342,1,26,14,8,Active
+259,Athletic Works Shoes Item 0259,3,Apparel,Shoes,Athletic Works,V2067,424637554196,157.72,210.17,23.24,0.598,False,False,True,331,5,49,22,3,Active
+260,Time and Tru Accessories Item 0260,3,Apparel,Accessories,Time and Tru,V3170,552252994280,24.4,35.92,2.8,4.273,False,False,True,109,3,38,21,15,Active
+261,Time and Tru Men's Item 0261,3,Apparel,Men's,Time and Tru,V1724,797130805128,97.77,142.0,2.99,2.266,False,False,False,93,5,60,8,16,Active
+262,George Women's Item 0262,3,Apparel,Women's,George,V2652,522957213576,123.09,178.9,0.33,2.674,False,True,False,14,3,60,19,7,Active
+263,George Women's Item 0263,3,Apparel,Women's,George,V2278,212222903295,45.64,70.78,19.24,2.947,False,True,False,30,3,72,12,15,Active
+264,Wonder Nation Accessories Item 0264,3,Apparel,Accessories,Wonder Nation,V1548,640742325840,67.9,105.6,18.03,0.95,False,False,False,213,1,26,10,5,Active
+265,George Accessories Item 0265,3,Apparel,Accessories,George,V3912,970377443455,101.17,126.39,1.96,4.384,False,True,False,280,5,15,22,2,Active
+266,George Men's Item 0266,3,Apparel,Men's,George,V2557,701826258207,138.11,188.76,12.71,3.512,False,True,False,358,6,12,12,14,Active
+267,Wonder Nation Kids' Item 0267,3,Apparel,Kids',Wonder Nation,V2715,658796351695,124.75,184.67,35.97,0.597,False,False,True,61,4,24,22,7,Active
+268,Wonder Nation Women's Item 0268,3,Apparel,Women's,Wonder Nation,V1656,701464667672,71.91,98.08,24.87,1.046,False,False,False,176,2,12,3,3,Discontinued
+269,Wonder Nation Shoes Item 0269,3,Apparel,Shoes,Wonder Nation,V3095,894891279372,30.25,37.39,36.21,4.525,False,False,False,240,3,28,17,2,Active
+270,Time and Tru Men's Item 0270,3,Apparel,Men's,Time and Tru,V3772,569494502055,170.52,229.19,36.95,0.484,False,False,False,30,1,66,7,21,Active
+271,Athletic Works Shoes Item 0271,3,Apparel,Shoes,Athletic Works,V4002,508421115997,191.04,249.75,40.77,0.923,False,False,False,240,3,65,15,16,Active
+272,Time and Tru Men's Item 0272,3,Apparel,Men's,Time and Tru,V4860,275425146819,26.94,40.16,5.28,4.557,False,False,False,298,6,40,8,20,Active
+273,Athletic Works Accessories Item 0273,3,Apparel,Accessories,Athletic Works,V4434,245564012858,6.25,9.21,24.21,2.446,False,False,False,232,1,16,11,21,Active
+274,Wonder Nation Accessories Item 0274,3,Apparel,Accessories,Wonder Nation,V4914,668388673264,144.89,186.85,26.2,3.506,False,False,True,345,6,27,18,12,Active
+275,Free Assembly Women's Item 0275,3,Apparel,Women's,Free Assembly,V3510,108824294281,167.89,238.96,32.21,0.793,False,False,False,260,2,16,18,11,Active
+276,Athletic Works Men's Item 0276,3,Apparel,Men's,Athletic Works,V2550,999380226336,101.63,144.33,11.83,2.301,False,False,False,236,1,66,18,15,Active
+277,Free Assembly Men's Item 0277,3,Apparel,Men's,Free Assembly,V3282,102358361363,20.98,28.64,41.31,3.961,False,False,False,333,3,68,19,18,Active
+278,Free Assembly Kids' Item 0278,3,Apparel,Kids',Free Assembly,V1913,601842522128,72.99,89.17,16.67,3.839,False,False,False,343,3,57,17,4,Active
+279,Time and Tru Men's Item 0279,3,Apparel,Men's,Time and Tru,V4950,421263178879,68.6,105.09,27.43,1.876,False,False,True,91,4,20,16,4,Active
+280,Time and Tru Women's Item 0280,3,Apparel,Women's,Time and Tru,V1883,309514605303,24.59,37.89,35.87,0.548,False,False,False,331,6,49,6,15,Active
+281,Wonder Nation Accessories Item 0281,3,Apparel,Accessories,Wonder Nation,V3172,154701622307,27.36,38.29,27.71,2.17,False,False,False,267,2,56,21,6,Active
+282,Time and Tru Men's Item 0282,3,Apparel,Men's,Time and Tru,V4615,655433089625,77.79,112.03,44.08,2.099,False,False,False,361,2,29,15,11,Seasonal
+283,Free Assembly Women's Item 0283,3,Apparel,Women's,Free Assembly,V4630,665855184692,28.07,40.45,15.02,3.51,False,False,False,290,6,25,9,7,Active
+284,Athletic Works Kids' Item 0284,3,Apparel,Kids',Athletic Works,V3909,297389509112,184.28,230.92,25.24,3.475,False,False,False,66,3,47,18,19,Active
+285,Free Assembly Accessories Item 0285,3,Apparel,Accessories,Free Assembly,V4310,671285499315,57.54,88.55,5.41,1.911,False,False,True,35,2,29,8,10,Active
+286,Time and Tru Men's Item 0286,3,Apparel,Men's,Time and Tru,V4086,136684054789,138.27,182.25,18.0,2.268,False,False,False,352,6,47,10,21,Active
+287,Time and Tru Accessories Item 0287,3,Apparel,Accessories,Time and Tru,V2178,833120578101,156.97,238.52,2.44,1.914,False,False,False,357,3,47,4,1,Active
+288,Time and Tru Accessories Item 0288,3,Apparel,Accessories,Time and Tru,V2814,348377887798,173.84,268.44,45.58,3.526,False,False,False,308,5,59,22,7,Active
+289,Time and Tru Kids' Item 0289,3,Apparel,Kids',Time and Tru,V1305,908200296039,90.04,143.47,25.74,1.892,False,False,False,291,3,20,8,19,Active
+290,George Kids' Item 0290,3,Apparel,Kids',George,V1163,754220714413,93.53,147.31,2.64,4.663,False,True,False,345,3,43,21,18,Active
+291,Athletic Works Accessories Item 0291,3,Apparel,Accessories,Athletic Works,V1279,657427734603,44.38,56.52,8.05,2.72,False,False,False,185,2,68,9,11,Active
+292,Athletic Works Women's Item 0292,3,Apparel,Women's,Athletic Works,V2945,718460821225,190.09,275.12,41.2,4.906,False,False,True,349,3,40,10,21,Active
+293,Wonder Nation Women's Item 0293,3,Apparel,Women's,Wonder Nation,V2314,521393732766,191.8,282.53,12.9,3.623,False,False,True,271,3,44,19,15,Active
+294,Athletic Works Women's Item 0294,3,Apparel,Women's,Athletic Works,V1393,950215732343,64.4,79.4,26.94,0.047,False,False,True,350,6,61,9,14,Active
+295,Time and Tru Accessories Item 0295,3,Apparel,Accessories,Time and Tru,V4036,580070857440,165.84,257.29,32.36,4.699,False,False,False,85,1,41,13,2,Active
+296,George Women's Item 0296,3,Apparel,Women's,George,V3355,352636931294,158.95,226.22,45.56,2.044,False,True,False,214,4,32,3,13,Active
+297,Wonder Nation Men's Item 0297,3,Apparel,Men's,Wonder Nation,V4096,743153962394,128.46,185.93,2.37,4.243,False,False,False,264,1,30,24,10,Active
+298,Athletic Works Shoes Item 0298,3,Apparel,Shoes,Athletic Works,V1126,273834453435,76.59,117.09,26.72,0.691,False,False,False,286,3,52,7,10,Active
+299,Athletic Works Men's Item 0299,3,Apparel,Men's,Athletic Works,V1504,104474381572,110.93,157.75,28.68,1.976,False,False,False,50,3,25,14,7,Active
+300,Wonder Nation Women's Item 0300,3,Apparel,Women's,Wonder Nation,V4419,311538915196,32.61,42.01,5.82,3.358,False,False,False,34,5,41,23,18,Active
+301,Better Homes & Gardens Outdoor Item 0301,4,Home & Garden,Outdoor,Better Homes & Gardens,V2995,464864085662,20.09,29.94,17.92,3.36,False,False,False,152,5,16,9,11,Active
+302,Oster Bedding Item 0302,4,Home & Garden,Bedding,Oster,V1624,725199285280,132.05,195.09,18.29,1.589,False,False,False,9,3,27,10,21,Active
+303,Oster Decor Item 0303,4,Home & Garden,Decor,Oster,V2965,591614190375,136.08,181.34,18.0,1.534,False,False,False,96,6,50,5,9,Active
+304,Mainstays Bedding Item 0304,4,Home & Garden,Bedding,Mainstays,V3566,899192320465,39.69,59.27,3.86,0.103,False,False,False,22,5,49,15,19,Active
+305,Better Homes & Gardens Bedding Item 0305,4,Home & Garden,Bedding,Better Homes & Gardens,V3210,819287209443,52.49,81.76,38.78,1.835,False,False,False,308,6,66,12,5,Active
+306,Ozark Trail Furniture Item 0306,4,Home & Garden,Furniture,Ozark Trail,V3714,988903612601,79.66,111.59,49.09,3.424,False,False,False,78,4,22,8,19,Discontinued
+307,Mainstays Kitchen Item 0307,4,Home & Garden,Kitchen,Mainstays,V4118,355497477540,187.87,228.48,3.24,1.853,False,False,True,112,5,70,14,13,Active
+308,Hometrends Furniture Item 0308,4,Home & Garden,Furniture,Hometrends,V1422,798023981510,8.46,12.35,41.5,4.176,False,False,False,285,5,23,15,21,Active
+309,Ozark Trail Furniture Item 0309,4,Home & Garden,Furniture,Ozark Trail,V4716,667893028085,103.57,139.87,20.35,4.088,False,False,False,253,5,12,19,5,Active
+310,Mainstays Furniture Item 0310,4,Home & Garden,Furniture,Mainstays,V1615,272601445601,103.15,135.37,18.17,3.589,False,False,True,124,4,63,13,4,Active
+311,Hometrends Kitchen Item 0311,4,Home & Garden,Kitchen,Hometrends,V4413,123239635140,42.54,53.79,12.26,0.648,False,False,False,75,6,44,4,19,Active
+312,Mainstays Outdoor Item 0312,4,Home & Garden,Outdoor,Mainstays,V2660,802500332998,184.53,259.57,1.03,3.601,False,False,False,152,1,25,17,20,Seasonal
+313,Hometrends Decor Item 0313,4,Home & Garden,Decor,Hometrends,V1584,743362977122,44.26,60.38,41.04,0.918,False,False,False,142,2,58,24,11,Discontinued
+314,Ozark Trail Bedding Item 0314,4,Home & Garden,Bedding,Ozark Trail,V1541,117646174284,14.23,19.23,10.2,4.299,False,False,False,221,2,50,6,6,Active
+315,Ozark Trail Bedding Item 0315,4,Home & Garden,Bedding,Ozark Trail,V3061,232080479934,8.29,12.55,4.75,3.3,False,False,False,283,1,69,24,21,Active
+316,Hometrends Outdoor Item 0316,4,Home & Garden,Outdoor,Hometrends,V2757,631726830504,175.03,258.88,39.5,1.912,False,False,False,363,5,18,16,5,Active
+317,Mainstays Furniture Item 0317,4,Home & Garden,Furniture,Mainstays,V2673,307265694161,57.01,88.41,0.37,3.721,False,False,True,274,1,45,3,13,Active
+318,Oster Kitchen Item 0318,4,Home & Garden,Kitchen,Oster,V3668,377392052758,72.77,91.83,13.14,2.685,False,False,False,320,3,55,15,7,Active
+319,Ozark Trail Kitchen Item 0319,4,Home & Garden,Kitchen,Ozark Trail,V2981,732677257483,36.15,51.46,17.28,3.53,False,False,False,344,1,59,10,15,Active
+320,Mainstays Furniture Item 0320,4,Home & Garden,Furniture,Mainstays,V2386,704735062017,43.28,58.87,30.74,3.426,False,False,True,206,6,12,5,5,Active
+321,Ozark Trail Kitchen Item 0321,4,Home & Garden,Kitchen,Ozark Trail,V2518,766063698940,18.08,23.6,1.98,1.928,False,False,False,321,6,45,12,20,Active
+322,Mainstays Kitchen Item 0322,4,Home & Garden,Kitchen,Mainstays,V3690,984465872845,88.07,112.79,25.96,0.982,False,False,False,268,5,56,10,20,Active
+323,Better Homes & Gardens Outdoor Item 0323,4,Home & Garden,Outdoor,Better Homes & Gardens,V1644,955883631729,48.23,57.88,20.03,3.352,False,False,False,109,5,12,5,3,Active
+324,Ozark Trail Bedding Item 0324,4,Home & Garden,Bedding,Ozark Trail,V2132,766691862699,69.95,110.89,48.16,2.279,False,False,False,9,3,23,16,17,Active
+325,Better Homes & Gardens Bedding Item 0325,4,Home & Garden,Bedding,Better Homes & Gardens,V4288,995663475018,59.2,93.47,39.69,1.258,False,False,False,200,5,42,10,11,Seasonal
+326,Hometrends Kitchen Item 0326,4,Home & Garden,Kitchen,Hometrends,V2974,383967210094,179.36,277.08,3.47,3.172,False,False,False,353,6,26,13,14,Seasonal
+327,Ozark Trail Bedding Item 0327,4,Home & Garden,Bedding,Ozark Trail,V2016,200018147175,2.44,3.74,20.01,3.746,False,False,False,290,2,42,13,12,Active
+328,Ozark Trail Outdoor Item 0328,4,Home & Garden,Outdoor,Ozark Trail,V4810,310066538900,36.97,55.4,25.0,1.006,False,False,False,142,2,26,9,8,Active
+329,Oster Decor Item 0329,4,Home & Garden,Decor,Oster,V1321,644015264013,155.9,194.56,30.73,3.824,False,False,False,28,4,35,22,11,Active
+330,Ozark Trail Outdoor Item 0330,4,Home & Garden,Outdoor,Ozark Trail,V4751,407137980276,98.42,156.86,19.95,3.753,False,False,True,276,4,42,20,2,Active
+331,Hometrends Decor Item 0331,4,Home & Garden,Decor,Hometrends,V3122,445573371830,91.71,114.47,34.49,0.069,False,False,False,304,1,32,14,20,Active
+332,Mainstays Bedding Item 0332,4,Home & Garden,Bedding,Mainstays,V4926,476295330686,52.94,69.23,18.36,2.499,False,False,False,365,3,35,15,9,Active
+333,Ozark Trail Decor Item 0333,4,Home & Garden,Decor,Ozark Trail,V4334,890702919743,195.86,288.78,13.57,1.187,False,False,False,202,2,21,7,16,Active
+334,Mainstays Kitchen Item 0334,4,Home & Garden,Kitchen,Mainstays,V4479,669644312707,100.17,160.09,26.75,1.585,False,False,False,135,5,66,21,2,Active
+335,Mainstays Furniture Item 0335,4,Home & Garden,Furniture,Mainstays,V4436,205784452717,43.49,56.61,22.55,1.68,False,False,False,293,5,71,11,12,Active
+336,Better Homes & Gardens Outdoor Item 0336,4,Home & Garden,Outdoor,Better Homes & Gardens,V1814,733837760526,173.54,275.1,32.53,2.697,False,False,False,152,3,32,24,17,Active
+337,Hometrends Furniture Item 0337,4,Home & Garden,Furniture,Hometrends,V3587,263022331771,76.52,100.59,43.43,3.206,False,False,False,222,6,51,21,13,Active
+338,Better Homes & Gardens Furniture Item 0338,4,Home & Garden,Furniture,Better Homes & Gardens,V2297,420632249821,32.82,42.38,35.55,3.031,False,False,False,234,3,59,21,17,Seasonal
+339,Hometrends Decor Item 0339,4,Home & Garden,Decor,Hometrends,V3980,826857189147,37.19,44.97,12.66,3.722,False,False,False,114,2,37,6,4,Active
+340,Hometrends Bedding Item 0340,4,Home & Garden,Bedding,Hometrends,V3146,212026710909,11.24,16.95,13.2,0.785,False,False,False,206,3,26,10,10,Active
+341,Mainstays Decor Item 0341,4,Home & Garden,Decor,Mainstays,V1143,493691945766,105.59,133.91,43.03,1.633,False,False,False,283,3,47,17,5,Seasonal
+342,Ozark Trail Decor Item 0342,4,Home & Garden,Decor,Ozark Trail,V4067,579163664783,118.37,163.66,26.22,3.201,False,False,False,184,4,46,10,3,Active
+343,Oster Kitchen Item 0343,4,Home & Garden,Kitchen,Oster,V1000,995600823707,52.33,69.15,37.94,0.69,False,False,False,280,1,56,18,16,Active
+344,Hometrends Outdoor Item 0344,4,Home & Garden,Outdoor,Hometrends,V3245,307763218450,119.6,181.64,20.65,2.807,False,False,False,90,6,59,23,13,Active
+345,Mainstays Outdoor Item 0345,4,Home & Garden,Outdoor,Mainstays,V3116,979456995343,16.3,23.64,45.51,4.04,False,False,False,152,6,59,20,9,Active
+346,Better Homes & Gardens Decor Item 0346,4,Home & Garden,Decor,Better Homes & Gardens,V2865,596574366672,27.76,34.54,13.68,3.118,False,False,False,16,2,15,20,1,Active
+347,Better Homes & Gardens Outdoor Item 0347,4,Home & Garden,Outdoor,Better Homes & Gardens,V3978,353438306759,54.2,80.55,4.6,0.083,False,False,False,222,3,62,18,12,Active
+348,Better Homes & Gardens Outdoor Item 0348,4,Home & Garden,Outdoor,Better Homes & Gardens,V1598,392298458992,16.5,24.75,38.81,0.366,False,False,False,105,3,64,15,1,Active
+349,Mainstays Kitchen Item 0349,4,Home & Garden,Kitchen,Mainstays,V4021,138631235433,154.36,212.58,10.04,3.679,False,False,True,347,2,42,15,10,Discontinued
+350,Mainstays Furniture Item 0350,4,Home & Garden,Furniture,Mainstays,V1500,629368947342,149.07,211.65,31.96,1.002,False,False,False,348,2,19,10,21,Active
+351,Better Homes & Gardens Decor Item 0351,4,Home & Garden,Decor,Better Homes & Gardens,V2621,369677319074,158.98,227.96,0.55,0.22,False,False,False,250,6,50,7,12,Active
+352,Mainstays Decor Item 0352,4,Home & Garden,Decor,Mainstays,V2386,937505622295,100.23,147.78,31.29,0.308,False,False,False,281,1,20,18,8,Active
+353,Ozark Trail Outdoor Item 0353,4,Home & Garden,Outdoor,Ozark Trail,V1790,856005953800,161.2,221.73,18.95,3.625,False,False,False,27,4,57,17,18,Active
+354,Hometrends Decor Item 0354,4,Home & Garden,Decor,Hometrends,V2325,614246752633,113.56,160.97,13.84,4.158,False,False,False,290,2,16,19,5,Active
+355,Oster Bedding Item 0355,4,Home & Garden,Bedding,Oster,V3613,518784899627,73.74,88.51,36.71,4.416,False,False,False,193,5,27,13,3,Active
+356,Ozark Trail Kitchen Item 0356,4,Home & Garden,Kitchen,Ozark Trail,V4136,269872260739,38.38,56.54,30.69,1.62,False,False,False,63,1,45,24,3,Active
+357,Mainstays Decor Item 0357,4,Home & Garden,Decor,Mainstays,V2988,208197169617,174.76,223.84,1.69,3.212,False,False,False,257,5,51,21,9,Active
+358,Mainstays Bedding Item 0358,4,Home & Garden,Bedding,Mainstays,V4772,818156061706,143.71,173.2,24.62,4.45,False,False,True,334,1,35,20,14,Active
+359,Better Homes & Gardens Bedding Item 0359,4,Home & Garden,Bedding,Better Homes & Gardens,V1288,434296445181,53.53,65.11,3.99,1.087,False,False,False,58,6,26,20,13,Active
+360,Ozark Trail Decor Item 0360,4,Home & Garden,Decor,Ozark Trail,V3287,713103121288,114.22,180.35,20.82,0.537,False,False,False,190,6,41,24,14,Active
+361,Mainstays Decor Item 0361,4,Home & Garden,Decor,Mainstays,V3693,684794914950,110.22,154.51,49.92,2.221,False,False,False,168,5,32,14,14,Active
+362,Hometrends Outdoor Item 0362,4,Home & Garden,Outdoor,Hometrends,V1876,943424473649,121.88,173.71,27.56,3.725,False,False,False,238,4,37,3,2,Seasonal
+363,Ozark Trail Furniture Item 0363,4,Home & Garden,Furniture,Ozark Trail,V2236,426445727409,103.76,165.74,49.22,1.082,False,False,False,360,3,70,20,17,Active
+364,Ozark Trail Decor Item 0364,4,Home & Garden,Decor,Ozark Trail,V1639,388357267506,19.31,26.73,18.42,2.915,False,False,False,160,1,48,15,19,Discontinued
+365,Better Homes & Gardens Outdoor Item 0365,4,Home & Garden,Outdoor,Better Homes & Gardens,V4382,859775523172,158.68,201.39,35.17,4.099,False,False,True,335,3,14,21,13,Active
+366,Better Homes & Gardens Outdoor Item 0366,4,Home & Garden,Outdoor,Better Homes & Gardens,V2706,352416903282,69.91,106.74,37.41,4.249,False,False,False,331,6,36,4,10,Active
+367,Oster Bedding Item 0367,4,Home & Garden,Bedding,Oster,V3858,268452041215,113.2,150.64,2.62,3.661,False,False,False,235,5,48,19,3,Active
+368,Oster Kitchen Item 0368,4,Home & Garden,Kitchen,Oster,V2949,918498104890,30.03,40.07,2.56,2.002,False,False,True,263,4,61,7,5,Active
+369,Mainstays Kitchen Item 0369,4,Home & Garden,Kitchen,Mainstays,V3298,678685286593,79.37,113.38,12.39,0.368,False,False,False,172,6,71,21,3,Active
+370,Hometrends Kitchen Item 0370,4,Home & Garden,Kitchen,Hometrends,V2411,819810221356,73.37,93.63,1.31,1.531,False,False,False,322,4,51,7,15,Active
+371,Mainstays Decor Item 0371,4,Home & Garden,Decor,Mainstays,V3983,193856907340,137.23,173.24,5.71,0.282,False,False,False,82,3,12,13,4,Active
+372,Hometrends Furniture Item 0372,4,Home & Garden,Furniture,Hometrends,V1867,697875774280,66.71,99.8,26.21,1.301,False,False,False,79,6,56,24,1,Active
+373,Ozark Trail Furniture Item 0373,4,Home & Garden,Furniture,Ozark Trail,V1822,867893717470,51.46,62.99,30.94,0.275,False,False,False,11,1,36,24,9,Active
+374,Oster Furniture Item 0374,4,Home & Garden,Furniture,Oster,V3659,355063175086,4.31,6.67,48.99,2.548,False,False,False,168,4,67,22,18,Active
+375,Mainstays Bedding Item 0375,4,Home & Garden,Bedding,Mainstays,V3918,143041965203,193.37,275.41,12.44,2.652,False,False,False,208,6,22,3,12,Active
+376,Oster Outdoor Item 0376,4,Home & Garden,Outdoor,Oster,V3053,990243118434,47.62,75.78,3.19,1.296,False,False,False,22,5,72,11,8,Active
+377,Hometrends Decor Item 0377,4,Home & Garden,Decor,Hometrends,V4934,772926864069,18.02,24.38,43.65,3.436,False,False,False,300,2,39,12,20,Active
+378,Ozark Trail Decor Item 0378,4,Home & Garden,Decor,Ozark Trail,V3217,979111294904,41.75,52.41,10.2,0.699,False,False,False,275,2,39,7,21,Discontinued
+379,Mainstays Outdoor Item 0379,4,Home & Garden,Outdoor,Mainstays,V3946,302371932467,14.03,19.83,15.95,4.399,False,False,False,170,4,38,12,15,Active
+380,Oster Decor Item 0380,4,Home & Garden,Decor,Oster,V1756,937631143207,155.93,193.78,49.3,3.089,False,False,False,320,2,50,10,8,Active
+381,Oster Furniture Item 0381,4,Home & Garden,Furniture,Oster,V3057,765059099638,137.78,191.6,23.49,3.251,False,False,False,205,4,42,7,6,Active
+382,Better Homes & Gardens Kitchen Item 0382,4,Home & Garden,Kitchen,Better Homes & Gardens,V2105,555052635603,153.03,184.56,11.21,3.36,False,False,False,111,1,23,17,20,Active
+383,Oster Kitchen Item 0383,4,Home & Garden,Kitchen,Oster,V4179,765899573375,177.57,243.45,36.79,1.908,False,False,False,320,6,48,22,18,Active
+384,Better Homes & Gardens Bedding Item 0384,4,Home & Garden,Bedding,Better Homes & Gardens,V4595,370565057016,22.31,30.85,25.98,1.984,False,False,False,292,4,45,23,2,Active
+385,Hometrends Kitchen Item 0385,4,Home & Garden,Kitchen,Hometrends,V2171,282370097428,176.94,267.09,21.18,3.07,False,False,True,271,2,41,23,15,Active
+386,Ozark Trail Furniture Item 0386,4,Home & Garden,Furniture,Ozark Trail,V4663,699990241608,36.36,52.15,6.85,2.074,False,False,False,98,4,49,9,15,Active
+387,Oster Decor Item 0387,4,Home & Garden,Decor,Oster,V1467,596954459667,143.82,179.69,31.74,0.436,False,False,False,268,5,72,8,13,Active
+388,Better Homes & Gardens Decor Item 0388,4,Home & Garden,Decor,Better Homes & Gardens,V3701,266913907339,182.49,260.27,8.19,0.732,False,False,False,33,4,31,12,15,Active
+389,Mainstays Furniture Item 0389,4,Home & Garden,Furniture,Mainstays,V1014,940192498967,179.76,284.77,12.73,2.299,False,False,False,285,1,50,18,8,Active
+390,Hometrends Kitchen Item 0390,4,Home & Garden,Kitchen,Hometrends,V3458,366316203269,82.33,101.41,44.12,1.398,False,False,False,113,1,23,7,2,Active
+391,Better Homes & Gardens Decor Item 0391,4,Home & Garden,Decor,Better Homes & Gardens,V4432,429008605834,170.84,250.59,16.62,0.448,False,False,True,98,2,55,12,20,Active
+392,Ozark Trail Bedding Item 0392,4,Home & Garden,Bedding,Ozark Trail,V2865,738873528295,157.57,200.27,18.07,0.189,False,False,False,172,3,69,15,3,Active
+393,Ozark Trail Furniture Item 0393,4,Home & Garden,Furniture,Ozark Trail,V3845,404338839727,58.92,73.87,16.53,2.075,False,False,False,114,5,15,6,19,Active
+394,Ozark Trail Furniture Item 0394,4,Home & Garden,Furniture,Ozark Trail,V4825,416568319740,96.99,143.11,21.41,4.241,False,False,False,301,5,34,7,20,Active
+395,Ozark Trail Kitchen Item 0395,4,Home & Garden,Kitchen,Ozark Trail,V3496,878388612415,98.75,125.61,14.6,0.976,False,False,True,245,6,62,6,7,Active
+396,Hometrends Kitchen Item 0396,4,Home & Garden,Kitchen,Hometrends,V4301,334666290856,9.58,12.84,0.66,1.014,False,False,False,41,3,31,19,18,Active
+397,Better Homes & Gardens Furniture Item 0397,4,Home & Garden,Furniture,Better Homes & Gardens,V3967,776753364886,137.32,183.53,48.01,4.162,False,False,False,180,6,42,18,2,Active
+398,Hometrends Decor Item 0398,4,Home & Garden,Decor,Hometrends,V3199,468920204205,125.63,195.58,23.18,4.073,False,False,False,35,5,31,21,11,Active
+399,Better Homes & Gardens Decor Item 0399,4,Home & Garden,Decor,Better Homes & Gardens,V4752,975692418614,115.69,154.18,17.74,4.848,False,False,False,22,3,36,23,18,Active
+400,Ozark Trail Bedding Item 0400,4,Home & Garden,Bedding,Ozark Trail,V4541,927993862448,78.22,112.49,15.48,4.291,False,False,False,146,4,17,18,8,Active
+401,Athletic Works Camping Item 0401,5,Sporting Goods,Camping,Athletic Works,V2532,142026014401,105.26,133.68,38.91,4.568,False,False,False,19,4,69,19,5,Active
+402,Wilson Cycling Item 0402,5,Sporting Goods,Cycling,Wilson,V4151,211118530535,62.42,83.08,41.12,4.691,False,False,False,74,2,58,4,15,Active
+403,Russell Fitness Item 0403,5,Sporting Goods,Fitness,Russell,V3814,756477693926,1.32,2.08,43.61,1.673,False,False,False,59,5,61,24,10,Active
+404,Athletic Works Camping Item 0404,5,Sporting Goods,Camping,Athletic Works,V2133,450178458168,64.52,82.39,38.66,3.359,False,False,False,87,3,19,3,20,Active
+405,Spalding Camping Item 0405,5,Sporting Goods,Camping,Spalding,V2110,983493471760,108.73,154.37,14.24,1.232,False,False,True,320,3,46,17,2,Active
+406,Wilson Fitness Item 0406,5,Sporting Goods,Fitness,Wilson,V2746,294956797994,21.63,26.42,35.26,4.457,False,False,False,360,6,40,22,12,Active
+407,Ozark Trail Cycling Item 0407,5,Sporting Goods,Cycling,Ozark Trail,V4131,724770404277,16.17,25.37,6.68,4.066,False,False,False,246,1,41,12,21,Active
+408,Wilson Water Sports Item 0408,5,Sporting Goods,Water Sports,Wilson,V4527,778156871370,46.72,60.25,12.98,1.824,False,False,False,347,3,62,13,15,Active
+409,Spalding Water Sports Item 0409,5,Sporting Goods,Water Sports,Spalding,V4464,409971232353,23.02,32.03,38.42,3.026,False,False,True,59,4,64,6,11,Active
+410,Spalding Team Sports Item 0410,5,Sporting Goods,Team Sports,Spalding,V2693,779629505830,106.78,145.26,12.26,0.804,False,False,False,40,3,25,21,14,Active
+411,Wilson Cycling Item 0411,5,Sporting Goods,Cycling,Wilson,V1967,826592869398,157.57,223.4,33.51,3.699,False,False,False,256,1,49,22,15,Active
+412,Spalding Water Sports Item 0412,5,Sporting Goods,Water Sports,Spalding,V1285,218533620635,35.65,56.41,34.31,2.986,False,False,False,174,4,53,24,2,Active
+413,Ozark Trail Cycling Item 0413,5,Sporting Goods,Cycling,Ozark Trail,V1000,262165414008,180.7,262.82,33.08,2.27,False,False,False,322,5,40,9,7,Active
+414,Athletic Works Team Sports Item 0414,5,Sporting Goods,Team Sports,Athletic Works,V2247,580764364718,114.27,178.86,35.92,4.576,False,False,False,305,1,51,19,13,Active
+415,Athletic Works Fitness Item 0415,5,Sporting Goods,Fitness,Athletic Works,V1217,873097735295,74.16,105.27,28.05,4.894,False,False,True,151,1,27,16,19,Active
+416,Athletic Works Water Sports Item 0416,5,Sporting Goods,Water Sports,Athletic Works,V1865,291823923425,81.5,111.99,23.8,0.949,False,False,False,191,4,21,12,5,Active
+417,Spalding Fitness Item 0417,5,Sporting Goods,Fitness,Spalding,V3694,250281840476,29.23,45.42,4.32,3.215,False,False,False,240,6,50,16,20,Active
+418,Russell Water Sports Item 0418,5,Sporting Goods,Water Sports,Russell,V2455,302833012774,110.63,152.67,21.3,0.047,False,False,False,128,6,44,11,14,Discontinued
+419,Russell Team Sports Item 0419,5,Sporting Goods,Team Sports,Russell,V2979,506754373302,7.18,8.72,5.75,2.413,False,False,False,79,6,58,19,9,Active
+420,Spalding Cycling Item 0420,5,Sporting Goods,Cycling,Spalding,V2935,914457495256,178.04,219.95,33.22,3.347,False,False,False,283,5,31,22,2,Discontinued
+421,Russell Fitness Item 0421,5,Sporting Goods,Fitness,Russell,V2921,905624046529,94.04,132.13,16.64,1.771,False,False,False,157,3,22,4,20,Active
+422,Russell Team Sports Item 0422,5,Sporting Goods,Team Sports,Russell,V1692,158294989798,12.75,17.71,32.85,1.466,False,False,False,20,3,43,5,5,Active
+423,Athletic Works Team Sports Item 0423,5,Sporting Goods,Team Sports,Athletic Works,V4513,113988518323,26.94,35.36,37.1,3.023,False,False,False,84,6,40,14,6,Active
+424,Ozark Trail Water Sports Item 0424,5,Sporting Goods,Water Sports,Ozark Trail,V1135,753458100982,36.57,51.6,46.7,0.779,False,False,False,218,4,27,24,15,Active
+425,Ozark Trail Camping Item 0425,5,Sporting Goods,Camping,Ozark Trail,V1222,390521299250,115.76,177.89,37.8,0.589,False,False,False,211,4,31,18,18,Active
+426,Wilson Water Sports Item 0426,5,Sporting Goods,Water Sports,Wilson,V2780,413583563968,52.89,74.69,46.37,2.25,False,False,False,278,6,14,6,18,Active
+427,Wilson Cycling Item 0427,5,Sporting Goods,Cycling,Wilson,V2372,393218817973,183.65,283.43,40.14,1.284,False,False,False,243,6,59,10,19,Active
+428,Russell Team Sports Item 0428,5,Sporting Goods,Team Sports,Russell,V2283,110941912639,135.7,216.75,33.67,4.16,False,False,True,57,5,18,24,15,Active
+429,Athletic Works Team Sports Item 0429,5,Sporting Goods,Team Sports,Athletic Works,V1376,824106311497,39.02,47.19,44.71,1.092,False,False,False,69,6,19,5,20,Active
+430,Russell Camping Item 0430,5,Sporting Goods,Camping,Russell,V2037,612366270797,179.25,264.98,33.06,0.388,False,False,False,148,4,56,24,11,Active
+431,Spalding Team Sports Item 0431,5,Sporting Goods,Team Sports,Spalding,V2362,168702118928,155.53,210.45,12.99,4.066,False,False,False,42,4,71,9,20,Active
+432,Wilson Fitness Item 0432,5,Sporting Goods,Fitness,Wilson,V1894,807011601691,29.2,44.02,5.4,2.213,False,False,False,24,1,16,21,9,Active
+433,Spalding Water Sports Item 0433,5,Sporting Goods,Water Sports,Spalding,V4821,830306943107,30.2,43.98,19.59,0.767,False,False,False,207,5,12,19,16,Active
+434,Wilson Fitness Item 0434,5,Sporting Goods,Fitness,Wilson,V4908,631630321263,108.26,130.06,6.15,2.681,False,False,False,177,6,31,15,2,Active
+435,Spalding Team Sports Item 0435,5,Sporting Goods,Team Sports,Spalding,V1329,606124021048,107.16,169.78,38.05,1.457,False,False,False,290,1,36,24,7,Active
+436,Wilson Fitness Item 0436,5,Sporting Goods,Fitness,Wilson,V1347,795291700490,126.31,169.72,21.96,0.955,False,False,True,19,6,49,10,16,Active
+437,Russell Team Sports Item 0437,5,Sporting Goods,Team Sports,Russell,V4325,121456942049,100.19,158.9,1.95,0.29,False,False,False,28,4,19,9,21,Active
+438,Wilson Cycling Item 0438,5,Sporting Goods,Cycling,Wilson,V4788,138964087093,30.22,43.27,36.8,2.45,False,False,True,323,1,27,23,5,Active
+439,Spalding Team Sports Item 0439,5,Sporting Goods,Team Sports,Spalding,V3503,171257984899,164.24,203.48,40.91,0.541,False,False,False,322,2,16,9,14,Active
+440,Wilson Team Sports Item 0440,5,Sporting Goods,Team Sports,Wilson,V3235,452777143582,24.6,36.25,41.84,3.968,False,False,False,310,2,33,5,4,Active
+441,Wilson Camping Item 0441,5,Sporting Goods,Camping,Wilson,V2796,145449282964,139.41,198.15,6.76,3.957,False,False,False,199,2,13,18,3,Active
+442,Ozark Trail Fitness Item 0442,5,Sporting Goods,Fitness,Ozark Trail,V2162,861996872304,141.49,203.39,40.39,3.865,False,False,False,112,2,52,11,17,Active
+443,Ozark Trail Camping Item 0443,5,Sporting Goods,Camping,Ozark Trail,V1737,648541191787,122.3,148.6,30.64,0.449,False,False,False,161,3,38,3,18,Active
+444,Spalding Cycling Item 0444,5,Sporting Goods,Cycling,Spalding,V4533,656368873070,195.37,282.81,11.04,3.854,False,False,False,148,1,24,6,5,Active
+445,Wilson Water Sports Item 0445,5,Sporting Goods,Water Sports,Wilson,V1176,808901650662,35.68,52.38,18.27,1.056,False,False,False,322,4,14,6,2,Discontinued
+446,Ozark Trail Camping Item 0446,5,Sporting Goods,Camping,Ozark Trail,V1475,891284587528,157.21,219.15,22.3,2.903,False,False,False,353,3,26,6,11,Active
+447,Ozark Trail Water Sports Item 0447,5,Sporting Goods,Water Sports,Ozark Trail,V1903,615711883238,174.04,234.99,29.3,0.281,False,False,False,117,5,41,8,13,Active
+448,Wilson Camping Item 0448,5,Sporting Goods,Camping,Wilson,V1828,238881595793,126.59,201.31,1.7,2.848,False,False,False,63,4,41,16,6,Active
+449,Ozark Trail Team Sports Item 0449,5,Sporting Goods,Team Sports,Ozark Trail,V3613,774106971829,120.93,183.31,45.29,2.895,False,False,False,124,1,38,19,16,Active
+450,Ozark Trail Cycling Item 0450,5,Sporting Goods,Cycling,Ozark Trail,V1059,571286837656,94.96,131.53,36.84,1.241,False,False,False,303,2,69,21,5,Discontinued
+451,Spalding Water Sports Item 0451,5,Sporting Goods,Water Sports,Spalding,V2927,944963846736,196.05,238.4,25.26,2.134,False,False,False,363,1,40,18,8,Active
+452,Spalding Water Sports Item 0452,5,Sporting Goods,Water Sports,Spalding,V2211,809696368996,190.01,238.1,49.95,0.089,False,False,False,89,6,41,21,19,Active
+453,Wilson Water Sports Item 0453,5,Sporting Goods,Water Sports,Wilson,V2660,968377729665,154.48,239.39,43.59,3.138,False,False,False,7,6,16,15,11,Active
+454,Athletic Works Water Sports Item 0454,5,Sporting Goods,Water Sports,Athletic Works,V3508,733689933561,150.7,222.92,39.74,3.941,False,False,True,178,6,71,4,17,Discontinued
+455,Athletic Works Fitness Item 0455,5,Sporting Goods,Fitness,Athletic Works,V3535,499607512465,22.64,30.48,18.39,3.244,False,False,False,294,6,61,9,5,Seasonal
+456,Ozark Trail Cycling Item 0456,5,Sporting Goods,Cycling,Ozark Trail,V4846,738886165523,23.15,32.21,43.57,3.517,False,False,False,122,3,34,11,17,Active
+457,Athletic Works Fitness Item 0457,5,Sporting Goods,Fitness,Athletic Works,V2991,677679329426,13.14,17.58,41.5,2.356,False,False,False,279,3,40,22,12,Active
+458,Spalding Camping Item 0458,5,Sporting Goods,Camping,Spalding,V1328,414300603536,178.43,246.8,47.92,0.394,False,False,False,64,6,21,18,5,Active
+459,Russell Fitness Item 0459,5,Sporting Goods,Fitness,Russell,V3217,245735634034,58.99,93.67,23.75,2.106,False,False,False,17,3,24,5,1,Active
+460,Ozark Trail Cycling Item 0460,5,Sporting Goods,Cycling,Ozark Trail,V2404,811486073746,129.11,176.19,39.36,2.436,False,False,False,278,5,40,17,10,Active
+461,Athletic Works Camping Item 0461,5,Sporting Goods,Camping,Athletic Works,V2523,417701840664,157.96,203.88,38.51,0.246,False,False,False,240,2,51,8,18,Active
+462,Ozark Trail Camping Item 0462,5,Sporting Goods,Camping,Ozark Trail,V2296,239906520296,32.67,40.73,22.1,1.855,False,False,False,24,6,32,14,5,Active
+463,Russell Camping Item 0463,5,Sporting Goods,Camping,Russell,V1102,943958569327,106.96,133.55,7.35,2.296,False,False,False,9,6,46,19,11,Active
+464,Athletic Works Water Sports Item 0464,5,Sporting Goods,Water Sports,Athletic Works,V4089,832608581529,179.25,284.62,7.44,2.831,False,False,False,233,3,56,6,16,Discontinued
+465,Ozark Trail Cycling Item 0465,5,Sporting Goods,Cycling,Ozark Trail,V3529,344129707432,23.82,28.82,22.35,0.471,False,False,True,335,2,49,19,8,Active
+466,Athletic Works Camping Item 0466,5,Sporting Goods,Camping,Athletic Works,V2824,837347372732,5.0,7.08,47.89,4.879,False,False,False,258,3,50,22,17,Discontinued
+467,Athletic Works Water Sports Item 0467,5,Sporting Goods,Water Sports,Athletic Works,V2514,509680234192,30.02,46.28,0.71,1.731,False,False,False,235,5,17,9,15,Active
+468,Wilson Water Sports Item 0468,5,Sporting Goods,Water Sports,Wilson,V4974,567712161506,58.08,88.41,36.46,2.077,False,False,False,313,1,21,9,10,Active
+469,Russell Team Sports Item 0469,5,Sporting Goods,Team Sports,Russell,V4097,196103210726,13.69,21.69,0.43,3.198,False,False,False,96,5,41,21,5,Active
+470,Wilson Team Sports Item 0470,5,Sporting Goods,Team Sports,Wilson,V4384,433225932101,111.0,135.08,24.76,3.702,False,False,False,8,2,28,12,21,Active
+471,Wilson Fitness Item 0471,5,Sporting Goods,Fitness,Wilson,V2708,637641310201,130.94,203.88,45.35,3.227,False,False,True,148,4,16,22,12,Active
+472,Russell Water Sports Item 0472,5,Sporting Goods,Water Sports,Russell,V2949,864393620857,173.74,252.13,40.93,1.872,False,False,False,15,3,22,21,2,Active
+473,Wilson Camping Item 0473,5,Sporting Goods,Camping,Wilson,V2479,797586500875,71.8,87.68,45.61,1.786,False,False,False,278,6,71,5,17,Active
+474,Ozark Trail Fitness Item 0474,5,Sporting Goods,Fitness,Ozark Trail,V2321,447344498431,119.95,151.96,41.36,3.428,False,False,False,357,6,56,14,4,Active
+475,Athletic Works Camping Item 0475,5,Sporting Goods,Camping,Athletic Works,V2527,635920898920,3.07,4.32,20.66,4.605,False,False,False,118,2,44,10,7,Active
+476,Russell Cycling Item 0476,5,Sporting Goods,Cycling,Russell,V4465,883969381308,138.09,218.32,27.6,3.784,False,False,True,242,1,19,7,1,Active
+477,Athletic Works Team Sports Item 0477,5,Sporting Goods,Team Sports,Athletic Works,V3447,939765410760,28.23,38.87,48.51,0.869,False,False,False,67,2,20,7,8,Active
+478,Ozark Trail Camping Item 0478,5,Sporting Goods,Camping,Ozark Trail,V4125,223626466328,196.23,268.82,3.98,3.876,False,False,False,28,2,18,4,17,Active
+479,Wilson Fitness Item 0479,5,Sporting Goods,Fitness,Wilson,V2235,111457196449,181.75,221.25,37.75,3.914,False,False,False,112,5,69,9,6,Active
+480,Spalding Fitness Item 0480,5,Sporting Goods,Fitness,Spalding,V2136,739730188719,29.54,44.27,17.46,0.811,False,False,False,320,2,44,21,3,Active
+481,Russell Fitness Item 0481,5,Sporting Goods,Fitness,Russell,V4949,285894159424,106.0,157.55,45.09,2.69,False,False,False,57,2,70,19,16,Active
+482,Russell Camping Item 0482,5,Sporting Goods,Camping,Russell,V1740,490132246890,88.21,139.65,49.07,2.126,False,False,False,215,1,60,13,4,Active
+483,Russell Camping Item 0483,5,Sporting Goods,Camping,Russell,V2180,892666846704,99.42,133.67,2.13,1.647,False,False,True,152,4,50,12,15,Active
+484,Wilson Team Sports Item 0484,5,Sporting Goods,Team Sports,Wilson,V4509,984080613444,197.0,270.12,23.84,3.399,False,False,False,352,4,55,6,13,Active
+485,Spalding Fitness Item 0485,5,Sporting Goods,Fitness,Spalding,V3418,215867784558,29.1,39.58,37.1,4.463,False,False,False,193,2,33,9,20,Active
+486,Wilson Fitness Item 0486,5,Sporting Goods,Fitness,Wilson,V3044,938714849833,46.96,64.33,35.7,2.914,False,False,False,336,4,34,18,20,Seasonal
+487,Wilson Cycling Item 0487,5,Sporting Goods,Cycling,Wilson,V1442,375402709250,56.14,84.61,24.52,1.162,False,False,False,22,1,59,4,3,Active
+488,Spalding Camping Item 0488,5,Sporting Goods,Camping,Spalding,V1625,784200112629,76.84,113.08,31.2,3.803,False,False,False,273,4,62,17,7,Active
+489,Wilson Water Sports Item 0489,5,Sporting Goods,Water Sports,Wilson,V4315,696397751300,101.21,143.41,27.38,4.763,False,False,True,227,1,36,17,11,Active
+490,Wilson Water Sports Item 0490,5,Sporting Goods,Water Sports,Wilson,V3700,958393712962,7.68,9.76,15.22,3.533,False,False,False,75,3,57,15,16,Active
+491,Russell Water Sports Item 0491,5,Sporting Goods,Water Sports,Russell,V3343,621708897396,132.19,194.87,28.16,0.79,False,False,True,141,4,49,15,20,Active
+492,Athletic Works Team Sports Item 0492,5,Sporting Goods,Team Sports,Athletic Works,V1525,503026563330,12.75,18.31,17.51,3.713,False,False,True,327,3,36,6,14,Active
+493,Athletic Works Water Sports Item 0493,5,Sporting Goods,Water Sports,Athletic Works,V2014,809677298029,70.58,103.36,15.67,0.434,False,False,False,163,1,33,8,1,Active
+494,Spalding Water Sports Item 0494,5,Sporting Goods,Water Sports,Spalding,V3108,563433026487,131.72,180.32,13.4,3.483,False,False,False,169,4,48,15,11,Active
+495,Wilson Fitness Item 0495,5,Sporting Goods,Fitness,Wilson,V3034,991217604627,138.33,177.39,38.27,1.704,False,False,False,193,4,24,18,21,Active
+496,Spalding Cycling Item 0496,5,Sporting Goods,Cycling,Spalding,V2217,731343990585,43.21,56.43,20.16,1.137,False,False,False,54,6,66,21,4,Active
+497,Athletic Works Fitness Item 0497,5,Sporting Goods,Fitness,Athletic Works,V2749,478857944892,113.5,160.31,39.8,3.261,False,False,False,160,4,54,20,11,Active
+498,Wilson Team Sports Item 0498,5,Sporting Goods,Team Sports,Wilson,V4127,299920258599,125.18,172.91,44.06,3.143,False,False,False,102,5,43,9,15,Active
+499,Russell Cycling Item 0499,5,Sporting Goods,Cycling,Russell,V4828,901295368659,170.63,266.65,31.38,2.616,False,False,False,82,2,21,24,10,Active
+500,Wilson Team Sports Item 0500,5,Sporting Goods,Team Sports,Wilson,V3596,393829185489,172.11,269.26,41.2,3.234,False,False,False,314,2,37,10,4,Active
+501,Equate Vitamins Item 0501,6,Pharmacy,Vitamins,Equate,V2988,565729644572,159.51,211.23,32.38,0.195,True,True,False,76,1,28,11,18,Active
+502,Equate Diabetic Item 0502,6,Pharmacy,Diabetic,Equate,V4672,443957858323,156.56,191.34,30.12,4.337,True,True,False,215,3,54,24,3,Active
+503,ReliOn Vitamins Item 0503,6,Pharmacy,Vitamins,ReliOn,V4821,671748806457,22.83,34.1,33.24,2.906,True,False,False,275,3,43,5,8,Active
+504,Sunmark First Aid Item 0504,6,Pharmacy,First Aid,Sunmark,V4300,919258029059,166.55,248.97,11.87,2.12,True,False,True,96,2,29,17,14,Active
+505,GoodSense OTC Meds Item 0505,6,Pharmacy,OTC Meds,GoodSense,V4885,448377516286,98.33,132.73,27.33,2.38,True,False,False,149,2,35,18,12,Active
+506,Equate Personal Care Item 0506,6,Pharmacy,Personal Care,Equate,V4272,159875487435,7.44,11.13,34.57,3.946,True,True,False,289,4,31,23,12,Discontinued
+507,Equate Personal Care Item 0507,6,Pharmacy,Personal Care,Equate,V2591,533623110714,173.46,267.66,46.38,4.59,True,True,False,127,3,25,8,15,Active
+508,Kroger Health OTC Meds Item 0508,6,Pharmacy,OTC Meds,Kroger Health,V4192,640910309067,55.17,67.97,23.61,2.071,True,False,False,223,1,64,8,9,Active
+509,Sunmark Diabetic Item 0509,6,Pharmacy,Diabetic,Sunmark,V4021,599619665689,120.62,183.99,34.79,3.812,True,False,False,101,6,40,23,5,Active
+510,ReliOn First Aid Item 0510,6,Pharmacy,First Aid,ReliOn,V1646,668007722228,63.09,77.78,35.71,3.84,True,False,False,73,5,55,16,11,Active
+511,ReliOn First Aid Item 0511,6,Pharmacy,First Aid,ReliOn,V2341,412671594798,35.11,50.46,10.01,2.078,True,False,False,200,5,26,3,1,Discontinued
+512,GoodSense Vitamins Item 0512,6,Pharmacy,Vitamins,GoodSense,V1812,869923496117,181.42,288.39,42.61,0.258,True,False,False,314,3,21,5,12,Active
+513,GoodSense OTC Meds Item 0513,6,Pharmacy,OTC Meds,GoodSense,V4167,644059012401,3.32,4.68,6.01,3.571,True,False,False,143,3,59,18,13,Active
+514,ReliOn Personal Care Item 0514,6,Pharmacy,Personal Care,ReliOn,V3976,309066933321,43.51,66.55,20.97,2.049,True,False,True,155,3,27,22,15,Discontinued
+515,Sunmark Personal Care Item 0515,6,Pharmacy,Personal Care,Sunmark,V1042,248042719236,137.01,189.52,43.59,4.872,True,False,False,115,6,36,16,20,Active
+516,Equate Personal Care Item 0516,6,Pharmacy,Personal Care,Equate,V1961,760575627385,12.22,16.29,35.51,4.051,True,True,True,265,5,36,12,13,Active
+517,ReliOn Personal Care Item 0517,6,Pharmacy,Personal Care,ReliOn,V1695,643329454977,8.7,11.06,46.52,4.391,True,False,True,169,6,45,16,5,Active
+518,Sunmark OTC Meds Item 0518,6,Pharmacy,OTC Meds,Sunmark,V4986,408528134064,195.71,273.93,37.42,4.632,True,False,False,141,5,65,11,17,Active
+519,ReliOn First Aid Item 0519,6,Pharmacy,First Aid,ReliOn,V4891,710535033173,147.51,206.0,42.67,3.291,True,False,False,34,2,21,4,8,Active
+520,Kroger Health First Aid Item 0520,6,Pharmacy,First Aid,Kroger Health,V1475,645148200208,33.13,45.95,2.14,1.789,True,False,False,255,4,43,6,5,Active
+521,Equate Vitamins Item 0521,6,Pharmacy,Vitamins,Equate,V1689,661566701883,173.7,220.99,41.15,2.821,True,True,False,115,5,12,19,19,Active
+522,Equate Vitamins Item 0522,6,Pharmacy,Vitamins,Equate,V4634,127181378199,153.77,226.16,14.29,4.907,True,True,True,198,5,71,6,11,Active
+523,Equate Diabetic Item 0523,6,Pharmacy,Diabetic,Equate,V2859,753991742871,166.22,243.32,32.93,1.654,True,True,True,325,4,32,21,5,Active
+524,Equate First Aid Item 0524,6,Pharmacy,First Aid,Equate,V1289,519198650113,64.97,79.41,4.72,1.283,True,True,False,211,1,13,9,6,Active
+525,Kroger Health First Aid Item 0525,6,Pharmacy,First Aid,Kroger Health,V1631,426935496094,129.61,205.01,24.59,2.167,True,False,False,165,6,50,7,12,Active
+526,Sunmark Personal Care Item 0526,6,Pharmacy,Personal Care,Sunmark,V2589,394104069004,40.37,55.64,28.2,2.121,True,False,False,195,5,23,16,21,Active
+527,Equate Personal Care Item 0527,6,Pharmacy,Personal Care,Equate,V1918,854400743200,68.68,95.15,35.71,4.654,True,True,False,338,5,17,12,15,Active
+528,Kroger Health First Aid Item 0528,6,Pharmacy,First Aid,Kroger Health,V4698,672298609049,30.15,37.72,21.44,2.847,True,False,False,30,5,18,19,14,Active
+529,Kroger Health Personal Care Item 0529,6,Pharmacy,Personal Care,Kroger Health,V3398,942164787591,162.66,218.32,25.22,0.579,True,False,False,98,2,65,15,2,Active
+530,Sunmark First Aid Item 0530,6,Pharmacy,First Aid,Sunmark,V3745,784832311602,117.65,162.59,40.41,1.713,True,False,False,102,2,23,5,20,Active
+531,Equate Diabetic Item 0531,6,Pharmacy,Diabetic,Equate,V1477,284740736556,107.11,128.78,32.82,2.306,True,True,False,343,6,50,18,10,Active
+532,GoodSense First Aid Item 0532,6,Pharmacy,First Aid,GoodSense,V3765,982164795889,138.29,219.23,15.2,0.634,True,False,True,64,1,56,9,1,Active
+533,ReliOn Vitamins Item 0533,6,Pharmacy,Vitamins,ReliOn,V4235,308471624585,87.44,126.83,4.4,3.851,True,False,True,223,1,19,8,5,Active
+534,Kroger Health Diabetic Item 0534,6,Pharmacy,Diabetic,Kroger Health,V3397,320085418516,94.56,145.99,14.81,4.149,True,False,False,177,1,18,23,14,Seasonal
+535,Kroger Health Personal Care Item 0535,6,Pharmacy,Personal Care,Kroger Health,V2191,632734932435,119.37,169.71,20.04,2.572,True,False,False,354,4,26,4,17,Active
+536,GoodSense First Aid Item 0536,6,Pharmacy,First Aid,GoodSense,V3655,226587022710,110.87,144.92,24.79,4.695,True,False,False,364,4,13,8,10,Active
+537,Kroger Health First Aid Item 0537,6,Pharmacy,First Aid,Kroger Health,V3407,855523703378,87.9,123.33,17.02,3.014,True,False,False,343,4,20,12,13,Seasonal
+538,Sunmark Diabetic Item 0538,6,Pharmacy,Diabetic,Sunmark,V3547,410127599441,160.05,246.13,34.57,0.44,True,False,False,95,2,22,22,16,Active
+539,Kroger Health Diabetic Item 0539,6,Pharmacy,Diabetic,Kroger Health,V1192,121471663470,61.08,78.41,18.0,1.311,True,False,False,96,5,14,5,11,Active
+540,GoodSense Vitamins Item 0540,6,Pharmacy,Vitamins,GoodSense,V2056,477929904094,24.58,31.7,39.27,3.849,True,False,False,292,3,69,7,17,Active
+541,Equate OTC Meds Item 0541,6,Pharmacy,OTC Meds,Equate,V2872,223505067414,185.36,254.89,48.74,3.91,True,True,False,59,5,14,19,4,Active
+542,Equate Vitamins Item 0542,6,Pharmacy,Vitamins,Equate,V2196,588372842938,182.24,230.14,38.12,2.497,True,True,False,85,6,35,13,5,Active
+543,ReliOn Diabetic Item 0543,6,Pharmacy,Diabetic,ReliOn,V1026,623166295059,193.94,292.4,17.13,2.53,True,False,True,197,6,60,16,12,Active
+544,ReliOn Vitamins Item 0544,6,Pharmacy,Vitamins,ReliOn,V4224,251303889625,150.76,212.85,40.11,2.073,True,False,False,241,5,62,24,12,Discontinued
+545,Kroger Health Vitamins Item 0545,6,Pharmacy,Vitamins,Kroger Health,V3119,177067359177,154.15,229.23,4.33,1.581,True,False,False,91,4,15,15,2,Active
+546,ReliOn Personal Care Item 0546,6,Pharmacy,Personal Care,ReliOn,V3921,829281455822,12.03,17.48,43.8,4.864,True,False,False,355,6,47,12,11,Discontinued
+547,Equate First Aid Item 0547,6,Pharmacy,First Aid,Equate,V1601,545389375897,180.09,260.08,22.36,1.034,True,True,False,323,6,40,14,21,Active
+548,ReliOn First Aid Item 0548,6,Pharmacy,First Aid,ReliOn,V2597,893388257591,17.31,24.49,37.03,0.639,True,False,False,152,2,17,19,18,Active
+549,Sunmark Vitamins Item 0549,6,Pharmacy,Vitamins,Sunmark,V3211,386012625136,5.17,8.05,12.14,3.873,True,False,False,265,1,58,4,12,Active
+550,GoodSense First Aid Item 0550,6,Pharmacy,First Aid,GoodSense,V4855,590162068087,25.2,37.87,14.97,3.687,True,False,False,127,6,49,21,21,Active
+551,GoodSense Vitamins Item 0551,6,Pharmacy,Vitamins,GoodSense,V4214,889479753792,70.39,92.48,28.68,0.708,True,False,False,133,1,32,19,19,Active
+552,Sunmark Diabetic Item 0552,6,Pharmacy,Diabetic,Sunmark,V4393,187669099901,20.05,29.77,4.7,2.13,True,False,True,116,4,16,14,17,Active
+553,GoodSense Personal Care Item 0553,6,Pharmacy,Personal Care,GoodSense,V3393,797927148904,155.88,241.43,21.23,2.206,True,False,False,257,6,38,8,5,Active
+554,Kroger Health Diabetic Item 0554,6,Pharmacy,Diabetic,Kroger Health,V4535,231121662655,26.31,38.99,34.75,2.283,True,False,True,87,5,35,6,20,Active
+555,Equate OTC Meds Item 0555,6,Pharmacy,OTC Meds,Equate,V3141,229507456756,74.23,97.67,18.64,4.955,True,True,False,255,1,62,7,5,Active
+556,Kroger Health OTC Meds Item 0556,6,Pharmacy,OTC Meds,Kroger Health,V2161,298494410942,187.4,247.76,40.97,2.449,True,False,True,185,1,67,4,14,Active
+557,Sunmark Personal Care Item 0557,6,Pharmacy,Personal Care,Sunmark,V2545,244335424167,90.75,121.16,38.12,2.529,True,False,False,237,6,40,7,11,Active
+558,GoodSense Personal Care Item 0558,6,Pharmacy,Personal Care,GoodSense,V2619,694161471653,82.22,106.32,2.39,3.356,True,False,False,149,6,17,8,1,Active
+559,Sunmark Personal Care Item 0559,6,Pharmacy,Personal Care,Sunmark,V1348,695362800524,129.21,188.33,28.89,0.274,True,False,False,103,4,44,3,4,Active
+560,GoodSense Vitamins Item 0560,6,Pharmacy,Vitamins,GoodSense,V1842,739467612546,192.49,252.16,22.27,4.037,True,False,False,212,5,14,18,1,Active
+561,ReliOn Diabetic Item 0561,6,Pharmacy,Diabetic,ReliOn,V2564,199888818026,5.3,7.48,5.82,0.506,True,False,False,80,2,28,5,5,Active
+562,Kroger Health Vitamins Item 0562,6,Pharmacy,Vitamins,Kroger Health,V1743,881800747246,12.25,19.41,3.02,1.956,True,False,False,218,3,28,15,4,Active
+563,ReliOn Personal Care Item 0563,6,Pharmacy,Personal Care,ReliOn,V4081,523073267793,117.41,164.04,47.47,1.354,True,False,False,290,4,16,18,1,Active
+564,ReliOn OTC Meds Item 0564,6,Pharmacy,OTC Meds,ReliOn,V3765,371018919289,54.2,85.93,38.17,3.261,True,False,True,297,4,40,5,21,Active
+565,ReliOn First Aid Item 0565,6,Pharmacy,First Aid,ReliOn,V2004,713800187514,108.32,137.27,22.64,0.015,True,False,False,324,3,53,8,1,Active
+566,Kroger Health First Aid Item 0566,6,Pharmacy,First Aid,Kroger Health,V2557,486543800499,119.77,183.94,42.14,1.072,True,False,False,151,1,22,20,19,Active
+567,Equate Diabetic Item 0567,6,Pharmacy,Diabetic,Equate,V3969,329488531225,139.84,214.26,30.56,4.788,True,True,False,356,3,52,11,15,Active
+568,Sunmark First Aid Item 0568,6,Pharmacy,First Aid,Sunmark,V2345,249000339982,42.52,67.33,32.36,0.02,True,False,False,11,6,23,16,18,Active
+569,Kroger Health Diabetic Item 0569,6,Pharmacy,Diabetic,Kroger Health,V3658,184401546835,107.86,163.4,26.98,4.464,True,False,False,234,6,19,14,13,Active
+570,Sunmark Diabetic Item 0570,6,Pharmacy,Diabetic,Sunmark,V3855,112815304110,35.85,54.03,6.33,1.859,True,False,False,11,2,59,3,9,Active
+571,Sunmark Vitamins Item 0571,6,Pharmacy,Vitamins,Sunmark,V2241,889451128984,18.45,26.67,11.14,4.901,True,False,False,25,3,43,22,7,Active
+572,Kroger Health OTC Meds Item 0572,6,Pharmacy,OTC Meds,Kroger Health,V3023,706322582280,174.05,248.48,9.77,3.697,True,False,False,315,5,23,5,19,Active
+573,Equate Vitamins Item 0573,6,Pharmacy,Vitamins,Equate,V1933,675014529829,52.3,74.68,36.47,1.379,True,True,False,18,6,55,20,20,Active
+574,GoodSense Diabetic Item 0574,6,Pharmacy,Diabetic,GoodSense,V3757,817015044072,0.89,1.22,2.69,4.694,True,False,False,215,3,19,24,17,Active
+575,Sunmark Personal Care Item 0575,6,Pharmacy,Personal Care,Sunmark,V1919,405144389641,151.92,236.01,45.93,2.667,True,False,False,207,2,33,5,19,Active
+576,ReliOn Diabetic Item 0576,6,Pharmacy,Diabetic,ReliOn,V1806,461483695843,191.58,300.17,15.61,3.134,True,False,True,252,4,63,3,19,Active
+577,Sunmark First Aid Item 0577,6,Pharmacy,First Aid,Sunmark,V4927,672663401870,49.81,69.21,39.73,4.718,True,False,False,324,4,60,6,21,Active
+578,Equate OTC Meds Item 0578,6,Pharmacy,OTC Meds,Equate,V2545,863850021420,194.92,305.38,3.34,0.646,True,True,False,233,1,31,22,21,Active
+579,Equate OTC Meds Item 0579,6,Pharmacy,OTC Meds,Equate,V2562,204804430740,112.07,147.7,30.9,2.061,True,True,False,344,5,12,17,13,Active
+580,Kroger Health Personal Care Item 0580,6,Pharmacy,Personal Care,Kroger Health,V4840,961895895455,124.04,165.7,1.4,2.591,True,False,False,62,1,12,22,3,Active
+581,ReliOn Personal Care Item 0581,6,Pharmacy,Personal Care,ReliOn,V2455,630089188735,25.63,35.97,36.26,2.229,True,False,False,29,1,20,12,19,Active
+582,Sunmark First Aid Item 0582,6,Pharmacy,First Aid,Sunmark,V1596,616029192622,116.94,165.64,15.5,1.721,True,False,False,11,5,49,24,5,Active
+583,GoodSense Personal Care Item 0583,6,Pharmacy,Personal Care,GoodSense,V1800,323237413951,171.81,235.18,32.06,1.014,True,False,True,103,6,42,17,20,Active
+584,GoodSense Personal Care Item 0584,6,Pharmacy,Personal Care,GoodSense,V2714,277505067214,192.63,278.63,5.33,4.382,True,False,False,260,2,70,3,21,Active
+585,ReliOn Diabetic Item 0585,6,Pharmacy,Diabetic,ReliOn,V4008,464276159455,124.97,161.91,40.38,1.886,True,False,False,10,3,12,5,12,Active
+586,Equate Vitamins Item 0586,6,Pharmacy,Vitamins,Equate,V3398,941438676992,58.47,74.71,18.06,4.877,True,True,False,152,2,26,11,6,Active
+587,GoodSense Vitamins Item 0587,6,Pharmacy,Vitamins,GoodSense,V4452,121909445181,36.12,43.65,41.59,0.695,True,False,False,63,3,71,9,10,Active
+588,Sunmark First Aid Item 0588,6,Pharmacy,First Aid,Sunmark,V4272,787184867098,132.35,208.65,44.1,4.393,True,False,True,80,2,62,9,7,Active
+589,Sunmark First Aid Item 0589,6,Pharmacy,First Aid,Sunmark,V2001,151200363526,120.11,191.07,38.18,2.941,True,False,False,157,2,32,10,2,Active
+590,Sunmark Vitamins Item 0590,6,Pharmacy,Vitamins,Sunmark,V4628,329733465502,170.37,270.44,36.39,3.925,True,False,False,321,1,22,19,13,Active
+591,GoodSense First Aid Item 0591,6,Pharmacy,First Aid,GoodSense,V2318,511082000948,99.97,138.53,26.32,2.422,True,False,False,249,3,49,15,21,Discontinued
+592,GoodSense OTC Meds Item 0592,6,Pharmacy,OTC Meds,GoodSense,V2851,361405317240,41.84,65.18,19.86,1.537,True,False,False,299,2,71,14,9,Active
+593,ReliOn OTC Meds Item 0593,6,Pharmacy,OTC Meds,ReliOn,V1942,145457771622,59.36,83.55,23.32,3.109,True,False,False,246,4,38,14,16,Active
+594,Kroger Health OTC Meds Item 0594,6,Pharmacy,OTC Meds,Kroger Health,V3643,491167962318,36.32,46.98,45.08,1.48,True,False,False,286,6,17,11,8,Active
+595,Equate First Aid Item 0595,6,Pharmacy,First Aid,Equate,V1805,463676816751,8.14,10.42,12.58,3.729,True,True,False,147,2,57,22,5,Seasonal
+596,GoodSense First Aid Item 0596,6,Pharmacy,First Aid,GoodSense,V4368,960482233828,2.2,2.9,49.84,4.73,True,False,False,342,1,42,23,17,Seasonal
+597,ReliOn Diabetic Item 0597,6,Pharmacy,Diabetic,ReliOn,V1859,355440767243,45.9,68.36,25.84,3.932,True,False,False,243,3,62,5,11,Active
+598,Kroger Health Diabetic Item 0598,6,Pharmacy,Diabetic,Kroger Health,V3287,508151189124,42.31,58.39,7.03,4.37,True,False,False,11,4,63,24,12,Active
+599,Kroger Health Diabetic Item 0599,6,Pharmacy,Diabetic,Kroger Health,V4189,691376274389,137.31,186.93,15.05,2.939,True,False,False,23,2,21,13,19,Active
+600,GoodSense Personal Care Item 0600,6,Pharmacy,Personal Care,GoodSense,V2561,170397246222,114.99,155.97,26.77,0.95,True,False,True,298,4,52,12,3,Active
+601,Armor All Batteries Item 0601,7,Automotive,Batteries,Armor All,V3001,301978733435,6.9,10.18,10.03,4.558,False,False,False,112,2,30,24,17,Active
+602,Super Tech Tires Item 0602,7,Automotive,Tires,Super Tech,V4521,554879180784,103.95,131.88,19.62,4.948,False,True,True,221,4,59,5,13,Seasonal
+603,EverStart Batteries Item 0603,7,Automotive,Batteries,EverStart,V4350,833192456693,174.15,230.56,23.79,3.023,False,False,False,307,2,44,24,15,Active
+604,Super Tech Batteries Item 0604,7,Automotive,Batteries,Super Tech,V3477,374051408484,89.42,136.8,26.34,4.552,False,True,False,242,4,48,4,3,Active
+605,Rain-X Tires Item 0605,7,Automotive,Tires,Rain-X,V2218,771694618508,140.21,208.16,41.19,4.251,False,False,False,98,5,58,16,15,Active
+606,EverStart Tools Item 0606,7,Automotive,Tools,EverStart,V1178,275537630916,19.56,28.94,13.76,3.144,False,False,False,41,6,58,9,16,Active
+607,Armor All Oil & Fluids Item 0607,7,Automotive,Oil & Fluids,Armor All,V1430,943979949373,199.07,244.98,39.0,2.056,False,False,False,113,5,14,17,1,Active
+608,Rain-X Accessories Item 0608,7,Automotive,Accessories,Rain-X,V1796,140358408942,69.06,93.9,0.64,0.582,False,False,False,174,6,59,17,16,Active
+609,Super Tech Tools Item 0609,7,Automotive,Tools,Super Tech,V2792,615998469408,131.58,195.45,41.04,4.209,False,True,False,16,5,18,8,10,Active
+610,Rain-X Batteries Item 0610,7,Automotive,Batteries,Rain-X,V3774,268677334106,15.98,24.06,22.09,0.898,False,False,False,352,5,25,17,2,Active
+611,Armor All Oil & Fluids Item 0611,7,Automotive,Oil & Fluids,Armor All,V1214,106864239738,78.43,103.79,2.53,1.893,False,False,False,134,3,70,10,7,Active
+612,Rain-X Oil & Fluids Item 0612,7,Automotive,Oil & Fluids,Rain-X,V1787,837359811522,197.86,264.11,3.25,4.794,False,False,True,347,2,58,8,2,Active
+613,Super Tech Tires Item 0613,7,Automotive,Tires,Super Tech,V3558,536118292069,64.87,94.11,46.95,0.613,False,True,False,189,3,23,3,13,Active
+614,Super Tech Accessories Item 0614,7,Automotive,Accessories,Super Tech,V3695,408443440983,42.95,55.32,32.53,1.851,False,True,True,118,4,31,22,16,Seasonal
+615,Super Tech Tools Item 0615,7,Automotive,Tools,Super Tech,V3331,375614318236,158.36,248.45,47.96,3.003,False,True,False,363,4,55,7,11,Active
+616,Castrol Accessories Item 0616,7,Automotive,Accessories,Castrol,V4735,592138986160,13.97,16.86,19.18,3.207,False,False,False,307,6,12,10,1,Active
+617,Super Tech Tires Item 0617,7,Automotive,Tires,Super Tech,V1997,188561221603,47.66,65.36,3.09,1.879,False,True,False,84,4,25,23,2,Active
+618,Armor All Accessories Item 0618,7,Automotive,Accessories,Armor All,V2139,805738454719,147.98,197.03,39.37,0.208,False,False,False,219,6,64,12,1,Active
+619,Castrol Tires Item 0619,7,Automotive,Tires,Castrol,V4713,834085838048,48.83,69.13,49.42,4.009,False,False,False,120,5,67,15,17,Active
+620,Rain-X Oil & Fluids Item 0620,7,Automotive,Oil & Fluids,Rain-X,V4906,156661207660,13.39,18.7,31.75,0.716,False,False,False,53,2,49,20,7,Active
+621,Super Tech Accessories Item 0621,7,Automotive,Accessories,Super Tech,V3955,367136384149,145.14,192.25,21.26,3.033,False,True,False,302,4,52,9,9,Active
+622,Rain-X Oil & Fluids Item 0622,7,Automotive,Oil & Fluids,Rain-X,V2547,616116625176,190.23,255.64,22.12,2.531,False,False,False,86,4,13,15,14,Active
+623,Castrol Tools Item 0623,7,Automotive,Tools,Castrol,V1719,517716887263,107.67,153.01,23.24,2.273,False,False,False,317,4,16,13,5,Active
+624,EverStart Batteries Item 0624,7,Automotive,Batteries,EverStart,V4529,901014406340,183.27,220.23,36.29,2.462,False,False,False,209,6,35,15,16,Active
+625,Armor All Oil & Fluids Item 0625,7,Automotive,Oil & Fluids,Armor All,V4774,521441421834,82.05,99.73,46.61,0.82,False,False,False,137,6,34,19,16,Active
+626,Castrol Oil & Fluids Item 0626,7,Automotive,Oil & Fluids,Castrol,V4013,367347935127,130.36,204.74,23.94,4.608,False,False,False,353,1,56,24,21,Active
+627,Armor All Accessories Item 0627,7,Automotive,Accessories,Armor All,V2013,738241371482,188.88,237.79,47.59,4.209,False,False,True,54,6,57,15,13,Active
+628,Super Tech Tools Item 0628,7,Automotive,Tools,Super Tech,V1679,571715182511,182.03,282.22,12.72,1.518,False,True,False,344,4,49,12,14,Active
+629,Super Tech Oil & Fluids Item 0629,7,Automotive,Oil & Fluids,Super Tech,V2410,258115905395,127.42,192.49,13.52,1.056,False,True,False,364,3,12,8,16,Active
+630,Super Tech Accessories Item 0630,7,Automotive,Accessories,Super Tech,V4002,286534508145,105.23,153.83,8.9,0.94,False,True,True,256,2,44,6,15,Active
+631,EverStart Batteries Item 0631,7,Automotive,Batteries,EverStart,V4314,313713984994,40.59,60.88,13.04,4.512,False,False,False,327,5,18,23,6,Active
+632,Super Tech Accessories Item 0632,7,Automotive,Accessories,Super Tech,V1121,360213369900,25.37,31.1,23.95,3.367,False,True,True,38,3,60,3,19,Active
+633,Super Tech Oil & Fluids Item 0633,7,Automotive,Oil & Fluids,Super Tech,V2538,673820450670,42.61,64.63,49.35,3.809,False,True,False,249,3,50,16,11,Active
+634,Castrol Tires Item 0634,7,Automotive,Tires,Castrol,V3724,514028281837,163.46,257.68,30.58,4.877,False,False,False,58,1,41,15,5,Active
+635,Super Tech Tools Item 0635,7,Automotive,Tools,Super Tech,V4338,504794386854,56.25,83.23,22.65,3.434,False,True,False,270,4,54,9,1,Seasonal
+636,Castrol Oil & Fluids Item 0636,7,Automotive,Oil & Fluids,Castrol,V4971,910922286039,126.94,196.68,16.34,2.227,False,False,False,211,6,51,5,12,Active
+637,Rain-X Oil & Fluids Item 0637,7,Automotive,Oil & Fluids,Rain-X,V1799,257676590153,146.99,193.67,43.51,4.382,False,False,False,265,1,20,18,3,Active
+638,Armor All Accessories Item 0638,7,Automotive,Accessories,Armor All,V1473,827920371167,34.03,46.91,27.08,1.224,False,False,False,344,6,17,6,14,Seasonal
+639,Super Tech Batteries Item 0639,7,Automotive,Batteries,Super Tech,V2570,408233949370,185.84,247.28,11.1,1.296,False,True,False,350,1,54,7,18,Active
+640,Rain-X Oil & Fluids Item 0640,7,Automotive,Oil & Fluids,Rain-X,V1916,735362156944,159.21,212.25,38.34,3.007,False,False,False,200,6,59,15,21,Active
+641,Armor All Accessories Item 0641,7,Automotive,Accessories,Armor All,V1473,195739015073,161.79,208.62,5.66,1.708,False,False,False,103,6,72,6,19,Active
+642,Castrol Accessories Item 0642,7,Automotive,Accessories,Castrol,V1253,690944807034,115.59,138.79,9.57,1.947,False,False,False,193,6,71,7,17,Active
+643,Armor All Batteries Item 0643,7,Automotive,Batteries,Armor All,V4491,445575657507,21.76,26.19,7.32,4.715,False,False,False,262,6,41,7,20,Active
+644,Super Tech Tools Item 0644,7,Automotive,Tools,Super Tech,V3820,401177984610,64.37,90.18,49.84,3.536,False,True,False,117,4,30,15,2,Seasonal
+645,Castrol Batteries Item 0645,7,Automotive,Batteries,Castrol,V4000,993071589041,165.66,212.75,11.33,3.681,False,False,False,98,4,58,15,10,Seasonal
+646,EverStart Oil & Fluids Item 0646,7,Automotive,Oil & Fluids,EverStart,V3776,930424655995,109.81,146.59,19.63,0.368,False,False,False,151,6,71,9,18,Active
+647,EverStart Tires Item 0647,7,Automotive,Tires,EverStart,V4297,881403051485,150.58,215.65,15.27,3.277,False,False,False,233,6,42,12,5,Active
+648,EverStart Oil & Fluids Item 0648,7,Automotive,Oil & Fluids,EverStart,V1417,966201779275,72.76,112.23,49.43,0.747,False,False,False,225,6,65,8,2,Active
+649,Rain-X Batteries Item 0649,7,Automotive,Batteries,Rain-X,V3111,472159336259,189.04,235.72,29.71,4.849,False,False,False,213,2,14,6,8,Active
+650,Castrol Tools Item 0650,7,Automotive,Tools,Castrol,V2537,863541460937,190.93,278.97,49.56,3.357,False,False,True,244,6,36,11,21,Active
+651,Castrol Oil & Fluids Item 0651,7,Automotive,Oil & Fluids,Castrol,V3003,837194239689,24.44,30.14,45.43,1.132,False,False,False,300,4,29,6,19,Active
+652,Rain-X Accessories Item 0652,7,Automotive,Accessories,Rain-X,V2332,881956771004,60.02,75.03,45.45,3.978,False,False,False,365,1,37,20,18,Active
+653,Armor All Accessories Item 0653,7,Automotive,Accessories,Armor All,V3207,816357886034,13.25,20.34,6.29,3.767,False,False,False,67,2,67,22,6,Active
+654,Rain-X Tires Item 0654,7,Automotive,Tires,Rain-X,V1844,278896728747,25.05,31.35,4.48,1.291,False,False,False,50,1,44,12,12,Seasonal
+655,EverStart Accessories Item 0655,7,Automotive,Accessories,EverStart,V2017,148535707357,195.43,285.97,47.32,2.602,False,False,False,344,5,40,7,19,Active
+656,Castrol Tools Item 0656,7,Automotive,Tools,Castrol,V3482,660657340631,182.2,291.29,10.57,0.504,False,False,False,128,1,24,7,10,Active
+657,EverStart Batteries Item 0657,7,Automotive,Batteries,EverStart,V2470,238630359031,120.63,155.18,36.48,2.116,False,False,False,140,4,53,8,13,Active
+658,Castrol Accessories Item 0658,7,Automotive,Accessories,Castrol,V1834,791792779143,188.07,236.46,36.66,4.977,False,False,False,105,6,35,21,21,Active
+659,Armor All Batteries Item 0659,7,Automotive,Batteries,Armor All,V4226,518474242054,84.23,106.25,1.39,3.022,False,False,True,70,5,19,24,18,Active
+660,Castrol Oil & Fluids Item 0660,7,Automotive,Oil & Fluids,Castrol,V2119,348240937962,72.88,97.18,13.75,0.499,False,False,False,120,4,72,6,4,Active
+661,Castrol Tools Item 0661,7,Automotive,Tools,Castrol,V3166,870297660960,164.36,229.42,28.65,1.417,False,False,False,57,1,22,13,13,Active
+662,Armor All Tools Item 0662,7,Automotive,Tools,Armor All,V2953,239982906102,119.13,183.44,13.03,3.436,False,False,False,343,2,21,15,19,Active
+663,Super Tech Tires Item 0663,7,Automotive,Tires,Super Tech,V3493,874890456490,141.65,184.09,22.94,2.2,False,True,False,246,5,30,11,14,Active
+664,EverStart Tires Item 0664,7,Automotive,Tires,EverStart,V2251,947854525020,127.31,157.2,15.71,0.46,False,False,True,129,1,22,21,2,Active
+665,Castrol Tools Item 0665,7,Automotive,Tools,Castrol,V1043,844850337985,185.95,283.26,25.48,3.657,False,False,False,270,6,55,20,4,Active
+666,Armor All Batteries Item 0666,7,Automotive,Batteries,Armor All,V3925,870624416481,182.22,273.03,26.76,1.732,False,False,False,345,5,55,22,2,Active
+667,EverStart Tools Item 0667,7,Automotive,Tools,EverStart,V2503,249634121987,180.81,229.62,25.73,4.763,False,False,False,201,2,35,6,11,Discontinued
+668,EverStart Tools Item 0668,7,Automotive,Tools,EverStart,V2188,629565937090,170.23,262.69,14.75,1.073,False,False,False,298,4,25,12,21,Active
+669,Super Tech Accessories Item 0669,7,Automotive,Accessories,Super Tech,V1235,105822876443,178.55,274.85,30.81,1.649,False,True,False,9,3,68,8,13,Active
+670,Super Tech Accessories Item 0670,7,Automotive,Accessories,Super Tech,V3106,271362795454,98.66,121.74,20.59,4.566,False,True,True,343,3,26,18,13,Active
+671,Castrol Accessories Item 0671,7,Automotive,Accessories,Castrol,V2103,823438158429,178.49,252.49,41.98,0.818,False,False,False,229,1,34,9,4,Active
+672,Super Tech Batteries Item 0672,7,Automotive,Batteries,Super Tech,V4690,276229408208,79.21,118.62,33.34,4.742,False,True,False,143,1,38,18,18,Active
+673,EverStart Tires Item 0673,7,Automotive,Tires,EverStart,V2637,896724415945,150.34,227.33,46.19,4.217,False,False,False,63,1,62,3,5,Active
+674,Armor All Oil & Fluids Item 0674,7,Automotive,Oil & Fluids,Armor All,V3778,477226272210,153.59,198.84,21.54,2.989,False,False,True,252,3,30,18,3,Active
+675,EverStart Tools Item 0675,7,Automotive,Tools,EverStart,V2021,943021072113,30.92,43.43,5.84,1.325,False,False,False,348,4,24,18,4,Active
+676,Armor All Tools Item 0676,7,Automotive,Tools,Armor All,V3421,798485840840,36.65,58.53,7.52,0.611,False,False,False,147,2,71,7,14,Active
+677,EverStart Oil & Fluids Item 0677,7,Automotive,Oil & Fluids,EverStart,V3150,870115321292,172.94,233.84,31.7,1.165,False,False,False,252,1,44,16,21,Active
+678,Super Tech Tires Item 0678,7,Automotive,Tires,Super Tech,V3914,372378554671,73.03,115.18,16.06,0.247,False,True,True,33,6,59,13,7,Active
+679,Castrol Tools Item 0679,7,Automotive,Tools,Castrol,V4884,501542017323,20.6,26.24,16.78,0.567,False,False,False,356,5,61,7,11,Active
+680,Castrol Tools Item 0680,7,Automotive,Tools,Castrol,V3663,328818449800,106.01,142.97,29.26,0.445,False,False,True,329,6,50,6,2,Active
+681,EverStart Batteries Item 0681,7,Automotive,Batteries,EverStart,V1306,701045531648,141.08,221.52,30.99,1.514,False,False,False,110,5,58,7,2,Active
+682,Rain-X Tools Item 0682,7,Automotive,Tools,Rain-X,V4110,718075063450,142.46,221.76,48.76,4.476,False,False,False,67,4,16,18,14,Active
+683,Armor All Oil & Fluids Item 0683,7,Automotive,Oil & Fluids,Armor All,V4962,418381348248,33.8,44.27,2.37,2.835,False,False,False,362,2,59,15,16,Active
+684,Armor All Oil & Fluids Item 0684,7,Automotive,Oil & Fluids,Armor All,V2573,957114404933,33.52,50.29,19.57,3.04,False,False,False,8,2,48,9,19,Active
+685,Armor All Accessories Item 0685,7,Automotive,Accessories,Armor All,V2060,423068884525,101.01,150.33,35.44,2.765,False,False,False,30,5,27,12,2,Active
+686,Castrol Batteries Item 0686,7,Automotive,Batteries,Castrol,V3631,374792109224,54.45,82.56,49.48,1.058,False,False,True,339,3,52,22,12,Active
+687,Armor All Tires Item 0687,7,Automotive,Tires,Armor All,V3504,457748851423,144.55,197.07,49.26,3.134,False,False,True,189,2,58,11,6,Active
+688,Super Tech Tools Item 0688,7,Automotive,Tools,Super Tech,V4846,743302405721,131.63,203.66,5.41,3.731,False,True,False,341,3,67,23,21,Active
+689,EverStart Accessories Item 0689,7,Automotive,Accessories,EverStart,V3382,987468236194,44.52,58.21,42.93,1.983,False,False,False,229,3,21,18,3,Active
+690,Rain-X Batteries Item 0690,7,Automotive,Batteries,Rain-X,V3333,300701588341,163.21,207.35,32.41,0.115,False,False,False,97,4,55,22,7,Active
+691,Super Tech Accessories Item 0691,7,Automotive,Accessories,Super Tech,V4974,209102925196,49.43,77.29,36.24,0.695,False,True,False,13,5,18,15,13,Active
+692,Super Tech Oil & Fluids Item 0692,7,Automotive,Oil & Fluids,Super Tech,V2096,759824591653,26.87,40.52,0.77,4.832,False,True,False,61,5,59,13,3,Active
+693,Rain-X Tools Item 0693,7,Automotive,Tools,Rain-X,V2259,625410892656,178.53,272.47,7.81,0.289,False,False,False,328,5,19,3,2,Active
+694,Castrol Oil & Fluids Item 0694,7,Automotive,Oil & Fluids,Castrol,V1580,126733219705,102.55,157.37,11.41,1.933,False,False,False,153,2,70,24,13,Active
+695,Super Tech Accessories Item 0695,7,Automotive,Accessories,Super Tech,V1416,492052407027,34.33,42.71,3.91,1.675,False,True,False,50,1,50,7,6,Active
+696,Castrol Tools Item 0696,7,Automotive,Tools,Castrol,V4658,854485194166,36.68,50.26,15.15,4.09,False,False,False,60,3,70,18,12,Discontinued
+697,Super Tech Oil & Fluids Item 0697,7,Automotive,Oil & Fluids,Super Tech,V4185,261730661966,172.41,274.34,16.08,1.959,False,True,False,251,1,19,21,14,Seasonal
+698,Castrol Batteries Item 0698,7,Automotive,Batteries,Castrol,V1744,524203334511,18.54,29.63,17.7,2.476,False,False,False,218,5,62,23,11,Active
+699,EverStart Accessories Item 0699,7,Automotive,Accessories,EverStart,V3186,686231259188,84.02,117.53,26.86,1.158,False,False,True,222,5,48,10,3,Active
+700,Super Tech Batteries Item 0700,7,Automotive,Batteries,Super Tech,V3287,164897627229,198.78,239.9,45.58,1.811,False,True,False,78,3,41,7,18,Seasonal
+701,Barbie Board Games Item 0701,8,Toys,Board Games,Barbie,V4059,229440871021,42.54,54.87,48.11,3.523,False,False,False,20,6,39,14,2,Active
+702,Hot Wheels Action Figures Item 0702,8,Toys,Action Figures,Hot Wheels,V1647,259043436683,95.63,137.47,18.33,0.404,False,False,True,298,4,21,8,16,Active
+703,Hot Wheels Outdoor Item 0703,8,Toys,Outdoor,Hot Wheels,V2818,812025678004,94.3,140.41,34.79,1.441,False,False,False,335,1,50,8,17,Active
+704,Barbie Building Sets Item 0704,8,Toys,Building Sets,Barbie,V3269,652212814920,136.14,211.07,15.37,1.144,False,False,False,146,1,45,15,5,Active
+705,Barbie Dolls Item 0705,8,Toys,Dolls,Barbie,V4368,763827114248,11.67,15.84,42.1,4.085,False,False,False,167,6,53,15,13,Active
+706,Lego Building Sets Item 0706,8,Toys,Building Sets,Lego,V1318,762982755205,39.35,48.93,38.96,1.684,False,False,False,90,5,18,5,7,Active
+707,Lego Board Games Item 0707,8,Toys,Board Games,Lego,V1132,393090007762,110.56,160.9,4.34,2.855,False,False,True,254,1,15,13,3,Discontinued
+708,Fisher-Price Outdoor Item 0708,8,Toys,Outdoor,Fisher-Price,V3048,444434402824,150.46,238.25,37.62,3.631,False,False,False,352,1,33,16,17,Active
+709,Hasbro Action Figures Item 0709,8,Toys,Action Figures,Hasbro,V3401,417988247295,117.64,159.15,8.15,3.415,False,False,True,327,1,72,10,7,Active
+710,Hasbro Board Games Item 0710,8,Toys,Board Games,Hasbro,V3984,815579084904,198.69,278.29,26.21,3.845,False,False,False,74,3,30,14,20,Active
+711,Barbie Action Figures Item 0711,8,Toys,Action Figures,Barbie,V2587,328660239039,178.19,269.01,49.85,3.038,False,False,False,297,6,43,6,1,Active
+712,Lego Dolls Item 0712,8,Toys,Dolls,Lego,V4666,645835228948,173.57,263.64,4.8,1.575,False,False,False,89,1,29,21,12,Active
+713,Fisher-Price Board Games Item 0713,8,Toys,Board Games,Fisher-Price,V2938,383375429985,142.28,196.96,38.18,2.216,False,False,False,70,5,43,4,12,Active
+714,Barbie Building Sets Item 0714,8,Toys,Building Sets,Barbie,V1528,501325298984,171.47,268.67,25.67,3.127,False,False,False,49,6,38,19,15,Active
+715,Fisher-Price Dolls Item 0715,8,Toys,Dolls,Fisher-Price,V4238,869850626069,195.5,239.06,41.08,0.05,False,False,False,155,4,22,21,13,Active
+716,Hasbro Building Sets Item 0716,8,Toys,Building Sets,Hasbro,V2429,613102037252,174.89,256.68,32.16,4.502,False,False,False,50,2,58,6,13,Active
+717,Hasbro Building Sets Item 0717,8,Toys,Building Sets,Hasbro,V3475,334016855184,66.08,87.68,35.14,2.386,False,False,False,26,5,21,18,5,Active
+718,Lego Dolls Item 0718,8,Toys,Dolls,Lego,V2557,498609616517,6.75,9.72,39.5,4.893,False,False,False,115,1,72,24,14,Active
+719,Hasbro Action Figures Item 0719,8,Toys,Action Figures,Hasbro,V1334,596980143546,28.78,37.69,43.58,2.629,False,False,False,139,2,65,4,3,Active
+720,Barbie Outdoor Item 0720,8,Toys,Outdoor,Barbie,V1813,630081002817,192.69,254.11,23.83,3.447,False,False,False,363,4,34,21,13,Active
+721,Hot Wheels Dolls Item 0721,8,Toys,Dolls,Hot Wheels,V3369,261561690458,40.11,59.73,16.25,4.932,False,False,False,169,1,21,17,5,Active
+722,Lego Action Figures Item 0722,8,Toys,Action Figures,Lego,V2076,892510336287,158.51,232.94,0.28,2.258,False,False,False,71,6,40,23,19,Active
+723,Hasbro Board Games Item 0723,8,Toys,Board Games,Hasbro,V1680,514897892508,84.33,119.62,10.89,1.057,False,False,False,354,5,12,14,12,Active
+724,Lego Dolls Item 0724,8,Toys,Dolls,Lego,V3044,552930060380,163.9,204.86,20.58,1.768,False,False,False,274,3,19,8,15,Active
+725,Hasbro Dolls Item 0725,8,Toys,Dolls,Hasbro,V2562,858747228577,119.18,168.89,34.05,3.174,False,False,False,57,1,63,6,3,Active
+726,Hot Wheels Building Sets Item 0726,8,Toys,Building Sets,Hot Wheels,V3555,700982871970,21.18,31.77,5.08,2.226,False,False,False,23,6,30,16,7,Active
+727,Barbie Dolls Item 0727,8,Toys,Dolls,Barbie,V2923,237226573765,76.53,97.82,17.6,3.971,False,False,False,337,6,62,15,1,Discontinued
+728,Hasbro Dolls Item 0728,8,Toys,Dolls,Hasbro,V2083,975755312383,57.08,88.58,45.48,3.37,False,False,True,219,1,12,3,5,Active
+729,Hot Wheels Dolls Item 0729,8,Toys,Dolls,Hot Wheels,V3343,576710571196,63.84,80.96,12.17,4.868,False,False,False,336,4,65,4,19,Active
+730,Barbie Board Games Item 0730,8,Toys,Board Games,Barbie,V1648,355281695991,80.92,107.4,5.07,4.008,False,False,False,330,5,62,15,21,Discontinued
+731,Hot Wheels Board Games Item 0731,8,Toys,Board Games,Hot Wheels,V1382,576851493797,189.77,243.19,0.68,3.852,False,False,False,323,6,46,5,19,Active
+732,Hasbro Building Sets Item 0732,8,Toys,Building Sets,Hasbro,V1764,818289136095,127.08,192.02,44.91,1.492,False,False,False,132,6,61,15,9,Active
+733,Lego Action Figures Item 0733,8,Toys,Action Figures,Lego,V3614,739884834330,187.03,271.38,43.36,0.564,False,False,False,69,1,21,12,9,Active
+734,Fisher-Price Action Figures Item 0734,8,Toys,Action Figures,Fisher-Price,V4433,530389964508,99.1,133.25,5.12,3.979,False,False,False,256,6,16,9,14,Active
+735,Lego Building Sets Item 0735,8,Toys,Building Sets,Lego,V1041,297154624707,161.81,205.81,33.02,3.16,False,False,False,67,3,34,18,20,Active
+736,Fisher-Price Board Games Item 0736,8,Toys,Board Games,Fisher-Price,V1498,766548194944,104.59,136.16,1.57,0.125,False,False,False,85,2,67,14,4,Active
+737,Fisher-Price Outdoor Item 0737,8,Toys,Outdoor,Fisher-Price,V3832,241475570358,28.14,34.71,13.45,2.413,False,False,False,185,6,47,23,10,Active
+738,Barbie Building Sets Item 0738,8,Toys,Building Sets,Barbie,V1790,290052702941,102.77,139.76,9.97,4.232,False,False,False,208,1,49,21,10,Active
+739,Hasbro Building Sets Item 0739,8,Toys,Building Sets,Hasbro,V3442,399561424448,86.98,119.9,40.81,3.118,False,False,False,226,2,48,14,12,Active
+740,Fisher-Price Building Sets Item 0740,8,Toys,Building Sets,Fisher-Price,V3094,745331994531,33.87,41.1,20.55,3.023,False,False,False,278,3,37,3,4,Active
+741,Lego Building Sets Item 0741,8,Toys,Building Sets,Lego,V1297,822478714673,158.28,212.59,18.65,0.734,False,False,False,11,3,56,3,11,Active
+742,Hot Wheels Outdoor Item 0742,8,Toys,Outdoor,Hot Wheels,V2579,762643077525,179.8,256.15,10.69,1.095,False,False,False,318,6,16,21,21,Active
+743,Barbie Outdoor Item 0743,8,Toys,Outdoor,Barbie,V1203,644613557750,162.77,208.23,24.98,4.951,False,False,False,70,4,22,22,11,Active
+744,Hasbro Dolls Item 0744,8,Toys,Dolls,Hasbro,V4208,735037127178,4.74,5.72,49.4,4.559,False,False,False,213,1,69,20,17,Active
+745,Fisher-Price Action Figures Item 0745,8,Toys,Action Figures,Fisher-Price,V2700,433818832660,94.24,144.37,13.81,3.771,False,False,False,291,3,43,22,2,Active
+746,Barbie Building Sets Item 0746,8,Toys,Building Sets,Barbie,V1497,511642875425,169.81,269.46,46.89,0.523,False,False,False,12,2,18,13,14,Active
+747,Fisher-Price Board Games Item 0747,8,Toys,Board Games,Fisher-Price,V4342,692288362122,144.96,221.05,49.48,4.671,False,False,False,139,1,19,4,10,Active
+748,Lego Dolls Item 0748,8,Toys,Dolls,Lego,V3861,740541816089,158.43,214.17,23.09,0.64,False,False,False,306,4,52,17,4,Active
+749,Hasbro Dolls Item 0749,8,Toys,Dolls,Hasbro,V2149,947491156089,95.85,133.81,36.57,1.137,False,False,False,158,6,17,14,18,Active
+750,Hasbro Board Games Item 0750,8,Toys,Board Games,Hasbro,V3025,332187078481,139.15,171.16,0.76,1.089,False,False,False,103,4,18,13,7,Active
+751,Hot Wheels Dolls Item 0751,8,Toys,Dolls,Hot Wheels,V2277,601259243766,171.76,258.36,32.8,4.241,False,False,True,73,2,70,14,13,Seasonal
+752,Hot Wheels Dolls Item 0752,8,Toys,Dolls,Hot Wheels,V1281,565049774956,41.0,55.76,8.29,1.543,False,False,False,338,1,21,17,4,Active
+753,Hasbro Action Figures Item 0753,8,Toys,Action Figures,Hasbro,V1117,827894910049,178.87,228.03,26.59,1.766,False,False,True,288,1,34,16,7,Active
+754,Hot Wheels Building Sets Item 0754,8,Toys,Building Sets,Hot Wheels,V2116,208962378329,101.83,124.36,2.55,1.919,False,False,False,106,3,24,15,6,Active
+755,Hot Wheels Dolls Item 0755,8,Toys,Dolls,Hot Wheels,V3790,808883800064,98.98,135.94,12.52,0.564,False,False,True,25,5,29,10,3,Active
+756,Lego Board Games Item 0756,8,Toys,Board Games,Lego,V2657,531179962046,176.58,261.3,5.16,3.672,False,False,False,144,4,25,8,7,Active
+757,Lego Dolls Item 0757,8,Toys,Dolls,Lego,V1758,785908301061,57.95,69.61,23.89,1.534,False,False,False,129,2,32,24,3,Active
+758,Lego Building Sets Item 0758,8,Toys,Building Sets,Lego,V2943,466910133508,28.8,34.71,1.14,4.872,False,False,False,94,6,60,3,20,Active
+759,Barbie Dolls Item 0759,8,Toys,Dolls,Barbie,V2935,147714449557,0.7,1.08,40.96,2.841,False,False,False,123,5,44,8,5,Active
+760,Fisher-Price Outdoor Item 0760,8,Toys,Outdoor,Fisher-Price,V3009,485408095757,160.88,214.66,49.49,1.294,False,False,False,193,4,12,14,10,Active
+761,Hot Wheels Dolls Item 0761,8,Toys,Dolls,Hot Wheels,V3127,803207331196,97.13,127.04,1.13,4.893,False,False,False,344,2,34,18,1,Active
+762,Barbie Outdoor Item 0762,8,Toys,Outdoor,Barbie,V4770,516417757063,41.66,51.48,31.97,4.828,False,False,False,354,5,69,17,17,Active
+763,Lego Outdoor Item 0763,8,Toys,Outdoor,Lego,V2131,307486963670,78.51,107.32,2.15,2.605,False,False,False,320,1,39,17,19,Seasonal
+764,Lego Outdoor Item 0764,8,Toys,Outdoor,Lego,V4797,261858104734,22.48,27.05,23.37,0.76,False,False,False,326,5,54,8,10,Active
+765,Fisher-Price Outdoor Item 0765,8,Toys,Outdoor,Fisher-Price,V2159,752085430929,3.61,4.39,6.26,2.447,False,False,True,187,6,65,3,2,Active
+766,Lego Outdoor Item 0766,8,Toys,Outdoor,Lego,V4926,717482660883,157.16,220.15,7.84,0.439,False,False,False,107,4,49,5,10,Active
+767,Barbie Outdoor Item 0767,8,Toys,Outdoor,Barbie,V2582,539901559702,50.12,73.75,48.35,0.5,False,False,False,161,5,31,8,19,Active
+768,Lego Dolls Item 0768,8,Toys,Dolls,Lego,V2024,555849320708,28.27,42.6,27.76,1.512,False,False,True,297,6,41,20,6,Active
+769,Barbie Action Figures Item 0769,8,Toys,Action Figures,Barbie,V2283,884626801751,28.15,38.76,17.94,1.777,False,False,False,217,4,13,20,1,Seasonal
+770,Barbie Action Figures Item 0770,8,Toys,Action Figures,Barbie,V2238,369666531409,151.29,218.78,29.06,1.872,False,False,False,296,3,15,15,5,Active
+771,Fisher-Price Building Sets Item 0771,8,Toys,Building Sets,Fisher-Price,V2885,159438902994,161.59,250.46,4.32,1.358,False,False,False,61,3,50,6,10,Active
+772,Lego Action Figures Item 0772,8,Toys,Action Figures,Lego,V3092,889154556885,24.73,35.46,2.75,1.033,False,False,True,260,2,26,24,21,Active
+773,Lego Outdoor Item 0773,8,Toys,Outdoor,Lego,V4299,784982666529,143.97,226.7,34.42,0.582,False,False,True,316,1,45,6,8,Active
+774,Barbie Action Figures Item 0774,8,Toys,Action Figures,Barbie,V1227,237121316783,166.63,229.54,15.07,2.424,False,False,False,127,5,28,22,15,Active
+775,Hot Wheels Action Figures Item 0775,8,Toys,Action Figures,Hot Wheels,V1756,998256702381,86.75,126.18,37.26,1.211,False,False,False,365,5,24,18,16,Active
+776,Fisher-Price Dolls Item 0776,8,Toys,Dolls,Fisher-Price,V2602,866161266347,98.85,145.02,40.01,2.325,False,False,False,82,1,30,17,4,Active
+777,Fisher-Price Dolls Item 0777,8,Toys,Dolls,Fisher-Price,V4658,781427448543,60.9,88.79,22.28,4.541,False,False,False,78,4,68,17,9,Active
+778,Hasbro Outdoor Item 0778,8,Toys,Outdoor,Hasbro,V1863,678558829300,100.38,155.03,19.59,0.323,False,False,False,187,6,58,21,11,Active
+779,Hasbro Outdoor Item 0779,8,Toys,Outdoor,Hasbro,V4782,174706355040,157.1,229.9,45.82,3.229,False,False,False,248,5,54,8,19,Active
+780,Hot Wheels Dolls Item 0780,8,Toys,Dolls,Hot Wheels,V3411,739757689375,52.22,77.24,17.47,3.091,False,False,False,30,1,66,8,8,Active
+781,Fisher-Price Building Sets Item 0781,8,Toys,Building Sets,Fisher-Price,V4112,988077875281,186.88,259.87,45.87,3.98,False,False,True,96,6,69,15,14,Discontinued
+782,Fisher-Price Dolls Item 0782,8,Toys,Dolls,Fisher-Price,V4071,585644328951,50.47,61.32,38.19,3.037,False,False,False,96,3,18,17,13,Active
+783,Hot Wheels Dolls Item 0783,8,Toys,Dolls,Hot Wheels,V2792,416448246954,40.35,52.5,11.35,3.713,False,False,False,277,2,17,21,1,Active
+784,Fisher-Price Board Games Item 0784,8,Toys,Board Games,Fisher-Price,V1021,951947827356,7.13,8.96,20.46,2.737,False,False,True,101,6,58,23,17,Active
+785,Hasbro Dolls Item 0785,8,Toys,Dolls,Hasbro,V2460,981060457993,165.6,231.9,3.45,2.143,False,False,False,43,5,17,7,17,Active
+786,Fisher-Price Building Sets Item 0786,8,Toys,Building Sets,Fisher-Price,V2355,344909955088,46.5,66.99,41.08,1.457,False,False,False,206,6,34,5,6,Seasonal
+787,Fisher-Price Dolls Item 0787,8,Toys,Dolls,Fisher-Price,V4816,652381101283,115.28,177.68,15.68,3.097,False,False,False,63,5,42,11,21,Active
+788,Lego Building Sets Item 0788,8,Toys,Building Sets,Lego,V4132,250578941921,52.55,70.09,10.29,4.086,False,False,False,346,1,27,18,3,Active
+789,Hot Wheels Dolls Item 0789,8,Toys,Dolls,Hot Wheels,V1144,758917734232,140.77,212.03,36.99,4.648,False,False,False,252,2,29,4,4,Active
+790,Hot Wheels Board Games Item 0790,8,Toys,Board Games,Hot Wheels,V2242,122453037344,130.24,178.77,46.57,0.142,False,False,False,107,5,50,15,1,Active
+791,Fisher-Price Building Sets Item 0791,8,Toys,Building Sets,Fisher-Price,V2760,571163658114,153.25,226.53,27.52,0.587,False,False,True,322,3,34,9,11,Active
+792,Fisher-Price Board Games Item 0792,8,Toys,Board Games,Fisher-Price,V1930,922112856265,46.79,67.16,37.65,4.041,False,False,False,30,1,67,10,2,Active
+793,Hasbro Building Sets Item 0793,8,Toys,Building Sets,Hasbro,V2432,819846895517,36.53,44.47,44.53,4.99,False,False,True,210,4,54,6,3,Active
+794,Hot Wheels Board Games Item 0794,8,Toys,Board Games,Hot Wheels,V2462,344206515380,99.24,148.27,22.23,1.521,False,False,False,289,3,67,23,8,Active
+795,Lego Outdoor Item 0795,8,Toys,Outdoor,Lego,V1221,874858631235,139.71,195.79,47.53,2.436,False,False,True,77,5,26,12,18,Active
+796,Lego Board Games Item 0796,8,Toys,Board Games,Lego,V2803,940309956687,7.66,9.91,22.74,0.58,False,False,False,24,3,29,21,13,Active
+797,Fisher-Price Action Figures Item 0797,8,Toys,Action Figures,Fisher-Price,V3028,522549998744,56.18,81.12,22.26,1.13,False,False,False,344,4,46,4,10,Active
+798,Lego Action Figures Item 0798,8,Toys,Action Figures,Lego,V2377,391660275104,182.06,273.42,40.53,2.959,False,False,False,181,6,65,22,14,Active
+799,Fisher-Price Action Figures Item 0799,8,Toys,Action Figures,Fisher-Price,V4819,416444469554,110.88,175.3,42.94,4.691,False,False,False,300,6,48,19,9,Active
+800,Barbie Building Sets Item 0800,8,Toys,Building Sets,Barbie,V1540,116783497813,149.25,234.3,14.11,3.416,False,False,False,134,5,30,13,19,Active
+801,Pantene Cosmetics Item 0801,9,Health & Beauty,Cosmetics,Pantene,V4204,991862977524,72.66,106.35,38.6,0.072,False,False,False,345,3,65,11,6,Active
+802,Equate Oral Care Item 0802,9,Health & Beauty,Oral Care,Equate,V2469,802142146527,2.27,2.76,42.23,1.097,False,True,True,47,3,69,22,18,Active
+803,Equate Oral Care Item 0803,9,Health & Beauty,Oral Care,Equate,V2131,239564657039,36.37,54.79,11.45,0.881,False,True,False,342,1,26,6,21,Active
+804,Pantene Oral Care Item 0804,9,Health & Beauty,Oral Care,Pantene,V3938,165403557660,116.19,141.38,47.59,4.96,False,False,False,15,6,66,14,18,Active
+805,Pantene Skin Care Item 0805,9,Health & Beauty,Skin Care,Pantene,V2817,658831863893,70.27,86.5,3.96,1.028,False,False,False,355,4,16,23,14,Active
+806,No7 Hair Care Item 0806,9,Health & Beauty,Hair Care,No7,V2372,550864616382,65.64,99.46,44.88,1.88,False,False,False,157,5,13,8,12,Active
+807,No7 Men's Grooming Item 0807,9,Health & Beauty,Men's Grooming,No7,V4309,659690527497,5.59,8.07,35.82,3.713,False,False,False,183,2,36,21,2,Active
+808,No7 Oral Care Item 0808,9,Health & Beauty,Oral Care,No7,V4912,719439858717,152.64,222.81,25.22,2.876,False,False,False,221,5,58,6,17,Active
+809,Pantene Oral Care Item 0809,9,Health & Beauty,Oral Care,Pantene,V2298,311609528492,132.01,185.89,41.82,1.472,False,False,False,131,3,26,17,11,Active
+810,Equate Skin Care Item 0810,9,Health & Beauty,Skin Care,Equate,V2679,187453613681,89.28,141.33,17.66,2.533,False,True,False,341,4,50,10,15,Active
+811,No7 Men's Grooming Item 0811,9,Health & Beauty,Men's Grooming,No7,V4791,368597015069,165.65,264.16,38.84,2.044,False,False,False,77,5,28,12,11,Active
+812,Equate Oral Care Item 0812,9,Health & Beauty,Oral Care,Equate,V3359,793612308501,84.49,134.62,44.08,0.999,False,True,False,239,1,22,6,14,Active
+813,Pantene Oral Care Item 0813,9,Health & Beauty,Oral Care,Pantene,V1139,576027797809,148.7,185.96,1.29,0.843,False,False,True,270,5,70,15,14,Active
+814,Dove Men's Grooming Item 0814,9,Health & Beauty,Men's Grooming,Dove,V2379,473225588061,48.67,64.12,29.61,3.087,False,False,False,30,1,59,14,15,Discontinued
+815,Dove Oral Care Item 0815,9,Health & Beauty,Oral Care,Dove,V1551,300718609894,58.21,80.96,36.21,2.952,False,False,False,267,1,21,3,19,Active
+816,Dove Oral Care Item 0816,9,Health & Beauty,Oral Care,Dove,V3959,407468466161,64.43,81.87,47.24,0.494,False,False,False,181,1,48,19,17,Active
+817,Dove Cosmetics Item 0817,9,Health & Beauty,Cosmetics,Dove,V1730,258714132685,64.9,86.15,2.19,4.726,False,False,False,114,4,45,11,19,Active
+818,L'Oreal Hair Care Item 0818,9,Health & Beauty,Hair Care,L'Oreal,V2179,633752115043,69.8,88.38,22.0,4.428,False,False,False,139,5,60,6,8,Active
+819,No7 Hair Care Item 0819,9,Health & Beauty,Hair Care,No7,V4091,130789986709,41.77,64.14,29.96,0.208,False,False,False,282,2,12,18,1,Active
+820,L'Oreal Men's Grooming Item 0820,9,Health & Beauty,Men's Grooming,L'Oreal,V1516,601785486564,85.59,117.94,14.82,0.557,False,False,False,68,4,68,16,16,Active
+821,No7 Cosmetics Item 0821,9,Health & Beauty,Cosmetics,No7,V2448,189350958111,146.46,182.57,37.24,1.12,False,False,True,87,5,33,11,15,Active
+822,Pantene Hair Care Item 0822,9,Health & Beauty,Hair Care,Pantene,V4787,572611143967,141.51,187.63,5.11,3.528,False,False,False,104,5,54,23,2,Discontinued
+823,Equate Skin Care Item 0823,9,Health & Beauty,Skin Care,Equate,V4863,839680167741,27.81,37.56,9.86,2.356,False,True,False,102,6,43,12,5,Active
+824,Equate Men's Grooming Item 0824,9,Health & Beauty,Men's Grooming,Equate,V1013,174879829009,171.5,257.21,24.59,3.06,False,True,False,26,4,56,11,20,Active
+825,Pantene Skin Care Item 0825,9,Health & Beauty,Skin Care,Pantene,V3690,301667334193,127.72,178.0,43.91,4.205,False,False,False,349,4,43,23,13,Active
+826,Pantene Oral Care Item 0826,9,Health & Beauty,Oral Care,Pantene,V4944,940761155967,59.44,76.53,14.43,4.847,False,False,False,346,4,19,8,15,Seasonal
+827,Equate Cosmetics Item 0827,9,Health & Beauty,Cosmetics,Equate,V4169,632069874922,139.55,206.8,42.02,4.321,False,True,False,358,2,13,12,9,Active
+828,Dove Hair Care Item 0828,9,Health & Beauty,Hair Care,Dove,V3764,552335726553,112.67,149.77,19.63,2.215,False,False,False,34,3,43,10,11,Active
+829,Equate Cosmetics Item 0829,9,Health & Beauty,Cosmetics,Equate,V4586,689125782558,89.8,115.71,10.39,3.13,False,True,False,321,5,33,7,20,Active
+830,Equate Oral Care Item 0830,9,Health & Beauty,Oral Care,Equate,V4736,943328427694,18.51,27.43,38.32,0.327,False,True,True,114,3,46,9,6,Active
+831,Dove Skin Care Item 0831,9,Health & Beauty,Skin Care,Dove,V2531,552395356812,58.39,73.84,10.86,3.669,False,False,False,25,1,60,19,4,Active
+832,Dove Hair Care Item 0832,9,Health & Beauty,Hair Care,Dove,V1942,948821067540,31.81,42.01,34.43,0.179,False,False,False,200,6,37,7,9,Active
+833,Equate Hair Care Item 0833,9,Health & Beauty,Hair Care,Equate,V4000,123258880125,101.15,149.84,0.84,4.153,False,True,False,84,1,59,21,13,Active
+834,Pantene Cosmetics Item 0834,9,Health & Beauty,Cosmetics,Pantene,V4045,430813121266,157.06,215.18,13.78,1.021,False,False,False,342,5,42,15,10,Active
+835,No7 Oral Care Item 0835,9,Health & Beauty,Oral Care,No7,V4717,687134396562,112.42,156.64,25.38,1.918,False,False,False,208,3,60,20,4,Active
+836,Pantene Hair Care Item 0836,9,Health & Beauty,Hair Care,Pantene,V2514,720523158150,79.77,103.13,5.54,1.56,False,False,True,329,1,18,20,6,Active
+837,Dove Men's Grooming Item 0837,9,Health & Beauty,Men's Grooming,Dove,V3525,623290527759,50.37,63.29,26.22,4.2,False,False,False,37,4,28,16,10,Active
+838,No7 Hair Care Item 0838,9,Health & Beauty,Hair Care,No7,V2665,108037721703,64.63,92.17,13.48,1.054,False,False,False,257,5,43,13,21,Active
+839,Dove Oral Care Item 0839,9,Health & Beauty,Oral Care,Dove,V4002,564307627983,103.13,159.18,34.99,1.885,False,False,False,89,5,59,6,6,Active
+840,Equate Hair Care Item 0840,9,Health & Beauty,Hair Care,Equate,V3564,678975136253,177.16,247.68,24.41,3.747,False,True,False,211,1,30,6,14,Seasonal
+841,L'Oreal Men's Grooming Item 0841,9,Health & Beauty,Men's Grooming,L'Oreal,V3309,283181303147,64.82,100.85,7.16,2.621,False,False,False,321,6,35,19,20,Active
+842,Dove Skin Care Item 0842,9,Health & Beauty,Skin Care,Dove,V3949,250013937621,187.27,294.17,8.3,3.578,False,False,False,169,4,23,7,16,Active
+843,Equate Cosmetics Item 0843,9,Health & Beauty,Cosmetics,Equate,V1384,604820712829,140.44,179.72,16.62,0.315,False,True,False,87,1,34,23,18,Active
+844,L'Oreal Hair Care Item 0844,9,Health & Beauty,Hair Care,L'Oreal,V4361,741780494637,185.61,243.12,36.49,1.843,False,False,False,137,5,46,23,7,Active
+845,No7 Hair Care Item 0845,9,Health & Beauty,Hair Care,No7,V2076,214090049953,146.27,191.91,6.42,2.616,False,False,False,203,3,48,21,20,Active
+846,Pantene Oral Care Item 0846,9,Health & Beauty,Oral Care,Pantene,V1949,340471298590,42.26,50.76,4.66,4.019,False,False,True,91,4,67,3,11,Active
+847,Equate Skin Care Item 0847,9,Health & Beauty,Skin Care,Equate,V3723,458508174731,102.59,141.15,15.2,3.802,False,True,False,208,4,61,15,16,Active
+848,Pantene Cosmetics Item 0848,9,Health & Beauty,Cosmetics,Pantene,V4449,882876918184,106.37,165.23,7.23,2.192,False,False,False,362,3,55,6,18,Active
+849,L'Oreal Skin Care Item 0849,9,Health & Beauty,Skin Care,L'Oreal,V2909,837749731245,5.55,7.47,17.36,2.126,False,False,False,104,4,35,8,1,Active
+850,L'Oreal Men's Grooming Item 0850,9,Health & Beauty,Men's Grooming,L'Oreal,V2345,650845706206,39.38,56.49,46.09,3.038,False,False,True,147,6,42,15,2,Seasonal
+851,L'Oreal Cosmetics Item 0851,9,Health & Beauty,Cosmetics,L'Oreal,V4372,794099125997,125.24,198.94,22.78,0.877,False,False,False,338,5,63,6,2,Active
+852,Pantene Skin Care Item 0852,9,Health & Beauty,Skin Care,Pantene,V4485,190759737956,141.28,179.53,21.04,4.231,False,False,True,333,6,15,13,4,Active
+853,L'Oreal Skin Care Item 0853,9,Health & Beauty,Skin Care,L'Oreal,V2362,842330437323,131.19,196.13,42.43,1.589,False,False,False,307,6,72,14,17,Active
+854,Dove Oral Care Item 0854,9,Health & Beauty,Oral Care,Dove,V1266,653025542736,167.62,246.04,7.46,1.341,False,False,False,29,3,50,9,17,Active
+855,Equate Cosmetics Item 0855,9,Health & Beauty,Cosmetics,Equate,V2398,724772796208,55.12,73.88,41.82,0.44,False,True,False,52,1,70,5,6,Active
+856,No7 Cosmetics Item 0856,9,Health & Beauty,Cosmetics,No7,V4140,964015718386,118.43,187.87,0.62,3.193,False,False,False,133,3,65,24,21,Discontinued
+857,No7 Skin Care Item 0857,9,Health & Beauty,Skin Care,No7,V2175,405707199523,62.44,84.4,7.11,1.585,False,False,False,103,3,68,9,6,Seasonal
+858,L'Oreal Oral Care Item 0858,9,Health & Beauty,Oral Care,L'Oreal,V3370,483813796137,53.28,74.38,38.64,2.62,False,False,False,358,2,14,21,13,Active
+859,Pantene Skin Care Item 0859,9,Health & Beauty,Skin Care,Pantene,V3646,850807134230,198.75,272.99,39.83,1.045,False,False,False,264,5,65,11,3,Active
+860,No7 Cosmetics Item 0860,9,Health & Beauty,Cosmetics,No7,V4776,667430885007,44.04,57.44,32.95,0.94,False,False,True,307,3,35,21,13,Active
+861,Equate Cosmetics Item 0861,9,Health & Beauty,Cosmetics,Equate,V4560,112459803474,140.41,203.85,8.02,2.383,False,True,False,58,2,70,14,10,Active
+862,Pantene Skin Care Item 0862,9,Health & Beauty,Skin Care,Pantene,V3525,750500480945,150.53,207.07,28.84,2.18,False,False,False,131,3,58,14,20,Active
+863,Dove Cosmetics Item 0863,9,Health & Beauty,Cosmetics,Dove,V1959,218141496875,8.51,13.37,21.11,3.873,False,False,False,212,5,13,8,17,Active
+864,L'Oreal Men's Grooming Item 0864,9,Health & Beauty,Men's Grooming,L'Oreal,V1812,927073211882,193.06,304.48,7.06,3.32,False,False,False,34,1,31,7,12,Active
+865,No7 Oral Care Item 0865,9,Health & Beauty,Oral Care,No7,V4616,431451510108,0.67,0.84,15.45,0.931,False,False,False,230,1,58,10,5,Active
+866,L'Oreal Hair Care Item 0866,9,Health & Beauty,Hair Care,L'Oreal,V2928,853980774675,95.73,128.08,19.76,1.07,False,False,False,199,4,57,10,4,Active
+867,L'Oreal Skin Care Item 0867,9,Health & Beauty,Skin Care,L'Oreal,V2159,842255350758,80.28,106.84,36.55,2.129,False,False,False,43,3,43,24,19,Active
+868,Pantene Skin Care Item 0868,9,Health & Beauty,Skin Care,Pantene,V2392,770021733788,153.68,207.11,30.0,1.997,False,False,True,124,2,43,9,2,Active
+869,Dove Hair Care Item 0869,9,Health & Beauty,Hair Care,Dove,V2743,409885101207,68.25,99.76,15.62,3.38,False,False,False,140,4,23,8,13,Active
+870,Equate Oral Care Item 0870,9,Health & Beauty,Oral Care,Equate,V4001,817695070012,161.34,215.96,43.14,4.02,False,True,True,170,2,48,19,13,Active
+871,Equate Oral Care Item 0871,9,Health & Beauty,Oral Care,Equate,V2730,159147539365,130.94,192.23,15.22,1.301,False,True,False,316,4,44,14,16,Active
+872,Pantene Cosmetics Item 0872,9,Health & Beauty,Cosmetics,Pantene,V2736,935507339462,22.78,28.97,19.24,3.377,False,False,False,179,6,49,11,7,Active
+873,Pantene Oral Care Item 0873,9,Health & Beauty,Oral Care,Pantene,V1163,604614081572,87.26,120.93,18.42,4.447,False,False,False,136,4,33,24,10,Active
+874,Equate Men's Grooming Item 0874,9,Health & Beauty,Men's Grooming,Equate,V2708,589701515237,53.81,70.88,16.3,3.184,False,True,False,189,6,14,20,13,Active
+875,Equate Men's Grooming Item 0875,9,Health & Beauty,Men's Grooming,Equate,V3592,574565755436,19.37,28.88,44.65,1.733,False,True,False,323,2,70,19,19,Active
+876,Equate Cosmetics Item 0876,9,Health & Beauty,Cosmetics,Equate,V3964,991797622613,74.87,94.24,44.11,1.916,False,True,False,47,3,71,23,10,Active
+877,Equate Skin Care Item 0877,9,Health & Beauty,Skin Care,Equate,V3674,576364901514,190.1,247.65,48.26,3.97,False,True,False,162,5,44,20,8,Active
+878,Equate Cosmetics Item 0878,9,Health & Beauty,Cosmetics,Equate,V4831,402524377937,114.88,147.75,37.37,3.894,False,True,False,350,1,50,15,6,Active
+879,L'Oreal Hair Care Item 0879,9,Health & Beauty,Hair Care,L'Oreal,V2697,244556628194,81.73,98.69,13.81,2.318,False,False,False,332,3,18,10,8,Active
+880,L'Oreal Skin Care Item 0880,9,Health & Beauty,Skin Care,L'Oreal,V3916,746223545953,13.21,17.37,21.1,2.98,False,False,False,250,5,12,13,11,Active
+881,Dove Skin Care Item 0881,9,Health & Beauty,Skin Care,Dove,V1862,866790133642,92.66,138.71,8.58,1.956,False,False,False,345,5,17,23,16,Active
+882,L'Oreal Hair Care Item 0882,9,Health & Beauty,Hair Care,L'Oreal,V2512,419133390536,41.91,66.8,37.57,2.263,False,False,False,86,5,49,8,20,Active
+883,Dove Oral Care Item 0883,9,Health & Beauty,Oral Care,Dove,V4986,711104644344,199.17,240.87,37.23,4.949,False,False,False,282,2,36,22,4,Active
+884,No7 Skin Care Item 0884,9,Health & Beauty,Skin Care,No7,V1731,275513380246,198.43,283.42,38.37,4.922,False,False,False,288,4,34,9,14,Discontinued
+885,L'Oreal Cosmetics Item 0885,9,Health & Beauty,Cosmetics,L'Oreal,V3720,855419282887,154.21,223.93,48.02,3.811,False,False,False,281,5,37,10,13,Active
+886,Dove Cosmetics Item 0886,9,Health & Beauty,Cosmetics,Dove,V4784,297024503212,165.31,228.09,20.06,0.027,False,False,False,244,6,23,24,4,Active
+887,Dove Oral Care Item 0887,9,Health & Beauty,Oral Care,Dove,V3534,251286755302,82.35,119.78,30.52,2.522,False,False,True,299,6,38,3,11,Active
+888,No7 Men's Grooming Item 0888,9,Health & Beauty,Men's Grooming,No7,V4898,123065245331,125.29,184.65,37.17,4.419,False,False,False,289,5,67,9,6,Active
+889,No7 Skin Care Item 0889,9,Health & Beauty,Skin Care,No7,V1818,243120010656,94.7,140.64,14.72,4.473,False,False,False,243,4,27,24,20,Active
+890,No7 Skin Care Item 0890,9,Health & Beauty,Skin Care,No7,V1455,764876772838,194.57,272.41,41.91,4.362,False,False,False,132,4,58,5,1,Active
+891,Dove Men's Grooming Item 0891,9,Health & Beauty,Men's Grooming,Dove,V1288,558629676294,199.11,307.6,47.88,4.418,False,False,False,317,6,46,3,15,Active
+892,Equate Cosmetics Item 0892,9,Health & Beauty,Cosmetics,Equate,V3970,146251478553,162.43,248.73,18.23,3.586,False,True,False,339,4,39,6,4,Active
+893,L'Oreal Men's Grooming Item 0893,9,Health & Beauty,Men's Grooming,L'Oreal,V1692,552545519156,150.84,187.75,32.86,0.718,False,False,False,254,2,28,6,11,Active
+894,Equate Oral Care Item 0894,9,Health & Beauty,Oral Care,Equate,V2002,386719048374,179.89,251.24,17.19,3.449,False,True,False,237,6,28,21,9,Active
+895,No7 Skin Care Item 0895,9,Health & Beauty,Skin Care,No7,V4605,720068084062,104.59,126.59,18.2,1.463,False,False,False,88,5,52,12,16,Active
+896,L'Oreal Skin Care Item 0896,9,Health & Beauty,Skin Care,L'Oreal,V1600,420436555300,148.87,220.03,42.97,1.294,False,False,False,115,5,31,7,19,Active
+897,L'Oreal Men's Grooming Item 0897,9,Health & Beauty,Men's Grooming,L'Oreal,V2662,780653421927,149.22,238.52,45.01,4.862,False,False,False,307,5,32,19,12,Active
+898,Dove Skin Care Item 0898,9,Health & Beauty,Skin Care,Dove,V2982,520464987226,174.22,242.66,0.81,4.735,False,False,False,165,2,26,7,9,Active
+899,Equate Skin Care Item 0899,9,Health & Beauty,Skin Care,Equate,V4738,962510592818,71.62,99.1,39.41,4.492,False,True,False,193,6,14,15,21,Active
+900,L'Oreal Men's Grooming Item 0900,9,Health & Beauty,Men's Grooming,L'Oreal,V3190,915384962380,13.91,19.77,26.93,0.406,False,False,False,235,5,45,10,8,Active
+901,Staples Writing Item 0901,10,Office Supplies,Writing,Staples,V1726,394674002663,46.05,68.47,27.64,0.466,False,False,False,39,2,45,12,2,Active
+902,Staples Technology Item 0902,10,Office Supplies,Technology,Staples,V1402,159190716367,152.46,212.06,16.01,3.173,False,False,False,66,4,17,18,7,Active
+903,Sharpie Writing Item 0903,10,Office Supplies,Writing,Sharpie,V1039,574944843229,119.86,158.21,43.07,0.567,False,False,False,336,2,49,23,20,Active
+904,Pen+Gear Organization Item 0904,10,Office Supplies,Organization,Pen+Gear,V3017,295984203282,151.03,217.57,16.5,2.422,False,True,False,337,3,28,20,8,Active
+905,Sharpie Technology Item 0905,10,Office Supplies,Technology,Sharpie,V4099,301630233381,62.11,85.46,24.43,1.603,False,False,False,247,4,22,8,3,Active
+906,Avery Paper Item 0906,10,Office Supplies,Paper,Avery,V3612,691360985681,185.1,254.93,41.15,0.976,False,False,True,125,2,31,19,10,Active
+907,Sharpie Ink & Toner Item 0907,10,Office Supplies,Ink & Toner,Sharpie,V3496,727968422169,21.03,27.76,33.63,1.626,False,False,False,209,2,66,8,20,Active
+908,Avery Technology Item 0908,10,Office Supplies,Technology,Avery,V4230,956489103116,196.24,286.78,36.35,1.151,False,False,False,162,3,21,12,11,Active
+909,Avery Ink & Toner Item 0909,10,Office Supplies,Ink & Toner,Avery,V4123,106086499696,61.95,88.3,38.13,2.026,False,False,False,188,6,63,7,15,Active
+910,Pen+Gear Writing Item 0910,10,Office Supplies,Writing,Pen+Gear,V2207,511597675584,42.12,62.62,1.28,2.143,False,True,False,292,5,59,9,7,Active
+911,3M Organization Item 0911,10,Office Supplies,Organization,3M,V2333,627090623559,21.81,28.29,47.08,2.969,False,False,False,30,6,36,18,8,Active
+912,Sharpie Technology Item 0912,10,Office Supplies,Technology,Sharpie,V3619,402119561352,75.32,93.44,26.94,2.196,False,False,False,248,2,68,5,11,Seasonal
+913,3M Writing Item 0913,10,Office Supplies,Writing,3M,V3351,715039292331,174.85,251.07,4.49,1.234,False,False,False,345,3,47,19,10,Active
+914,Staples Paper Item 0914,10,Office Supplies,Paper,Staples,V4027,498802459471,174.21,257.78,45.26,2.235,False,False,False,101,3,41,10,15,Active
+915,Staples Organization Item 0915,10,Office Supplies,Organization,Staples,V1094,229451473669,51.44,77.11,32.15,2.142,False,False,False,31,5,15,19,12,Active
+916,3M Paper Item 0916,10,Office Supplies,Paper,3M,V2339,691804134303,191.98,297.42,24.65,2.878,False,False,False,45,5,17,20,4,Active
+917,Sharpie Paper Item 0917,10,Office Supplies,Paper,Sharpie,V3663,310423116808,115.0,159.55,37.62,3.838,False,False,False,148,4,40,7,21,Active
+918,Staples Technology Item 0918,10,Office Supplies,Technology,Staples,V3836,576520194909,68.29,96.36,44.48,2.013,False,False,False,326,4,13,3,8,Active
+919,Staples Organization Item 0919,10,Office Supplies,Organization,Staples,V4144,685518371363,171.19,245.44,22.94,3.33,False,False,False,301,3,69,21,5,Active
+920,Staples Writing Item 0920,10,Office Supplies,Writing,Staples,V3184,146577624618,62.04,76.95,39.0,2.705,False,False,False,174,3,71,10,7,Active
+921,Staples Ink & Toner Item 0921,10,Office Supplies,Ink & Toner,Staples,V4767,947041578010,198.21,256.32,17.83,0.695,False,False,False,232,1,65,15,1,Active
+922,Staples Ink & Toner Item 0922,10,Office Supplies,Ink & Toner,Staples,V1813,946991741155,10.32,14.19,19.09,4.074,False,False,True,96,5,70,21,17,Active
+923,Staples Paper Item 0923,10,Office Supplies,Paper,Staples,V2467,556627520819,188.17,281.55,9.63,4.926,False,False,False,191,4,28,19,4,Discontinued
+924,Pen+Gear Paper Item 0924,10,Office Supplies,Paper,Pen+Gear,V4938,211057087126,76.32,104.41,17.8,4.729,False,True,False,229,6,31,10,3,Active
+925,3M Ink & Toner Item 0925,10,Office Supplies,Ink & Toner,3M,V3988,148633078358,3.66,5.8,7.12,1.253,False,False,False,72,5,21,7,16,Active
+926,Pen+Gear Technology Item 0926,10,Office Supplies,Technology,Pen+Gear,V3707,509280681810,160.57,248.33,30.92,4.118,False,True,False,96,5,21,24,6,Active
+927,Pen+Gear Writing Item 0927,10,Office Supplies,Writing,Pen+Gear,V2653,510707589817,6.48,8.3,45.46,1.333,False,True,False,20,3,13,18,2,Active
+928,Staples Ink & Toner Item 0928,10,Office Supplies,Ink & Toner,Staples,V3451,678628829101,9.78,13.21,8.57,0.51,False,False,False,121,1,38,5,4,Seasonal
+929,3M Ink & Toner Item 0929,10,Office Supplies,Ink & Toner,3M,V1550,765105388378,171.3,242.34,40.49,0.014,False,False,False,138,2,32,24,18,Active
+930,Sharpie Paper Item 0930,10,Office Supplies,Paper,Sharpie,V4489,317201819927,95.82,143.68,6.38,2.579,False,False,False,80,2,54,5,4,Active
+931,Avery Technology Item 0931,10,Office Supplies,Technology,Avery,V1756,824689961870,21.49,27.73,15.13,3.555,False,False,False,309,5,45,21,9,Active
+932,Staples Organization Item 0932,10,Office Supplies,Organization,Staples,V3373,138013675017,84.69,124.03,37.42,4.001,False,False,False,108,2,12,7,21,Active
+933,Staples Writing Item 0933,10,Office Supplies,Writing,Staples,V2969,307635477065,79.65,95.95,31.47,4.087,False,False,False,238,2,41,22,9,Active
+934,Pen+Gear Organization Item 0934,10,Office Supplies,Organization,Pen+Gear,V2381,305696836527,131.26,184.52,12.84,4.037,False,True,False,288,4,54,6,11,Active
+935,Avery Paper Item 0935,10,Office Supplies,Paper,Avery,V1104,701144039073,156.5,214.5,6.4,1.143,False,False,False,63,1,47,12,5,Active
+936,Avery Ink & Toner Item 0936,10,Office Supplies,Ink & Toner,Avery,V1339,658224113985,87.51,139.47,9.21,4.102,False,False,False,268,2,21,24,8,Active
+937,Staples Organization Item 0937,10,Office Supplies,Organization,Staples,V3305,683513939844,105.35,159.29,26.3,4.003,False,False,False,124,6,72,19,6,Active
+938,Pen+Gear Writing Item 0938,10,Office Supplies,Writing,Pen+Gear,V1926,889204983051,127.16,196.28,7.69,4.712,False,True,False,110,3,15,15,10,Active
+939,Sharpie Ink & Toner Item 0939,10,Office Supplies,Ink & Toner,Sharpie,V1557,101288461054,178.8,248.03,3.84,3.545,False,False,False,113,6,51,22,3,Active
+940,3M Writing Item 0940,10,Office Supplies,Writing,3M,V4131,988938379254,29.19,44.63,48.83,4.892,False,False,False,88,6,38,15,19,Active
+941,Avery Paper Item 0941,10,Office Supplies,Paper,Avery,V1575,541920517361,45.65,72.11,6.26,3.701,False,False,False,84,2,40,7,9,Active
+942,Pen+Gear Paper Item 0942,10,Office Supplies,Paper,Pen+Gear,V4160,759829579657,104.36,147.12,23.61,3.306,False,True,False,70,5,59,22,15,Active
+943,Avery Organization Item 0943,10,Office Supplies,Organization,Avery,V4432,383000191540,189.92,231.02,5.73,2.338,False,False,False,361,4,60,12,8,Active
+944,Pen+Gear Technology Item 0944,10,Office Supplies,Technology,Pen+Gear,V1988,644021648635,191.97,296.79,41.85,4.817,False,True,False,333,1,67,11,9,Discontinued
+945,Sharpie Organization Item 0945,10,Office Supplies,Organization,Sharpie,V2460,113241785160,84.22,129.24,5.15,4.032,False,False,False,260,2,49,16,9,Active
+946,3M Technology Item 0946,10,Office Supplies,Technology,3M,V3484,834118329127,121.52,173.32,19.19,3.012,False,False,False,336,1,48,6,4,Seasonal
+947,Staples Organization Item 0947,10,Office Supplies,Organization,Staples,V3473,995164940732,116.23,172.45,19.75,3.724,False,False,False,232,4,48,19,2,Discontinued
+948,3M Paper Item 0948,10,Office Supplies,Paper,3M,V3582,464840076155,43.6,55.47,5.03,4.604,False,False,False,240,3,34,24,12,Active
+949,Staples Organization Item 0949,10,Office Supplies,Organization,Staples,V2876,390489285547,89.48,109.09,38.45,0.811,False,False,False,287,6,32,15,12,Active
+950,Staples Ink & Toner Item 0950,10,Office Supplies,Ink & Toner,Staples,V3524,914060519667,171.4,228.56,40.28,4.83,False,False,False,163,1,70,5,21,Active
+951,Sharpie Ink & Toner Item 0951,10,Office Supplies,Ink & Toner,Sharpie,V1828,635614187759,128.08,192.46,17.59,4.031,False,False,False,88,2,32,3,4,Active
+952,Avery Technology Item 0952,10,Office Supplies,Technology,Avery,V4099,690815363068,140.2,199.67,8.98,3.096,False,False,True,54,1,57,22,13,Active
+953,Staples Organization Item 0953,10,Office Supplies,Organization,Staples,V4773,213323743586,106.8,145.11,42.27,3.684,False,False,False,157,5,48,5,11,Seasonal
+954,3M Paper Item 0954,10,Office Supplies,Paper,3M,V2121,641279091151,49.56,62.54,11.3,3.478,False,False,False,122,4,53,9,5,Active
+955,Staples Paper Item 0955,10,Office Supplies,Paper,Staples,V2797,711665730970,171.58,239.06,27.61,2.845,False,False,False,272,5,37,23,19,Active
+956,3M Organization Item 0956,10,Office Supplies,Organization,3M,V4290,391206192867,141.5,225.38,21.62,1.829,False,False,False,127,3,46,14,3,Seasonal
+957,Staples Organization Item 0957,10,Office Supplies,Organization,Staples,V2011,691827411184,172.06,274.35,28.99,0.492,False,False,False,266,6,42,20,11,Active
+958,Sharpie Writing Item 0958,10,Office Supplies,Writing,Sharpie,V3641,709784394285,144.16,214.37,41.07,1.128,False,False,False,34,4,51,17,16,Active
+959,Pen+Gear Writing Item 0959,10,Office Supplies,Writing,Pen+Gear,V3663,625478954056,4.91,6.77,43.39,0.748,False,True,False,40,6,29,21,9,Discontinued
+960,Pen+Gear Technology Item 0960,10,Office Supplies,Technology,Pen+Gear,V4861,337925064968,98.42,145.83,33.12,1.556,False,True,False,162,3,26,21,17,Discontinued
+961,Staples Technology Item 0961,10,Office Supplies,Technology,Staples,V4533,158452763026,196.05,281.28,35.63,1.798,False,False,True,43,5,16,19,14,Active
+962,Staples Writing Item 0962,10,Office Supplies,Writing,Staples,V1734,301157969056,195.97,295.82,1.57,4.645,False,False,False,176,1,18,15,19,Active
+963,3M Ink & Toner Item 0963,10,Office Supplies,Ink & Toner,3M,V4470,299042937881,76.57,106.41,4.88,1.782,False,False,False,136,4,17,8,9,Active
+964,Staples Organization Item 0964,10,Office Supplies,Organization,Staples,V2391,926573875621,197.13,286.47,4.79,1.296,False,False,False,38,5,15,24,12,Active
+965,Pen+Gear Technology Item 0965,10,Office Supplies,Technology,Pen+Gear,V2254,976292099497,3.01,4.01,45.27,2.821,False,True,False,95,2,52,22,16,Active
+966,Staples Organization Item 0966,10,Office Supplies,Organization,Staples,V1633,510597663620,19.84,29.23,28.74,4.458,False,False,False,97,5,21,17,1,Active
+967,Sharpie Paper Item 0967,10,Office Supplies,Paper,Sharpie,V2193,482714979122,161.54,213.99,34.18,2.955,False,False,False,58,4,24,22,5,Seasonal
+968,Avery Ink & Toner Item 0968,10,Office Supplies,Ink & Toner,Avery,V2592,592993795195,185.76,263.63,47.21,3.347,False,False,True,133,3,21,10,16,Active
+969,3M Paper Item 0969,10,Office Supplies,Paper,3M,V4772,991121633048,71.99,112.78,42.2,3.302,False,False,False,309,1,66,19,3,Active
+970,Avery Technology Item 0970,10,Office Supplies,Technology,Avery,V3136,930621699434,112.82,167.07,27.36,1.013,False,False,False,236,2,30,23,14,Active
+971,3M Paper Item 0971,10,Office Supplies,Paper,3M,V2316,630691540649,98.35,137.35,30.52,1.536,False,False,False,154,6,56,4,17,Active
+972,Staples Paper Item 0972,10,Office Supplies,Paper,Staples,V4687,695159093902,61.77,88.64,8.75,1.575,False,False,True,21,1,31,15,7,Active
+973,Sharpie Paper Item 0973,10,Office Supplies,Paper,Sharpie,V2776,661517754015,164.84,242.92,26.25,0.9,False,False,False,364,1,70,9,4,Active
+974,Staples Writing Item 0974,10,Office Supplies,Writing,Staples,V1833,325465490221,142.63,175.32,28.6,3.069,False,False,True,202,2,69,6,10,Active
+975,Staples Organization Item 0975,10,Office Supplies,Organization,Staples,V4385,509002742648,196.89,314.01,45.89,2.016,False,False,False,313,2,51,24,9,Active
+976,3M Technology Item 0976,10,Office Supplies,Technology,3M,V2268,821033444790,142.18,221.92,36.86,1.37,False,False,False,219,4,36,11,7,Active
+977,3M Organization Item 0977,10,Office Supplies,Organization,3M,V2619,864683705521,120.23,174.41,38.38,0.653,False,False,False,43,6,19,6,6,Discontinued
+978,3M Paper Item 0978,10,Office Supplies,Paper,3M,V4864,382351549231,37.08,49.35,47.77,3.578,False,False,False,152,5,30,12,19,Active
+979,Pen+Gear Ink & Toner Item 0979,10,Office Supplies,Ink & Toner,Pen+Gear,V4892,710256883849,164.66,255.82,42.34,1.012,False,True,False,25,4,42,6,4,Active
+980,3M Writing Item 0980,10,Office Supplies,Writing,3M,V1276,577779686121,17.18,25.38,30.8,2.196,False,False,True,312,1,54,19,7,Active
+981,Avery Paper Item 0981,10,Office Supplies,Paper,Avery,V2398,483005980701,113.98,180.02,23.16,4.509,False,False,True,201,2,72,12,17,Active
+982,Staples Writing Item 0982,10,Office Supplies,Writing,Staples,V1103,584778702407,67.51,100.49,3.56,1.236,False,False,False,292,2,21,20,11,Active
+983,Pen+Gear Ink & Toner Item 0983,10,Office Supplies,Ink & Toner,Pen+Gear,V3951,895298730149,103.85,125.35,46.65,1.858,False,True,True,60,6,26,3,13,Active
+984,Pen+Gear Ink & Toner Item 0984,10,Office Supplies,Ink & Toner,Pen+Gear,V1919,790468289425,153.85,191.98,1.86,2.732,False,True,True,250,5,53,15,10,Active
+985,3M Ink & Toner Item 0985,10,Office Supplies,Ink & Toner,3M,V3009,377509040433,182.09,235.82,17.32,4.94,False,False,False,85,4,46,14,8,Active
+986,Staples Ink & Toner Item 0986,10,Office Supplies,Ink & Toner,Staples,V2507,124653136255,199.83,310.29,21.64,1.506,False,False,True,217,6,68,20,8,Seasonal
+987,Staples Organization Item 0987,10,Office Supplies,Organization,Staples,V4619,604305291526,42.02,57.24,36.7,2.225,False,False,False,193,3,32,24,13,Active
+988,Sharpie Writing Item 0988,10,Office Supplies,Writing,Sharpie,V3328,902616026842,49.58,73.63,33.0,3.098,False,False,False,287,4,35,23,10,Active
+989,Staples Ink & Toner Item 0989,10,Office Supplies,Ink & Toner,Staples,V2230,954508365898,22.18,32.4,43.52,2.066,False,False,False,179,5,68,8,13,Discontinued
+990,3M Writing Item 0990,10,Office Supplies,Writing,3M,V1845,724427989337,188.67,228.2,33.38,1.374,False,False,False,295,2,53,15,19,Active
+991,Staples Writing Item 0991,10,Office Supplies,Writing,Staples,V4555,244905606742,82.55,114.53,38.15,2.439,False,False,False,320,5,59,23,2,Active
+992,Pen+Gear Paper Item 0992,10,Office Supplies,Paper,Pen+Gear,V4561,461003824029,4.78,7.5,42.64,1.573,False,True,False,110,6,21,9,10,Active
+993,Avery Technology Item 0993,10,Office Supplies,Technology,Avery,V4392,621609248334,181.89,260.72,17.0,0.884,False,False,False,294,2,69,7,6,Active
+994,Sharpie Technology Item 0994,10,Office Supplies,Technology,Sharpie,V3575,870815923798,82.23,117.15,49.17,3.453,False,False,False,65,6,72,7,15,Active
+995,Pen+Gear Writing Item 0995,10,Office Supplies,Writing,Pen+Gear,V2953,942545701359,176.11,244.64,1.1,3.444,False,True,False,232,5,48,8,15,Active
+996,3M Technology Item 0996,10,Office Supplies,Technology,3M,V1348,507534374422,69.09,92.3,3.54,0.683,False,False,False,208,2,19,24,7,Seasonal
+997,Avery Organization Item 0997,10,Office Supplies,Organization,Avery,V1340,762948439376,142.43,224.97,49.18,2.479,False,False,False,309,4,22,14,9,Active
+998,Avery Technology Item 0998,10,Office Supplies,Technology,Avery,V2304,284279079352,180.9,218.78,2.7,1.202,False,False,False,236,4,33,4,9,Active
+999,3M Paper Item 0999,10,Office Supplies,Paper,3M,V4571,111270722874,66.92,81.14,36.76,0.106,False,False,False,247,4,36,4,9,Active
+1000,Avery Organization Item 1000,10,Office Supplies,Organization,Avery,V4211,548499873497,160.73,247.76,35.39,0.67,False,False,False,140,5,24,18,10,Active

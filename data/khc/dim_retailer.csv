@@ -1,0 +1,11 @@
+retailer_id,retailer_name,channel,khc_account_tier,market_weight_pct,acv_factor,est_store_count,has_category_review,khc_category_captain,planogram_cycle,promo_compliance_baseline
+R01,Walmart,Mass,Tier 1,21.0,1.0,4600.0,True,True,Bi-Annual,59.0
+R02,Kroger,Grocery,Tier 1,13.5,0.95,2800.0,True,True,Quarterly,83.1
+R03,Target,Mass,Tier 1,9.0,0.92,1900.0,True,True,Bi-Annual,72.1
+R04,Costco,Club,Tier 1,7.5,0.85,575.0,True,False,Bi-Annual,69.2
+R05,Publix,Grocery,Tier 1,6.0,0.94,1330.0,True,False,Quarterly,78.5
+R06,Albertsons,Grocery,Tier 2,5.5,0.9,2280.0,False,False,Quarterly,79.2
+R07,Ahold Delhaize,Grocery,Tier 2,4.8,0.88,2000.0,False,False,Quarterly,60.7
+R08,H-E-B,Grocery,Tier 2,3.2,0.96,340.0,False,False,Quarterly,57.9
+R09,Dollar General,Value,Tier 2,3.0,0.7,19000.0,False,False,Bi-Annual,67.9
+R10,Amazon Fresh,eCommerce,Tier 3,2.0,0.55,,False,False,Bi-Annual,67.7

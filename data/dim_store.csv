@@ -1,0 +1,51 @@
+store_id,store_number,store_name,store_type,city,state,zip,region,district,square_footage,num_departments,open_date,store_manager,has_pharmacy,has_auto_center,has_vision_center,has_garden_center,has_tire_center,has_grocery_pickup,has_fuel_station,avg_weekly_customers,parking_spaces
+1,S0001,Walmart Supercenter #0001,Supercenter,City_AL,AL,98055,North,D11,173376,23,2019-01-26,Manager_1,True,False,True,True,True,True,True,7863,742
+2,S0002,Walmart Supercenter #0002,Supercenter,City_AK,AK,11762,East,D20,58450,24,1990-10-21,Manager_2,False,False,True,True,False,True,True,9545,402
+3,S0003,Walmart Supercenter #0003,Supercenter,City_AZ,AZ,22019,North,D01,153500,45,1995-11-08,Manager_3,True,False,True,True,True,True,False,21230,609
+4,S0004,Walmart Neighborhood Market #0004,Neighborhood Market,City_AR,AR,47757,Central,D02,156003,25,2005-09-01,Manager_4,True,False,True,False,False,True,True,29958,338
+5,S0005,Walmart Neighborhood Market #0005,Neighborhood Market,City_CA,CA,52127,South,D06,143459,40,1995-10-10,Manager_5,True,True,True,True,False,True,False,26457,755
+6,S0006,Walmart Discount Store #0006,Discount Store,City_CO,CO,31137,North,D02,56458,35,1999-06-24,Manager_6,True,False,True,False,False,True,False,27102,345
+7,S0007,Walmart Discount Store #0007,Discount Store,City_CT,CT,57379,Central,D03,189212,28,2008-12-27,Manager_7,True,True,False,True,True,True,False,29411,397
+8,S0008,Walmart Neighborhood Market #0008,Neighborhood Market,City_DE,DE,32354,North,D12,147408,34,2008-08-11,Manager_8,False,False,False,True,False,True,True,29594,497
+9,S0009,Walmart Supercenter #0009,Supercenter,City_FL,FL,13208,South,D11,139996,40,2020-03-13,Manager_9,True,True,False,False,True,False,True,5537,500
+10,S0010,Walmart Supercenter #0010,Supercenter,City_GA,GA,45506,East,D07,45683,35,1994-07-06,Manager_10,True,False,True,True,True,True,True,10237,549
+11,S0011,Walmart Supercenter #0011,Supercenter,City_HI,HI,23895,North,D11,164964,39,2001-05-05,Manager_11,True,False,False,True,True,True,True,25658,459
+12,S0012,Walmart Supercenter #0012,Supercenter,City_ID,ID,90167,North,D20,73928,36,2003-05-11,Manager_12,True,False,False,True,False,True,True,18664,426
+13,S0013,Walmart Neighborhood Market #0013,Neighborhood Market,City_IL,IL,52755,South,D11,164829,45,2020-05-18,Manager_13,True,False,True,False,False,True,False,12501,662
+14,S0014,Walmart Supercenter #0014,Supercenter,City_IN,IN,41066,South,D16,187665,35,2009-01-11,Manager_14,True,True,False,True,True,True,False,28849,436
+15,S0015,Walmart Supercenter #0015,Supercenter,City_IA,IA,61062,South,D09,77508,31,2004-01-16,Manager_15,True,False,True,False,True,True,True,15486,548
+16,S0016,Walmart Discount Store #0016,Discount Store,City_KS,KS,80295,South,D07,196653,39,2009-02-10,Manager_16,True,False,True,False,True,True,True,5357,452
+17,S0017,Walmart Discount Store #0017,Discount Store,City_KY,KY,28882,East,D01,47555,40,1996-11-25,Manager_17,True,True,False,False,True,True,True,19553,688
+18,S0018,Walmart Discount Store #0018,Discount Store,City_LA,LA,45855,West,D09,91847,42,1993-10-15,Manager_18,True,True,True,True,True,True,True,9644,461
+19,S0019,Walmart Supercenter #0019,Supercenter,City_ME,ME,13337,West,D11,143687,25,2007-06-20,Manager_19,False,True,True,True,False,True,True,28503,665
+20,S0020,Walmart Neighborhood Market #0020,Neighborhood Market,City_MD,MD,18372,North,D05,79733,23,2005-09-06,Manager_20,False,True,False,False,True,True,False,21136,505
+21,S0021,Walmart Supercenter #0021,Supercenter,City_MA,MA,78770,West,D13,80628,37,1991-02-27,Manager_21,True,True,False,False,True,True,False,5793,326
+22,S0022,Walmart Neighborhood Market #0022,Neighborhood Market,City_MI,MI,15556,North,D08,100991,24,2005-03-17,Manager_22,True,True,True,True,True,True,True,28420,656
+23,S0023,Walmart Supercenter #0023,Supercenter,City_MN,MN,18907,North,D07,194578,21,2007-04-08,Manager_23,True,True,False,True,True,True,True,11972,377
+24,S0024,Walmart Supercenter #0024,Supercenter,City_MS,MS,92271,Central,D10,109637,37,1990-06-17,Manager_24,True,False,False,True,True,True,True,26314,446
+25,S0025,Walmart Supercenter #0025,Supercenter,City_MO,MO,68398,Central,D17,146349,26,1990-03-04,Manager_25,True,False,False,False,True,True,False,27601,645
+26,S0026,Walmart Neighborhood Market #0026,Neighborhood Market,City_MT,MT,87759,East,D12,161577,21,2018-11-21,Manager_26,True,False,False,True,True,True,False,15942,405
+27,S0027,Walmart Supercenter #0027,Supercenter,City_NE,NE,60930,East,D15,142433,39,2020-03-16,Manager_27,True,True,False,False,False,True,True,5008,736
+28,S0028,Walmart Supercenter #0028,Supercenter,City_NV,NV,16557,North,D09,40002,29,2009-08-13,Manager_28,True,False,True,True,False,False,False,17216,338
+29,S0029,Walmart Discount Store #0029,Discount Store,City_NH,NH,95672,North,D10,49173,23,2003-05-05,Manager_29,True,False,False,False,True,False,False,27342,705
+30,S0030,Walmart Supercenter #0030,Supercenter,City_NJ,NJ,72456,South,D01,69513,22,2018-12-08,Manager_30,True,False,True,True,True,True,True,27668,378
+31,S0031,Walmart Neighborhood Market #0031,Neighborhood Market,City_NM,NM,62106,West,D01,49741,35,1992-07-27,Manager_31,True,True,True,False,False,False,False,28262,444
+32,S0032,Walmart Supercenter #0032,Supercenter,City_NY,NY,45033,North,D09,89301,27,1996-12-15,Manager_32,False,False,True,True,False,True,False,12586,666
+33,S0033,Walmart Supercenter #0033,Supercenter,City_NC,NC,57714,North,D20,136284,34,1999-08-18,Manager_33,True,False,True,True,True,True,True,10700,597
+34,S0034,Walmart Supercenter #0034,Supercenter,City_ND,ND,71274,East,D10,78701,41,2001-08-22,Manager_34,True,True,True,True,False,True,True,20288,530
+35,S0035,Walmart Supercenter #0035,Supercenter,City_OH,OH,99173,South,D02,130034,36,2017-11-05,Manager_35,True,True,False,True,False,True,False,11744,722
+36,S0036,Walmart Supercenter #0036,Supercenter,City_OK,OK,64916,North,D17,182605,21,1992-09-04,Manager_36,True,True,True,False,False,True,False,21029,359
+37,S0037,Walmart Discount Store #0037,Discount Store,City_OR,OR,58932,Central,D13,177133,41,2013-07-08,Manager_37,True,False,True,False,True,True,True,27739,758
+38,S0038,Walmart Neighborhood Market #0038,Neighborhood Market,City_PA,PA,10078,Central,D04,169814,24,2012-02-23,Manager_38,False,True,True,False,True,True,False,5770,308
+39,S0039,Walmart Supercenter #0039,Supercenter,City_RI,RI,25869,South,D06,58700,22,1999-05-15,Manager_39,False,True,True,True,False,True,True,11830,455
+40,S0040,Walmart Supercenter #0040,Supercenter,City_SC,SC,87291,West,D20,195539,21,2009-11-16,Manager_40,False,True,True,True,True,True,False,8211,516
+41,S0041,Walmart Supercenter #0041,Supercenter,City_SD,SD,56013,West,D01,139606,21,2009-08-25,Manager_41,False,True,True,True,False,True,False,19899,494
+42,S0042,Walmart Discount Store #0042,Discount Store,City_TN,TN,89116,West,D02,124639,29,1997-09-25,Manager_42,True,True,True,True,False,True,False,5925,778
+43,S0043,Walmart Supercenter #0043,Supercenter,City_TX,TX,19057,Central,D06,161419,28,2004-12-19,Manager_43,True,False,True,True,False,True,True,19802,450
+44,S0044,Walmart Neighborhood Market #0044,Neighborhood Market,City_UT,UT,48048,Central,D11,151865,23,1991-11-05,Manager_44,False,True,True,True,True,True,False,10787,695
+45,S0045,Walmart Supercenter #0045,Supercenter,City_VT,VT,49620,South,D08,129147,41,1991-10-28,Manager_45,True,False,False,False,True,True,True,24831,588
+46,S0046,Walmart Supercenter #0046,Supercenter,City_VA,VA,75030,East,D14,45383,42,2004-09-23,Manager_46,True,True,True,True,True,True,True,7858,434
+47,S0047,Walmart Discount Store #0047,Discount Store,City_WA,WA,62602,Central,D08,76051,23,2005-01-06,Manager_47,True,True,True,False,True,True,True,26504,394
+48,S0048,Walmart Supercenter #0048,Supercenter,City_WV,WV,25184,Central,D02,100882,26,2003-03-10,Manager_48,True,False,True,True,False,True,False,24188,571
+49,S0049,Walmart Supercenter #0049,Supercenter,City_WI,WI,27964,East,D08,165931,45,1999-04-07,Manager_49,True,True,True,True,False,True,False,7323,374
+50,S0050,Walmart Neighborhood Market #0050,Neighborhood Market,City_WY,WY,76829,South,D03,165223,36,2017-02-19,Manager_50,True,False,True,True,False,True,True,29653,521
