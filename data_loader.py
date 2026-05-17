@@ -1,228 +1,345 @@
-"""
-Shared data loader — CSVs are read once at import time and pre-aggregated.
-All pages import from here; nothing reads CSVs inside callbacks.
-"""
-import os
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
-DATA = os.path.join(os.path.dirname(__file__), "data")
+DATA = Path("data")
+SUPPLIER = DATA / "supplier"
 
-def _p(name): return os.path.join(DATA, f"{name}.csv")
+_CACHE: dict = {}
 
-# ── Dimensions ─────────────────────────────────────────────────────────────
-print("Loading dimensions...")
-dim_item     = pd.read_csv(_p("dim_item"))
-dim_store    = pd.read_csv(_p("dim_store"))
-dim_calendar = pd.read_csv(_p("dim_calendar"), parse_dates=["date"])
-dim_dc       = pd.read_csv(_p("dim_distribution_fulfillment_center"))
 
-CATEGORIES = sorted(dim_item["category_name"].unique().tolist())
-REGIONS    = sorted(dim_store["region"].unique().tolist())
-STATES     = sorted(dim_store["state"].unique().tolist())
+def _cached(key, fn):
+    if key not in _CACHE:
+        _CACHE[key] = fn()
+    return _CACHE[key]
 
-# ── Heavy fact tables ───────────────────────────────────────────────────────
-print("Loading store sales...")
-_sales_raw = pd.read_csv(_p("fact_store_sales"), parse_dates=["week_start_date"])
-_sales_raw = _sales_raw.merge(dim_item[["item_id","category_name"]], on="item_id", how="left")
-_sales_raw = _sales_raw.merge(dim_store[["store_id","state","region","store_type","square_footage"]], on="store_id", how="left")
 
-print("Loading store inventory...")
-_inv_raw = pd.read_csv(_p("fact_store_inventory"), parse_dates=["snapshot_date"])
-_inv_raw = _inv_raw.merge(dim_item[["item_id","category_name"]], on="item_id", how="left")
-_inv_raw = _inv_raw.merge(dim_store[["store_id","state","region"]], on="store_id", how="left")
+# ── Dimension helpers ─────────────────────────────────────────────────────────
 
-print("Loading clickstream (pre-aggregating)...")
-_click_raw = pd.read_csv(_p("fact_clickstream"), parse_dates=["event_date"])
+def _dim_item():
+    return pd.read_csv(DATA / "dim_item.csv")[
+        ["item_id", "item_name", "category_name", "subcategory", "brand",
+         "vendor_id", "is_private_label", "is_perishable", "unit_cost", "unit_retail"]
+    ]
 
-print("Loading remaining facts...")
-fact_ecomm_sales   = pd.read_csv(_p("fact_ecomm_sales"), parse_dates=["week_start_date"])
-fact_opd           = pd.read_csv(_p("fact_online_pickup_delivery"), parse_dates=["order_date"])
-fact_otif          = pd.read_csv(_p("fact_otif"), parse_dates=["order_date","actual_delivery_date"])
-fact_po            = pd.read_csv(_p("fact_purchase_order"), parse_dates=["order_date"])
-fact_markdown      = pd.read_csv(_p("fact_store_markup_markdown"), parse_dates=["event_date","end_date"])
-fact_tender        = pd.read_csv(_p("fact_tender_analysis"), parse_dates=["date"])
-fact_pricing       = pd.read_csv(_p("fact_item_pricing"), parse_dates=["effective_date"])
 
-# ── Pre-aggregations ────────────────────────────────────────────────────────
+def _dim_store():
+    return pd.read_csv(DATA / "dim_store.csv")[
+        ["store_id", "store_name", "store_type", "city", "state", "region",
+         "has_grocery_pickup", "avg_weekly_customers"]
+    ]
 
-# Weekly sales by category (for trend charts)
-sales_weekly_cat = (
-    _sales_raw.groupby(["week_start_date","category_name"], as_index=False)
-    .agg(net_sales=("net_sales","sum"), gross_margin=("gross_margin","sum"),
-         units_sold=("units_sold","sum"), cogs=("cogs","sum"))
-)
 
-# Weekly sales by state (for choropleth)
-sales_by_state = (
-    _sales_raw.groupby("state", as_index=False)
-    .agg(net_sales=("net_sales","sum"), gross_margin=("gross_margin","sum"),
-         units_sold=("units_sold","sum"))
-)
+def _supplier_brands():
+    return pd.read_csv(SUPPLIER / "dim_brand.csv")[
+        ["brand_id", "brand_name", "segment", "business_unit", "is_category_captain"]
+    ]
 
-# Top items by revenue
-top_items = (
-    _sales_raw.groupby(["item_id","category_name"], as_index=False)
-    .agg(net_sales=("net_sales","sum"))
-    .merge(dim_item[["item_id","item_name"]], on="item_id")
-    .nlargest(20, "net_sales")
-)
 
-# Weekly sales by store (for store performance page)
-sales_by_store_week = (
-    _sales_raw.groupby(["week_start_date","store_id","state","region","store_type","square_footage"], as_index=False)
-    .agg(net_sales=("net_sales","sum"), gross_margin=("gross_margin","sum"),
-         units_sold=("units_sold","sum"), cogs=("cogs","sum"))
-)
-sales_by_store_week["gross_margin_pct"] = (
-    sales_by_store_week["gross_margin"] / sales_by_store_week["net_sales"].replace(0, np.nan) * 100
-)
-sales_by_store_week["sales_per_sqft"] = (
-    sales_by_store_week["net_sales"] / sales_by_store_week["square_footage"].replace(0, np.nan)
-)
+def _supplier_retailers():
+    return pd.read_csv(SUPPLIER / "dim_retailer.csv")[
+        ["retailer_id", "retailer_name", "channel", "khc_account_tier"]
+    ]
 
-# Category × store margin
-sales_cat_store = (
-    _sales_raw.groupby(["store_id","category_name"], as_index=False)
-    .agg(net_sales=("net_sales","sum"), gross_margin=("gross_margin","sum"))
-)
-sales_cat_store["gm_pct"] = (
-    sales_cat_store["gross_margin"] / sales_cat_store["net_sales"].replace(0, np.nan) * 100
-)
 
-# Inventory: in-stock rate by category
-inv_instock = (
-    _inv_raw.groupby("category_name", as_index=False)
-    .apply(lambda g: pd.Series({
-        "in_stock_rate": (g["on_hand_units"] > 0).mean() * 100,
-        "avg_dos": g["days_of_supply"].mean(),
-        "avg_on_hand": g["on_hand_units"].mean(),
-    }), include_groups=False)
-    .reset_index(drop=True)
-)
+def _supplier_skus():
+    return pd.read_csv(SUPPLIER / "dim_sku.csv")[
+        ["sku_id", "sku_name", "brand_id", "size", "tier", "list_price",
+         "margin_pct", "is_core_item", "velocity_index"]
+    ]
 
-# Inventory DOS distribution (sampled for performance)
-inv_dos_sample = _inv_raw[["category_name","days_of_supply"]].sample(n=min(50_000, len(_inv_raw)), random_state=42)
 
-# Inventory turns by category (annual COGS / avg on-hand value)
-_inv_cat = _inv_raw.groupby("category_name", as_index=False).agg(
-    avg_on_hand=("on_hand_units","mean")
-)
-_sales_cat_total = _sales_raw.groupby("category_name", as_index=False).agg(cogs=("cogs","sum"))
-inv_turns = _inv_cat.merge(_sales_cat_total, on="category_name")
-inv_turns["inv_turn_rate"] = (
-    inv_turns["cogs"] / (inv_turns["avg_on_hand"] * dim_item.groupby("category_name")["unit_cost"].mean().reindex(inv_turns["category_name"]).values)
-).fillna(0)
+# ── Store Sales ───────────────────────────────────────────────────────────────
 
-# OTIF by vendor (merge with DC dim for region)
-otif_vendor = (
-    fact_otif.groupby("vendor_id", as_index=False)
-    .agg(total_pos=("otif_id","count"), otif_pct=("otif_flag","mean"),
-         fill_rate=("fill_rate_pct","mean"), otif_score=("otif_score","mean"))
-)
-otif_vendor["otif_pct"] = otif_vendor["otif_pct"] * 100
+def get_store_sales():
+    def _load():
+        df = pd.read_csv(DATA / "fact_store_sales.csv",
+                         parse_dates=["week_start_date"])
+        df = df.merge(_dim_item(), on="item_id", how="left")
+        df = df.merge(_dim_store(), on="store_id", how="left")
+        df["month"] = df["week_start_date"].dt.to_period("M").astype(str)
+        df["quarter"] = df["week_start_date"].dt.to_period("Q").astype(str)
+        df["year"] = df["week_start_date"].dt.year
+        return df
+    return _cached("store_sales", _load)
 
-# OTIF by DC+region
-otif_dc = (
-    fact_otif.merge(dim_dc[["center_id","region","center_name","center_type"]],
-                    left_on="dc_id", right_on="center_id", how="left")
-    .groupby(["dc_id","region","center_name"], as_index=False)
-    .agg(total_pos=("otif_id","count"), otif_pct=("otif_flag","mean"),
-         fill_rate=("fill_rate_pct","mean"), avg_score=("otif_score","mean"))
-)
-otif_dc["otif_pct"] = otif_dc["otif_pct"] * 100
 
-# KPIs (global, used by executive summary)
-TOTAL_NET_SALES   = _sales_raw["net_sales"].sum()
-TOTAL_GROSS_MARGIN= _sales_raw["gross_margin"].sum()
-GROSS_MARGIN_PCT  = TOTAL_GROSS_MARGIN / TOTAL_NET_SALES * 100 if TOTAL_NET_SALES else 0
-TOP_CATEGORY      = _sales_raw.groupby("category_name")["net_sales"].sum().idxmax()
-GLOBAL_OTIF_PCT   = fact_otif["otif_flag"].mean() * 100 if len(fact_otif) else 0
-INSTOCK_RATE      = (_inv_raw["on_hand_units"] > 0).mean() * 100
+def get_sales_weekly_agg():
+    """Pre-aggregated weekly totals — fast for trend charts."""
+    def _load():
+        df = get_store_sales()
+        return df.groupby("week_start_date").agg(
+            net_sales=("net_sales", "sum"),
+            gross_sales=("gross_sales", "sum"),
+            gross_margin=("gross_margin", "sum"),
+            net_units=("net_units", "sum"),
+            num_transactions=("num_transactions", "sum"),
+        ).reset_index().assign(
+            gross_margin_pct=lambda x: (x["gross_margin"] / x["net_sales"] * 100).round(2)
+        )
+    return _cached("sales_weekly_agg", _load)
 
-# ── Clickstream pre-aggregations ────────────────────────────────────────────
 
-# Funnel totals
-click_funnel_totals = (
-    _click_raw.groupby("event_type", as_index=False)["event_id"].count()
-    .rename(columns={"event_id":"count"})
-)
+def get_sales_category_agg():
+    def _load():
+        df = get_store_sales()
+        return df.groupby("category_name").agg(
+            net_sales=("net_sales", "sum"),
+            gross_margin=("gross_margin", "sum"),
+            net_units=("net_units", "sum"),
+        ).reset_index().assign(
+            gross_margin_pct=lambda x: (x["gross_margin"] / x["net_sales"] * 100).round(2)
+        ).sort_values("net_sales", ascending=False)
+    return _cached("sales_cat_agg", _load)
 
-# Weekly conversion trend
-_click_weekly = _click_raw.copy()
-_click_weekly["week"] = _click_weekly["event_date"].dt.to_period("W").dt.start_time
-click_weekly_funnel = (
-    _click_weekly.groupby(["week","event_type"], as_index=False)["event_id"].count()
-    .rename(columns={"event_id":"count"})
-)
-_pvw = click_weekly_funnel[click_weekly_funnel["event_type"]=="product_view"].set_index("week")["count"]
-_pur = click_weekly_funnel[click_weekly_funnel["event_type"]=="purchase"].set_index("week")["count"]
-conversion_trend = pd.DataFrame({
-    "week": _pvw.index,
-    "product_views": _pvw.values,
-    "purchases": _pur.reindex(_pvw.index, fill_value=0).values,
-}).assign(conversion_rate=lambda d: d["purchases"] / d["product_views"].replace(0, np.nan) * 100)
 
-# Top search terms
-click_search_terms = (
-    _click_raw[_click_raw["search_term"].str.len() > 0]
-    .groupby("search_term", as_index=False)["event_id"].count()
-    .rename(columns={"event_id":"count"})
-    .nlargest(15, "count")
-)
+def get_top_items():
+    def _load():
+        df = get_store_sales()
+        return (df.groupby(["item_id", "item_name", "category_name", "brand"])
+                .agg(net_sales=("net_sales", "sum"),
+                     net_units=("net_units", "sum"),
+                     gross_margin_pct=("gross_margin_pct", "mean"))
+                .reset_index()
+                .sort_values("net_sales", ascending=False)
+                .head(30))
+    return _cached("top_items", _load)
 
-# Device mix
-click_device = (
-    _click_raw.groupby("device_type", as_index=False)["event_id"].count()
-    .rename(columns={"event_id":"count"})
-)
 
-# ── OPD pre-aggregations ────────────────────────────────────────────────────
-opd_sla = fact_opd["sla_met"].mean() * 100 if len(fact_opd) else 0
-opd_by_type = (
-    fact_opd.groupby("fulfillment_type", as_index=False)
-    .agg(orders=("order_id","count"), avg_order_total=("order_total","mean"),
-         sla_met_pct=("sla_met","mean"), avg_rating=("customer_rating","mean"))
-)
-opd_by_type["sla_met_pct"] *= 100
+def get_store_performance():
+    def _load():
+        df = get_store_sales()
+        return (df.groupby(["store_id", "store_name", "region", "state"])
+                .agg(net_sales=("net_sales", "sum"),
+                     gross_margin_pct=("gross_margin_pct", "mean"),
+                     net_units=("net_units", "sum"))
+                .reset_index())
+    return _cached("store_perf", _load)
 
-# ── Tender pre-aggregations ────────────────────────────────────────────────
-tender_mix = (
-    fact_tender.groupby("tender_type", as_index=False)
-    .agg(total_amount=("total_amount","sum"), transaction_count=("transaction_count","sum"))
-)
 
-# ── Markdown pre-aggregations ───────────────────────────────────────────────
-markdown_df = fact_markdown.merge(dim_item[["item_id","category_name"]], on="item_id", how="left")
-markdown_df = markdown_df.merge(dim_store[["store_id","state","region"]], on="store_id", how="left")
+# ── Ecommerce Sales ───────────────────────────────────────────────────────────
 
-md_by_cat = (
-    markdown_df.groupby(["category_name","event_type"], as_index=False)
-    .agg(revenue=("revenue_during_event","sum"),
-         margin_impact=("margin_impact","sum"),
-         avg_depth=("markdown_depth","mean"),
-         events=("event_id","count"))
-)
+def get_ecomm_sales():
+    def _load():
+        df = pd.read_csv(DATA / "fact_ecomm_sales.csv",
+                         parse_dates=["week_start_date"])
+        df = df.merge(_dim_item()[["item_id", "category_name", "brand"]], on="item_id", how="left")
+        return df
+    return _cached("ecomm_sales", _load)
 
-md_revenue_by_cat = (
-    markdown_df.groupby("category_name", as_index=False)
-    .agg(revenue=("revenue_during_event","sum"), events=("event_id","count"),
-         avg_depth=("markdown_depth","mean"))
-)
 
-# Sample for Gantt (too many rows to show all)
-md_gantt_sample = (
-    markdown_df[markdown_df["event_type"].isin(["Markdown","Clearance"])]
-    .sample(n=min(200, len(markdown_df)), random_state=42)
-    [["event_date","end_date","event_type","category_name","store_id","markdown_depth"]]
-)
+def get_channel_comparison():
+    """Weekly store vs ecomm sales for channel split chart."""
+    def _load():
+        store_wk = get_sales_weekly_agg()[["week_start_date", "net_sales"]].copy()
+        store_wk["channel"] = "In-Store"
 
-# Pricing: price index vs competitor
-pricing_scatter = (
-    fact_pricing[fact_pricing["competitor_price"].notna()]
-    .merge(dim_item[["item_id","category_name"]], on="item_id", how="left")
-    .sample(n=min(3000, len(fact_pricing)), random_state=42)
-    [["item_id","category_name","regular_price","competitor_price","price_index","price_type"]]
-)
+        ecomm = get_ecomm_sales()
+        ecomm_wk = (ecomm.groupby("week_start_date")["net_sales"]
+                    .sum().reset_index())
+        ecomm_wk["channel"] = "E-Commerce"
 
-print("Data loader ready.")
+        return pd.concat([store_wk, ecomm_wk], ignore_index=True)
+    return _cached("channel_comp", _load)
+
+
+# ── Markdowns ─────────────────────────────────────────────────────────────────
+
+def get_markdowns():
+    def _load():
+        df = pd.read_csv(DATA / "fact_store_markup_markdown.csv",
+                         parse_dates=["event_date", "end_date"])
+        df = df.merge(_dim_item()[["item_id", "category_name"]], on="item_id", how="left")
+        return df
+    return _cached("markdowns", _load)
+
+
+# ── Supply Chain ──────────────────────────────────────────────────────────────
+
+def get_otif():
+    def _load():
+        df = pd.read_csv(DATA / "fact_otif.csv",
+                         parse_dates=["order_date", "expected_delivery_date",
+                                      "actual_delivery_date"])
+        df["order_week"] = df["order_date"].dt.to_period("W").apply(lambda p: p.start_time)
+        return df
+    return _cached("otif", _load)
+
+
+def get_purchase_orders():
+    def _load():
+        return pd.read_csv(DATA / "fact_purchase_order.csv",
+                           parse_dates=["order_date", "expected_delivery_date"])
+    return _cached("po", _load)
+
+
+def get_store_inventory_agg():
+    """Category-level inventory aggregation (avoids loading 650K rows into charts)."""
+    def _load():
+        df = pd.read_csv(DATA / "fact_store_inventory.csv",
+                         parse_dates=["snapshot_date"],
+                         usecols=["snapshot_id", "snapshot_date", "store_id", "item_id",
+                                  "on_hand_units", "days_of_supply", "reorder_needed",
+                                  "shrink_value"])
+        df = df.merge(_dim_item()[["item_id", "category_name"]], on="item_id", how="left")
+        df["reorder_needed"] = df["reorder_needed"].astype(bool)
+        return df.groupby(["snapshot_date", "category_name"]).agg(
+            avg_dos=("days_of_supply", "mean"),
+            oos_items=("reorder_needed", "sum"),
+            total_items=("reorder_needed", "count"),
+            total_shrink=("shrink_value", "sum"),
+            on_hand_units=("on_hand_units", "sum"),
+        ).reset_index().assign(
+            oos_rate=lambda x: (x["oos_items"] / x["total_items"] * 100).round(2)
+        )
+    return _cached("inv_agg", _load)
+
+
+def get_store_forecast():
+    def _load():
+        return pd.read_csv(DATA / "fact_store_demand_forecast.csv",
+                           parse_dates=["forecast_date"])
+    return _cached("store_fc", _load)
+
+
+def get_ecomm_inventory():
+    def _load():
+        df = pd.read_csv(DATA / "fact_ecomm_inventory.csv",
+                         parse_dates=["snapshot_date"],
+                         usecols=["snapshot_id", "snapshot_date", "fulfillment_center_id",
+                                  "item_id", "on_hand_units", "days_of_supply",
+                                  "reorder_needed", "available_units"])
+        df = df.merge(_dim_item()[["item_id", "category_name"]], on="item_id", how="left")
+        df["reorder_needed"] = df["reorder_needed"].astype(bool)
+        return df
+    return _cached("ecomm_inv", _load)
+
+
+# ── Shopper Behavior ──────────────────────────────────────────────────────────
+
+def get_clickstream_agg():
+    """Pre-aggregated clickstream — avoids loading 500K rows per chart call."""
+    def _load():
+        df = pd.read_csv(DATA / "fact_clickstream.csv",
+                         parse_dates=["event_date"],
+                         usecols=["event_id", "session_id", "user_id", "event_date",
+                                  "event_type", "page_category", "device_type",
+                                  "referral_source", "search_term",
+                                  "add_to_cart_flag", "purchase_flag",
+                                  "time_on_page_sec"])
+        df["add_to_cart_flag"] = df["add_to_cart_flag"].astype(bool)
+        df["purchase_flag"] = df["purchase_flag"].astype(bool)
+        return df
+    return _cached("clickstream", _load)
+
+
+def get_funnel_data():
+    def _load():
+        df = get_clickstream_agg()
+        events = df["event_type"].value_counts()
+        steps = ["search", "page_view", "product_view", "add_to_cart", "begin_checkout"]
+        labels = ["Search", "Page View", "Product View", "Add to Cart", "Checkout"]
+        counts = [events.get(s, 0) for s in steps]
+        return pd.DataFrame({"stage": labels, "count": counts})
+    return _cached("funnel", _load)
+
+
+def get_tender():
+    def _load():
+        return pd.read_csv(DATA / "fact_tender_analysis.csv", parse_dates=["date"])
+    return _cached("tender", _load)
+
+
+def get_fulfillment():
+    def _load():
+        df = pd.read_csv(DATA / "fact_online_pickup_delivery.csv",
+                         parse_dates=["order_date", "fulfillment_date"])
+        df["sla_met"] = df["sla_met"].astype(bool)
+        return df
+    return _cached("fulfillment", _load)
+
+
+# ── Supplier / Category Manager ───────────────────────────────────────────────
+
+def get_supplier_sales():
+    def _load():
+        df = pd.read_csv(SUPPLIER / "fact_weekly_sales.csv", parse_dates=["week_start_date"])
+        df = (df.merge(_supplier_brands(), on="brand_id", how="left")
+                .merge(_supplier_skus(), on="sku_id", how="left", suffixes=("", "_sku"))
+                .merge(_supplier_retailers(), on="retailer_id", how="left"))
+        return df
+    return _cached("supplier_sales", _load)
+
+
+def get_supplier_market_share():
+    def _load():
+        df = pd.read_csv(SUPPLIER / "fact_market_share.csv", parse_dates=["week_start_date"])
+        df = df.merge(_supplier_retailers(), on="retailer_id", how="left")
+        return df
+    return _cached("supplier_ms", _load)
+
+
+def get_supplier_volume_decomp():
+    def _load():
+        df = pd.read_csv(SUPPLIER / "fact_volume_decomp.csv")
+        df = (df.merge(_supplier_brands(), on="brand_id", how="left")
+                .merge(_supplier_retailers(), on="retailer_id", how="left"))
+        return df
+    return _cached("supplier_vd", _load)
+
+
+def get_supplier_promotions():
+    def _load():
+        df = pd.read_csv(SUPPLIER / "fact_promotional_events.csv",
+                         parse_dates=["week_start_date"])
+        df = (df.merge(_supplier_brands(), on="brand_id", how="left")
+                .merge(_supplier_retailers(), on="retailer_id", how="left")
+                .merge(_supplier_skus()[["sku_id", "sku_name", "size"]], on="sku_id", how="left"))
+        return df
+    return _cached("supplier_promos", _load)
+
+
+def get_supplier_shelf():
+    def _load():
+        df = pd.read_csv(SUPPLIER / "fact_shelf_compliance.csv")
+        df = df.merge(_supplier_retailers(), on="retailer_id", how="left")
+        return df
+    return _cached("supplier_shelf", _load)
+
+
+def get_supplier_consumer():
+    def _load():
+        df = pd.read_csv(SUPPLIER / "fact_consumer_panel.csv")
+        df = df.merge(_supplier_brands(), on="brand_id", how="left")
+        return df
+    return _cached("supplier_consumer", _load)
+
+
+def get_supplier_distribution():
+    def _load():
+        df = pd.read_csv(SUPPLIER / "fact_distribution.csv", parse_dates=["week_start_date"])
+        df = (df.merge(_supplier_brands(), on="brand_id", how="left")
+                .merge(_supplier_retailers(), on="retailer_id", how="left")
+                .merge(_supplier_skus()[["sku_id", "sku_name", "size"]], on="sku_id", how="left"))
+        return df
+    return _cached("supplier_dist", _load)
+
+
+# ── Shared helpers ────────────────────────────────────────────────────────────
+
+def fmt_millions(v):
+    if v >= 1_000_000_000:
+        return f"${v/1_000_000_000:.1f}B"
+    if v >= 1_000_000:
+        return f"${v/1_000_000:.1f}M"
+    if v >= 1_000:
+        return f"${v/1_000:.1f}K"
+    return f"${v:.0f}"
+
+
+def fmt_number(v):
+    if v >= 1_000_000:
+        return f"{v/1_000_000:.1f}M"
+    if v >= 1_000:
+        return f"{v/1_000:.1f}K"
+    return f"{v:.0f}"
